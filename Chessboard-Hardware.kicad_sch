@@ -976,7 +976,7 @@
 				)
 			)
 			(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
-				(at 0 0 0)
+				(at 10.668 -9.652 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1249,6 +1249,195 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SS49E_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC1"
+				(at 11.4301 -8.89 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "SS49E"
+				(at 8.8901 -8.89 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "TO130P160X410X300-3P"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.6"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Honeywell"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SS49E"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "785-SS49E"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "SS49E"
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SS49E_1_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "O"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2117,7 +2306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO130P160X410X300-3P"
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
 			(at 110.82 119.38 0)
 			(effects
 				(font
@@ -2729,7 +2918,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TO130P160X410X300-3P"
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
 			(at 257.48 33.02 0)
 			(effects
 				(font
@@ -3475,7 +3664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO130P160X410X300-3P"
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
 			(at 72.72 119.38 0)
 			(effects
 				(font
@@ -3753,7 +3942,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO130P160X410X300-3P"
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
 			(at 148.92 119.38 0)
 			(effects
 				(font
@@ -3898,7 +4087,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO130P160X410X300-3P"
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
 			(at 53.67 119.38 0)
 			(effects
 				(font
@@ -4527,7 +4716,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TO130P160X410X300-3P"
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
 			(at 314.63 33.02 0)
 			(effects
 				(font
@@ -4672,7 +4861,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TO130P160X410X300-3P"
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
 			(at 295.58 33.02 0)
 			(effects
 				(font
@@ -5083,7 +5272,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TO130P160X410X300-3P"
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
 			(at 352.73 33.02 0)
 			(effects
 				(font
@@ -5295,7 +5484,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO130P160X410X300-3P"
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
 			(at 167.97 119.38 0)
 			(effects
 				(font
@@ -5440,7 +5629,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TO130P160X410X300-3P"
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
 			(at 238.43 33.02 0)
 			(effects
 				(font
@@ -5585,7 +5774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO130P160X410X300-3P"
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
 			(at 34.62 119.38 0)
 			(effects
 				(font
@@ -5931,7 +6120,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TO130P160X410X300-3P"
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
 			(at 276.53 33.02 0)
 			(effects
 				(font
@@ -6142,7 +6331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO130P160X410X300-3P"
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
 			(at 91.77 119.38 0)
 			(effects
 				(font
@@ -6552,7 +6741,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO130P160X410X300-3P"
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
 			(at 129.87 119.38 0)
 			(effects
 				(font
@@ -6963,7 +7152,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TO130P160X410X300-3P"
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
 			(at 333.68 33.02 0)
 			(effects
 				(font
@@ -7081,6 +7270,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SS49E_1")
 		(lib_id "Custom SamacSys Symbols:SS49E")
 		(at 124.46 49.53 90)
 		(unit 1)
@@ -7108,7 +7298,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TO130P160X410X300-3P"
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
 			(at 219.38 33.02 0)
 			(effects
 				(font

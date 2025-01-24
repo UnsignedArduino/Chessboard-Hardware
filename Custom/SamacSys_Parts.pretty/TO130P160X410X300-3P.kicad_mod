@@ -243,13 +243,13 @@
 	)
 	(model "C:\\Users\\ckyiu\\SamacSys_PCB_Library_KiCad\\SamacSys_Parts.3dshapes\\SS49E.stp"
 		(offset
-			(xyz -0.000000067 0.09999999999 6.139999774)
+			(xyz -0 0.1 6.14)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -180 0 0)
+			(xyz 0 180 0)
 		)
 	)
 )
