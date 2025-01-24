@@ -2405,6 +2405,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Price/Stock" "https://www.digikey.com/short/592nmtp5"
+			(at 205.74 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "57fcbbc0-e855-4e75-a071-0008a37f35a3")
 		)
@@ -3017,6 +3026,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Price/Stock" "https://www.digikey.com/short/592nmtp5"
+			(at 162.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0d4e5dd-69ff-42a5-8cff-34a473993768")
 		)
@@ -3215,6 +3233,15 @@
 			)
 		)
 		(property "Description" "High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"
+			(at 85.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Price/Stock" "https://www.digikey.com/short/0jjmqb9w"
 			(at 85.09 74.93 0)
 			(effects
 				(font
@@ -3763,6 +3790,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Price/Stock" "https://www.digikey.com/short/592nmtp5"
+			(at 167.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2621741f-7ce4-4b9f-826c-705ab99b4792")
 		)
@@ -4041,6 +4077,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Price/Stock" "https://www.digikey.com/short/592nmtp5"
+			(at 243.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "13a3d63c-656f-44bb-bc4a-32ce2367b8ff")
 		)
@@ -4186,6 +4231,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Price/Stock" "https://www.digikey.com/short/592nmtp5"
+			(at 148.59 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4cbdc705-5f44-4a34-b385-018f97605048")
 		)
@@ -4249,6 +4303,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
+			(at 41.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Price/Stock" ""
 			(at 41.91 69.85 0)
 			(effects
 				(font
@@ -4815,6 +4878,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Price/Stock" "https://www.digikey.com/short/592nmtp5"
+			(at 219.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dc9728c1-84be-4783-b171-daca7906a254")
 		)
@@ -4957,6 +5029,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Price/Stock" "https://www.digikey.com/short/592nmtp5"
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5371,6 +5452,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Price/Stock" "https://www.digikey.com/short/592nmtp5"
+			(at 257.81 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2fd6a377-b6c2-49e9-932a-2c0f4ffc0e29")
 		)
@@ -5583,6 +5673,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Price/Stock" "https://www.digikey.com/short/592nmtp5"
+			(at 262.89 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8eb75599-c72b-43e6-81b5-b757811db2fc")
 		)
@@ -5725,6 +5824,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Price/Stock" "https://www.digikey.com/short/592nmtp5"
+			(at 143.51 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5873,6 +5981,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Price/Stock" "https://www.digikey.com/short/592nmtp5"
+			(at 129.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a0702961-91cb-45e6-80a7-d10dc7488121")
 		)
@@ -6002,6 +6119,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 78.74 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Price/Stock" ""
 			(at 78.74 46.99 0)
 			(effects
 				(font
@@ -6219,6 +6345,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Price/Stock" "https://www.digikey.com/short/592nmtp5"
+			(at 181.61 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c910ed96-feac-45b7-b508-f7d3446fe91e")
 		)
@@ -6427,6 +6562,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Price/Stock" "https://www.digikey.com/short/592nmtp5"
+			(at 186.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6837,6 +6981,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Price/Stock" "https://www.digikey.com/short/592nmtp5"
+			(at 224.79 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7251,6 +7404,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Price/Stock" "https://www.digikey.com/short/592nmtp5"
+			(at 238.76 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dc87c434-0cc0-4222-ae81-f3778b8d67a8")
 		)
@@ -7394,6 +7556,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Price/Stock" "https://www.digikey.com/short/592nmtp5"
+			(at 124.46 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
