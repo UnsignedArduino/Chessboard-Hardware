@@ -1,0 +1,234 @@
+(footprint "TO130P160X410X300-3P"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SS49E")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 1.3 2.4 0)
+		(layer "F.SilkS")
+		(uuid "837069d1-ad0e-4ac2-a7f3-6cba636fdfcd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TO130P160X410X300-3P"
+		(at 1.3 -4.2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7b1d5135-fecd-494a-86e5-5c040e1914ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f352d2c-8ba7-4f1d-ab8f-cde4dd757fd7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d041b64b-d9aa-476a-93bb-64841e75cc17")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1cd0eea3-e732-4cfd-9cd6-f37de5580088")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.75 -0.69)
+		(end -0.75 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b0151cd-3afd-4d0b-9aca-cc912da0a550")
+	)
+	(fp_line
+		(start 3.35 -0.69)
+		(end -0.75 -0.69)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2287cb3-05b4-4e88-949c-acc211aab5eb")
+	)
+	(fp_line
+		(start 3.35 0.91)
+		(end 3.35 -0.69)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0243fd4f-8920-4ab3-b1c7-fcbe5b50ed42")
+	)
+	(fp_line
+		(start -1 -0.94)
+		(end 3.6 -0.94)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8d6c725e-4eaf-4452-88e3-2132d900ea83")
+	)
+	(fp_line
+		(start -1 1.16)
+		(end -1 -0.94)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7e33923c-791a-4982-84f2-681a45f2b9b9")
+	)
+	(fp_line
+		(start 3.6 -0.94)
+		(end 3.6 1.16)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0b2bbfe8-4fed-4bd8-85bd-bf5f5007313a")
+	)
+	(fp_line
+		(start 3.6 1.16)
+		(end -1 1.16)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "65349150-2f32-4185-9e2c-dc1633d2ccbf")
+	)
+	(fp_line
+		(start -0.75 -0.69)
+		(end 3.35 -0.69)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "03e68fae-97db-432b-8bfc-a85e9f551cbc")
+	)
+	(fp_line
+		(start -0.75 -0.04)
+		(end -0.1 -0.69)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "22e0b582-b9f3-43be-99bf-3716d3d92a32")
+	)
+	(fp_line
+		(start -0.75 0.91)
+		(end -0.75 -0.69)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c7c3e692-c632-4c8e-b3dd-6c462f985327")
+	)
+	(fp_line
+		(start 3.35 -0.69)
+		(end 3.35 0.91)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "482fb823-3ad5-49a3-9dc0-a39fe3e21195")
+	)
+	(fp_line
+		(start 3.35 0.91)
+		(end -0.75 0.91)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d5c625b2-5546-46cd-9425-fd98c5a8a49e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.3 -2.1 0)
+		(layer "F.Fab")
+		(uuid "edd2fa01-45c8-4632-a7c3-51a98657183a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.08 1.08)
+		(drill 0.68)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "877f6065-8f71-4437-b84d-a7c9778ed467")
+	)
+	(pad "2" thru_hole circle
+		(at 1.3 0)
+		(size 1.08 1.08)
+		(drill 0.68)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "90143a57-1ff6-46f9-9112-bb2094bc9d5c")
+	)
+	(pad "3" thru_hole circle
+		(at 2.6 0)
+		(size 1.08 1.08)
+		(drill 0.68)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "966c2bcb-e562-4aca-980c-654b378bae70")
+	)
+	(model "C:\\Users\\ckyiu\\SamacSys_PCB_Library_KiCad\\SamacSys_Parts.3dshapes\\SS49E.stp"
+		(offset
+			(xyz 1.299999933 0.09999999999 6.139999774)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 0 0)
+		)
+	)
+)
