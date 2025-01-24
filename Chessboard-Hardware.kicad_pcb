@@ -1,2 +1,7494 @@
-(kicad_pcb (version 20240108) (generator "pcbnew") (generator_version "8.0")
+(kicad_pcb
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(title_block
+		(title "Chessboard hardware - Chessboard sensor quarter")
+		(rev "0")
+		(comment 1 "This is only one quarter of the entire sensing array.")
+		(comment 2 "An Arduino Nano is expected to handle all four sensing quarters.")
+		(comment 3 "The quarter is 100x100mm to make it cheap, because minimum order of 5 PCBs.")
+	)
+	(layers
+		(0 "F.Cu" signal)
+		(31 "B.Cu" signal)
+		(32 "B.Adhes" user "B.Adhesive")
+		(33 "F.Adhes" user "F.Adhesive")
+		(34 "B.Paste" user)
+		(35 "F.Paste" user)
+		(36 "B.SilkS" user "B.Silkscreen")
+		(37 "F.SilkS" user "F.Silkscreen")
+		(38 "B.Mask" user)
+		(39 "F.Mask" user)
+		(40 "Dwgs.User" user "User.Drawings")
+		(41 "Cmts.User" user "User.Comments")
+		(42 "Eco1.User" user "User.Eco1")
+		(43 "Eco2.User" user "User.Eco2")
+		(44 "Edge.Cuts" user)
+		(45 "Margin" user)
+		(46 "B.CrtYd" user "B.Courtyard")
+		(47 "F.CrtYd" user "F.Courtyard")
+		(48 "B.Fab" user)
+		(49 "F.Fab" user)
+		(50 "User.1" user)
+		(51 "User.2" user)
+		(52 "User.3" user)
+		(53 "User.4" user)
+		(54 "User.5" user)
+		(55 "User.6" user)
+		(56 "User.7" user)
+		(57 "User.8" user)
+		(58 "User.9" user)
+	)
+	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(pcbplotparams
+			(layerselection 0x00010fc_ffffffff)
+			(plot_on_all_layers_selection 0x0000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(viasonmask no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plotreference yes)
+			(plotvalue yes)
+			(plotfptext yes)
+			(plotinvisibletext no)
+			(sketchpadsonfab no)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(net 0 "")
+	(net 1 "GND")
+	(net 2 "VCC")
+	(net 3 "Net-(IC1-O)")
+	(net 4 "Net-(IC2-O)")
+	(net 5 "Net-(IC3-O)")
+	(net 6 "Net-(IC4-O)")
+	(net 7 "Net-(IC5-O)")
+	(net 8 "Net-(IC6-O)")
+	(net 9 "Net-(IC7-O)")
+	(net 10 "Net-(IC8-O)")
+	(net 11 "Net-(IC9-O)")
+	(net 12 "Net-(IC10-O)")
+	(net 13 "Net-(IC11-O)")
+	(net 14 "Net-(IC12-O)")
+	(net 15 "Net-(IC13-O)")
+	(net 16 "Net-(IC14-O)")
+	(net 17 "Net-(IC15-O)")
+	(net 18 "Net-(IC16-O)")
+	(net 19 "Net-(J1-Pin_7)")
+	(net 20 "Net-(J1-Pin_8)")
+	(net 21 "Net-(J1-Pin_3)")
+	(net 22 "Net-(J1-Pin_6)")
+	(net 23 "Net-(J1-Pin_4)")
+	(net 24 "Net-(J1-Pin_5)")
+	(footprint "Custom SamacSys Footprints:TO130P160X410X300-3P"
+		(layer "F.Cu")
+		(uuid "15508bcd-698f-434c-9b24-7f3df2f09e09")
+		(at 180.7 86)
+		(descr "SS49E")
+		(tags "Integrated Circuit")
+		(property "Reference" "IC6"
+			(at 1.3 2.4 0)
+			(layer "F.SilkS")
+			(uuid "ad1365a0-39b4-4321-80df-59b649e0a481")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 1.3 -4.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1d29f797-4262-48bc-9dce-14c9dba76636")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97e05a62-e3bf-4209-ad07-e38e74bac545")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67cf3964-afab-49be-8548-bab8a9171b9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7dd0258-f423-4b4d-8e17-3cc48986f707")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "1.6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "edd74158-a054-4d0b-8777-4640478a0768")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee0d10e5-5fcb-409e-8708-a870e1a0a5b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79389cfc-12fd-49dc-a881-042ee88c4c43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a43b56d-d730-45d7-ad86-94e59881930c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80a9ee42-28c5-4b84-8acf-3838d3fca127")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e7ea8f7-bd34-45d0-95b3-97fda043711f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b42ee43-1fae-4417-85a0-62ecf08b096d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/8632bdee-5de4-4fbc-a1ee-08215307de6c")
+		(sheetname "Root")
+		(sheetfile "Chessboard-Hardware.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -2.05 -0.69)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f789a753-9b9b-4421-8611-71349b0bff0f")
+		)
+		(fp_line
+			(start 0 -5)
+			(end 0 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "3a55ad99-101a-4129-a9a5-baf3ccf21869")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bcec2c79-2e28-4cbd-a1e6-de8eca27f8c1")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "348444be-24d2-4f1b-a10a-69ab8e09aaa0")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "534bd853-4065-4d43-a4d3-dac220a8bc0b")
+		)
+		(fp_rect
+			(start -2.05 -5)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "7d9dede3-92d3-42ba-87f0-38759891e781")
+		)
+		(fp_rect
+			(start -2.05 -3.7)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "07272e2a-bcc1-4fa7-ac06-48e0523983fb")
+		)
+		(fp_line
+			(start -2.3 -0.94)
+			(end 2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e1685d05-0aea-482a-8081-f558f44980a6")
+		)
+		(fp_line
+			(start -2.3 1.16)
+			(end -2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "58117706-08f9-4c9e-a86e-e094ce255454")
+		)
+		(fp_line
+			(start 2.3 -0.94)
+			(end 2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1228e55b-d9ce-4b0b-9b78-24645184d786")
+		)
+		(fp_line
+			(start 2.3 1.16)
+			(end -2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "036cd6dd-5464-4e28-bba7-873cea063a94")
+		)
+		(fp_line
+			(start -2.05 -0.69)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f1f3f6f1-8081-4610-9c17-fff881d1f1f9")
+		)
+		(fp_line
+			(start -2.05 -0.04)
+			(end -1.4 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d5f4f5e6-9a99-4b5e-8bfd-5cacf11574b3")
+		)
+		(fp_line
+			(start -2.05 0.91)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d51d0307-3a0d-413a-a922-d62a7a499d92")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end 2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ec373542-c690-4628-a05a-735b7ca29d7a")
+		)
+		(fp_line
+			(start 2.05 0.91)
+			(end -2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cfb3e10f-6ca0-486f-9ed7-52116b6fa0ec")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.3 -2.1 0)
+			(layer "F.Fab")
+			(uuid "6220981a-1066-40d5-8d91-d85716aed31d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at -1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "VCC")
+			(pinfunction "+")
+			(pintype "passive")
+			(uuid "884b781d-4306-4afe-839f-23f367f7147e")
+		)
+		(pad "2" thru_hole circle
+			(at 0 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "-")
+			(pintype "passive")
+			(uuid "cef7ad91-323c-4387-b4ca-5ebb8b5fa6e6")
+		)
+		(pad "3" thru_hole circle
+			(at 1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 8 "Net-(IC6-O)")
+			(pinfunction "O")
+			(pintype "passive")
+			(uuid "fe4eac60-03b4-45c3-aec2-f67e9503f0c5")
+		)
+		(model "C:\\Users\\ckyiu\\SamacSys_PCB_Library_KiCad\\SamacSys_Parts.3dshapes\\SS49E.stp"
+			(offset
+				(xyz -0.000000067 0.09999999999 6.139999774)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 0 0)
+			)
+		)
+	)
+	(footprint "Custom SamacSys Footprints:TO130P160X410X300-3P"
+		(layer "F.Cu")
+		(uuid "225c93cc-804c-4367-96a6-8643fc8ea5a8")
+		(at 230.7 60)
+		(descr "SS49E")
+		(tags "Integrated Circuit")
+		(property "Reference" "IC4"
+			(at 1.3 2.4 0)
+			(layer "F.SilkS")
+			(uuid "fda1cb24-52d7-4ac3-8f40-dc16c9fc2458")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 1.3 -4.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "223b5c8a-54ef-4c7f-a387-2249146841b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "474c45ff-0ee2-4c32-b54a-cc3414e156eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e6d1c0c-1f3e-423c-ad85-8187926dfd00")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e60a0f1-437b-4898-ac24-91545d5cb5cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "1.6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5aad805e-e649-4e30-b86f-19a1c1d554c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62591160-cea7-4e96-9d05-5a8bfbbb76b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13c81d4c-a0c5-493a-90be-c068580d4a36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a87a3f7-c5d0-4dee-b67c-9d35d9218a7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71431d2c-b52b-468c-8cc8-d03d803867c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a861025-5533-4603-b70a-df36324b5ecf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2004edb-9803-4126-a697-16d44296933b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/b1c5823b-0c30-4ba5-8996-613c3e2cdfa9")
+		(sheetname "Root")
+		(sheetfile "Chessboard-Hardware.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -2.05 -0.69)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f417e66a-ea97-4f15-bb99-a276747e0d3a")
+		)
+		(fp_line
+			(start 0 -5)
+			(end 0 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "3f1f3295-5f18-4f5d-8187-0bec685c92ba")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "228a254c-146b-4812-967e-9ff1f82ae063")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8350edf9-2c43-4d95-93d7-a58684d4999c")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "50dacc95-5bee-4821-811d-ee6045ed75cf")
+		)
+		(fp_rect
+			(start -2.05 -5)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "7fa62f1d-f9fd-40a7-b7e4-52dbf94b3d87")
+		)
+		(fp_rect
+			(start -2.05 -3.7)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "bdf0778e-0020-4a72-86dc-be33c92a72ee")
+		)
+		(fp_line
+			(start -2.3 -0.94)
+			(end 2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1a6aacbb-d4cf-4fae-a1c8-888eab3fbde5")
+		)
+		(fp_line
+			(start -2.3 1.16)
+			(end -2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6985ac5b-8b4b-4a60-bc27-83325f136618")
+		)
+		(fp_line
+			(start 2.3 -0.94)
+			(end 2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6661e4e7-0440-4c68-87ba-a499bfaed7d7")
+		)
+		(fp_line
+			(start 2.3 1.16)
+			(end -2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d1fb4fcf-c065-4037-ae75-0f1040a9c411")
+		)
+		(fp_line
+			(start -2.05 -0.69)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f20c02af-12ff-4822-9dea-2979e4dc1dff")
+		)
+		(fp_line
+			(start -2.05 -0.04)
+			(end -1.4 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "da4f3ecc-5b89-4c64-8083-2cf1de5c2e62")
+		)
+		(fp_line
+			(start -2.05 0.91)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4189dcd6-65bd-476d-a700-04591fef9924")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end 2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7f34df66-748c-4ff2-abd5-0b2674653c6d")
+		)
+		(fp_line
+			(start 2.05 0.91)
+			(end -2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d23b4350-5f14-4230-8c69-4650311674e4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.3 -2.1 0)
+			(layer "F.Fab")
+			(uuid "27f6c0fb-ff7e-48f2-af2e-0ab1fbefa303")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at -1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "VCC")
+			(pinfunction "+")
+			(pintype "passive")
+			(uuid "38c538c6-106d-4c2a-a742-ae6e5338b1fd")
+		)
+		(pad "2" thru_hole circle
+			(at 0 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "-")
+			(pintype "passive")
+			(uuid "5e07dc47-f875-4909-a5ad-4ec2b1c8077f")
+		)
+		(pad "3" thru_hole circle
+			(at 1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 6 "Net-(IC4-O)")
+			(pinfunction "O")
+			(pintype "passive")
+			(uuid "26e3433e-b191-401f-8ec3-2f5d7f4401be")
+		)
+		(model "C:\\Users\\ckyiu\\SamacSys_PCB_Library_KiCad\\SamacSys_Parts.3dshapes\\SS49E.stp"
+			(offset
+				(xyz -0.000000067 0.09999999999 6.139999774)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 0 0)
+			)
+		)
+	)
+	(footprint "Custom SamacSys Footprints:TO130P160X410X300-3P"
+		(layer "F.Cu")
+		(uuid "2a0092c8-c26a-44ae-8985-d0ccdc086d92")
+		(at 216 110)
+		(descr "SS49E")
+		(tags "Integrated Circuit")
+		(property "Reference" "IC11"
+			(at 1.3 2.4 0)
+			(layer "F.SilkS")
+			(uuid "a758f2e0-04ef-47d7-bda9-bd568ae88428")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 1.3 -4.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fcfb9414-dd14-47fd-b1b7-517d3705671d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cec3c582-930b-4fa4-ae1a-ef3a1b9d1f4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11279e7b-1d76-44e7-8092-83f927054c52")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81002959-4ec9-48ad-862a-815f0b13994e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "1.6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52fa04ee-e318-4349-bf46-1703fb19219f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc1126db-07c1-4533-985d-a108994efd2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5f227ba-f65e-4a4f-96e9-9195d98eea42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c722df37-09da-4f76-bdc1-0ab491f009db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e55ecbf-c59b-42aa-87d5-518d99327f0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67f4fd3c-1c84-4243-90f6-a2e19bfd804f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e38d041-4991-4173-9e65-08df0df6d2cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/dda0800f-4ef3-475b-b96e-2b11a42ebc02")
+		(sheetname "Root")
+		(sheetfile "Chessboard-Hardware.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -2.05 -0.69)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "52683d08-83b0-440a-b4d5-2c3de648faae")
+		)
+		(fp_line
+			(start 0 -5)
+			(end 0 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "099ea6a2-f0ca-4714-9278-58c61a509aee")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ccb8c2ea-c94e-48c7-bb46-7c1f6c228a3a")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "185d0446-ff72-4694-b473-1fef0b791017")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e44844ee-35f5-4f6d-82f9-9c660df77c66")
+		)
+		(fp_rect
+			(start -2.05 -5)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "fe7bfae7-75eb-4c2e-a753-f0d5e6ac04ae")
+		)
+		(fp_rect
+			(start -2.05 -3.7)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "4d8da16c-ff0a-4ddb-97a6-1a7fd6306542")
+		)
+		(fp_line
+			(start -2.3 -0.94)
+			(end 2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b3a1d174-59da-4edb-9975-19f286752fa6")
+		)
+		(fp_line
+			(start -2.3 1.16)
+			(end -2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5e8d1dd8-a8fc-4100-a0d6-6a64e54e1194")
+		)
+		(fp_line
+			(start 2.3 -0.94)
+			(end 2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9bc6fee1-cae1-43fd-97c0-a4556bf75fbc")
+		)
+		(fp_line
+			(start 2.3 1.16)
+			(end -2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f488bd24-c9ed-42ba-95e7-bc70fc9dec0f")
+		)
+		(fp_line
+			(start -2.05 -0.69)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6bacfa68-3776-48f6-b8ca-d32e2153a0aa")
+		)
+		(fp_line
+			(start -2.05 -0.04)
+			(end -1.4 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "229fd7cf-3e5e-45ef-a22f-59e051996006")
+		)
+		(fp_line
+			(start -2.05 0.91)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5949f552-61b7-45d9-98df-e93600195320")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end 2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2ba57f0a-3583-45a3-a381-a1999d6343d2")
+		)
+		(fp_line
+			(start 2.05 0.91)
+			(end -2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cd68b290-996a-41f1-acbd-05076901c02b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.3 -2.1 0)
+			(layer "F.Fab")
+			(uuid "ed5a1859-e807-4a97-9a46-b557791ecd68")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at -1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "VCC")
+			(pinfunction "+")
+			(pintype "passive")
+			(uuid "87d0d6c8-7e8e-449b-bc49-346b9e04183f")
+		)
+		(pad "2" thru_hole circle
+			(at 0 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "-")
+			(pintype "passive")
+			(uuid "df7571e4-85be-47a8-a797-da7c58fd3983")
+		)
+		(pad "3" thru_hole circle
+			(at 1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 13 "Net-(IC11-O)")
+			(pinfunction "O")
+			(pintype "passive")
+			(uuid "c5a8f518-74c5-4a82-87af-8e898368acae")
+		)
+		(model "C:\\Users\\ckyiu\\SamacSys_PCB_Library_KiCad\\SamacSys_Parts.3dshapes\\SS49E.stp"
+			(offset
+				(xyz -0.000000067 0.09999999999 6.139999774)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 0 0)
+			)
+		)
+	)
+	(footprint "Custom SamacSys Footprints:TO130P160X410X300-3P"
+		(layer "F.Cu")
+		(uuid "2e88248a-52cd-4567-8350-d10761f72d39")
+		(at 160.3 63)
+		(descr "SS49E")
+		(tags "Integrated Circuit")
+		(property "Reference" "IC1"
+			(at 1.3 2.4 0)
+			(layer "F.SilkS")
+			(uuid "cee9db79-3060-4fe0-bab7-2495d0d59901")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 1.3 -4.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "df60b119-eb69-4436-8626-5a886dd21b39")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fffbfcad-000d-4756-9cda-adfebb85f1f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4b6cbcf-899d-486e-b652-45f26be155ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ee28319-9f61-4533-9530-59c5c0b249b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "1.6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba35e6bb-6e0c-4865-b54a-53700b847946")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75041d47-013c-4fe8-b67a-db93a7a5405a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8a620be-6b0d-4a5a-acb4-9de76e6b3454")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "acce2967-0627-48f2-868c-0e22e5b732e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f42dfdca-0c7a-4043-a77a-6b8c501d8642")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13aa650e-b5e9-4589-a792-45e90912cef2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "257affbd-eba9-44ae-97f7-f0e3761e9b02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f5a49710-cc9b-46ac-8c09-5471c79d2408")
+		(sheetname "Root")
+		(sheetfile "Chessboard-Hardware.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -2.05 -0.69)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c0712edc-bd84-4116-9c23-78cf19cbc93f")
+		)
+		(fp_line
+			(start 0 -5)
+			(end 0 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "87d387cd-2498-468c-aa36-d6c827f2352d")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6f20fe10-e8c1-45fa-8a8a-af7bdabe8016")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4cceb3f1-3b72-4860-a8f7-f5b03edac8db")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "be2f82f1-6321-4a8d-b40e-517f5c36e19c")
+		)
+		(fp_rect
+			(start -2.05 -5)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "67207385-bb7b-427f-b049-9f95d1c7c145")
+		)
+		(fp_rect
+			(start -2.05 -3.7)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "c11c2a07-fe52-4398-9839-c8cce8b0d8ea")
+		)
+		(fp_line
+			(start -2.3 -0.94)
+			(end 2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b61e16b2-213a-4016-9538-47a1edc77b0a")
+		)
+		(fp_line
+			(start -2.3 1.16)
+			(end -2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "edad755f-0977-4e7d-b0f7-f36436ad54d2")
+		)
+		(fp_line
+			(start 2.3 -0.94)
+			(end 2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7d25d096-2aa3-4cbc-9bc0-157efc1545e2")
+		)
+		(fp_line
+			(start 2.3 1.16)
+			(end -2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "60973dee-3515-4438-bdb3-bb9aff7ecde6")
+		)
+		(fp_line
+			(start -2.05 -0.69)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "15924251-bf59-4f7a-8912-be3c7e180791")
+		)
+		(fp_line
+			(start -2.05 -0.04)
+			(end -1.4 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5e3fac5d-3cce-4522-b137-0405878185b2")
+		)
+		(fp_line
+			(start -2.05 0.91)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e927d31f-6fd7-42a7-90fd-144f210ba755")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end 2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3d9908df-4e14-4149-b7ce-eae392ca1bde")
+		)
+		(fp_line
+			(start 2.05 0.91)
+			(end -2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3d5b8e0e-ab19-41dd-8458-adb878c4480d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.3 -2.1 0)
+			(layer "F.Fab")
+			(uuid "eae19bfc-6f63-4923-a98c-c464aabf6d29")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at -1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "VCC")
+			(pinfunction "+")
+			(pintype "passive")
+			(uuid "774e53ce-e1f4-4774-af16-443319296e18")
+		)
+		(pad "2" thru_hole circle
+			(at 0 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "-")
+			(pintype "passive")
+			(uuid "96d725ef-4f14-4482-aa67-5e37b955a655")
+		)
+		(pad "3" thru_hole circle
+			(at 1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 3 "Net-(IC1-O)")
+			(pinfunction "O")
+			(pintype "passive")
+			(uuid "9677c158-f777-4568-8cfe-27690fe59bee")
+		)
+		(model "C:\\Users\\ckyiu\\SamacSys_PCB_Library_KiCad\\SamacSys_Parts.3dshapes\\SS49E.stp"
+			(offset
+				(xyz -0.000000067 0.09999999999 6.139999774)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 0 0)
+			)
+		)
+	)
+	(footprint "Custom SamacSys Footprints:TO130P160X410X300-3P"
+		(layer "F.Cu")
+		(uuid "3b7f8730-6187-41fe-aafd-4f8f8275ae1d")
+		(at 184 134)
+		(descr "SS49E")
+		(tags "Integrated Circuit")
+		(property "Reference" "IC14"
+			(at 1.3 2.4 0)
+			(layer "F.SilkS")
+			(uuid "6d228fcb-2670-466d-86c4-675dc11dc07f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 1.3 -4.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7be91195-4e29-4c70-91a9-1b725c427931")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5662ce7-9ee2-415b-980e-08725600cf8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e27c521-05ea-4f30-bba4-c773d2e7a4b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d14784c4-485b-44b8-903b-08605a9571f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "1.6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "faf91695-5027-4a55-a62e-39ef7782ccc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ecca8e3b-e231-4c32-94f7-972a3f21eb58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f11b5f38-2c29-4782-bd11-a5e8db325026")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23235749-53c8-4947-8950-08cfaa2eb8d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "763f8fdb-ffa5-46be-91c2-946677cdd050")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4081e1d1-cec1-4671-82c6-93e36205f9aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e824c07a-dea6-499d-9372-c7b913e89dd4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/46ddd19a-173d-4cc9-b901-40f74b4177bc")
+		(sheetname "Root")
+		(sheetfile "Chessboard-Hardware.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -2.05 -0.69)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2399f8cc-d0e9-467f-b144-3918a5eb3652")
+		)
+		(fp_line
+			(start 0 -5)
+			(end 0 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "90d08624-2ab2-4ba9-acda-8b269485c29d")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a5f8bcbd-e69c-44e4-bacb-6578814d37b6")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f587f5a9-479f-4247-9f99-40c01d5f9bbe")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "46b69184-940e-40a8-b39e-841409b432ea")
+		)
+		(fp_rect
+			(start -2.05 -5)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "b0981710-6eb2-41fe-a5c2-b5a5a8468ff2")
+		)
+		(fp_rect
+			(start -2.05 -3.7)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "4f17e4e7-f36c-4742-9a25-963bd023cf1b")
+		)
+		(fp_line
+			(start -2.3 -0.94)
+			(end 2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "32d7da27-7702-43e5-a891-49a59ad675cb")
+		)
+		(fp_line
+			(start -2.3 1.16)
+			(end -2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b6f9d4f8-1750-4f8d-8589-6c50785d278d")
+		)
+		(fp_line
+			(start 2.3 -0.94)
+			(end 2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6b127cf4-d409-48bc-a0dd-499bc441fdf9")
+		)
+		(fp_line
+			(start 2.3 1.16)
+			(end -2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0db212d6-5e0d-43e0-8935-d4ce5ca5fcd9")
+		)
+		(fp_line
+			(start -2.05 -0.69)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0b6fc759-04a0-4521-bfe2-2699b7d942ed")
+		)
+		(fp_line
+			(start -2.05 -0.04)
+			(end -1.4 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a06466dd-9052-4a8d-8389-a71ce880831f")
+		)
+		(fp_line
+			(start -2.05 0.91)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "955e4224-3a77-4512-8b12-3653e86c10ee")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end 2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d0b8e7bc-ff9a-41e6-a4df-3f68362cf060")
+		)
+		(fp_line
+			(start 2.05 0.91)
+			(end -2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7a84fcd6-3358-4ca6-a3ee-ffb413ab5f1b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.3 -2.1 0)
+			(layer "F.Fab")
+			(uuid "7d1195ee-cec5-4e2d-a6a2-d463b5a6e5f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at -1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "VCC")
+			(pinfunction "+")
+			(pintype "passive")
+			(uuid "45ee7ba9-3636-4db6-b2a9-6b793c62a2c3")
+		)
+		(pad "2" thru_hole circle
+			(at 0 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "-")
+			(pintype "passive")
+			(uuid "234d5670-5c64-486b-ad11-d91cd350c2a3")
+		)
+		(pad "3" thru_hole circle
+			(at 1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 16 "Net-(IC14-O)")
+			(pinfunction "O")
+			(pintype "passive")
+			(uuid "2874547e-fb24-4ad4-8dc9-bcb37cf6fcec")
+		)
+		(model "C:\\Users\\ckyiu\\SamacSys_PCB_Library_KiCad\\SamacSys_Parts.3dshapes\\SS49E.stp"
+			(offset
+				(xyz -0.000000067 0.09999999999 6.139999774)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 0 0)
+			)
+		)
+	)
+	(footprint "Custom SamacSys Footprints:TO130P160X410X300-3P"
+		(layer "F.Cu")
+		(uuid "443b9aef-cdb9-44ed-bb98-3981c68c6b92")
+		(at 162.3 134)
+		(descr "SS49E")
+		(tags "Integrated Circuit")
+		(property "Reference" "IC13"
+			(at 1.3 2.4 0)
+			(layer "F.SilkS")
+			(uuid "77e040e6-264f-42a8-af65-83e90ba57221")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 1.3 -4.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ce6f9650-98a0-4916-983c-1fcf61136fca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f500a8c2-132b-44e0-8ccc-be42a2440054")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39f6976e-1bc3-48eb-96a8-49c13ef8ec34")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ecfcd28-1f91-4c27-aa9f-29d70e7fea05")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "1.6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2f58c58-ff72-423b-96e6-bfb3f3f4d5b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "669ee51e-2c98-47d8-9244-e023e5ad9681")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16840154-7442-42fe-b796-f8dfc5c8141f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a7c8931-e8cc-4e52-952d-0609b5b13f5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27de6ef3-b46e-47a1-980d-3d34c2741af3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c081643-5c05-45f7-969e-871fcb369c73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c423f6d-6ad4-4e13-ac81-ed89a00213b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c14bd604-e1b4-4236-87e7-e95f53e2cb2d")
+		(sheetname "Root")
+		(sheetfile "Chessboard-Hardware.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -2.05 -0.69)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "32c2abf8-a050-4d48-98c4-c48e4f8821a9")
+		)
+		(fp_line
+			(start 0 -5)
+			(end 0 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "e56c0e7a-5c6f-409c-af87-dfee7a518df0")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "206b5a4d-e5f2-4efb-8760-1d060341adfd")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9f59d0fe-eaa4-48f5-952e-9cb515753ab2")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "efdf35b3-c5d1-44d6-850e-18c0058b1d66")
+		)
+		(fp_rect
+			(start -2.05 -5)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "dda9e8f3-78ac-429f-bc53-722abce15815")
+		)
+		(fp_rect
+			(start -2.05 -3.7)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "531294ba-1c84-42ff-b027-24a3879798af")
+		)
+		(fp_line
+			(start -2.3 -0.94)
+			(end 2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2670808b-45b8-4d43-8f37-28896d5b523c")
+		)
+		(fp_line
+			(start -2.3 1.16)
+			(end -2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1980ff89-694b-4ab1-8751-7d0a9741736d")
+		)
+		(fp_line
+			(start 2.3 -0.94)
+			(end 2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3e54adc3-264a-4d71-93a3-eaf6c10d9e9a")
+		)
+		(fp_line
+			(start 2.3 1.16)
+			(end -2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "14be62a4-08f6-460b-9a90-924d5502f08b")
+		)
+		(fp_line
+			(start -2.05 -0.69)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0868edab-9627-46b5-88ae-4e36c3308aee")
+		)
+		(fp_line
+			(start -2.05 -0.04)
+			(end -1.4 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "be0c0f34-be81-4844-94da-1447f947031a")
+		)
+		(fp_line
+			(start -2.05 0.91)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "549cd52d-5086-46b9-8364-cfb93816689d")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end 2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bb259c72-0c8d-4769-b9fe-9626ab1f992e")
+		)
+		(fp_line
+			(start 2.05 0.91)
+			(end -2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "449419b7-0142-44a2-844d-af337af60ff9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.3 -2.1 0)
+			(layer "F.Fab")
+			(uuid "91302cfc-a622-4616-844d-8148ed1fdc53")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at -1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "VCC")
+			(pinfunction "+")
+			(pintype "passive")
+			(uuid "b29c1f3f-78e3-40ab-98f2-9b7be457edf0")
+		)
+		(pad "2" thru_hole circle
+			(at 0 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "-")
+			(pintype "passive")
+			(uuid "2e709659-9bc4-43c2-a7db-33af692df19e")
+		)
+		(pad "3" thru_hole circle
+			(at 1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 15 "Net-(IC13-O)")
+			(pinfunction "O")
+			(pintype "passive")
+			(uuid "72aa198d-49b9-4ef7-b475-34bf0d477c95")
+		)
+		(model "C:\\Users\\ckyiu\\SamacSys_PCB_Library_KiCad\\SamacSys_Parts.3dshapes\\SS49E.stp"
+			(offset
+				(xyz -0.000000067 0.09999999999 6.139999774)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 0 0)
+			)
+		)
+	)
+	(footprint "Custom SamacSys Footprints:TO130P160X410X300-3P"
+		(layer "F.Cu")
+		(uuid "4d81235c-56a6-45f3-85ad-c2d33008fca2")
+		(at 238.7 109)
+		(descr "SS49E")
+		(tags "Integrated Circuit")
+		(property "Reference" "IC12"
+			(at 1.3 2.4 0)
+			(layer "F.SilkS")
+			(uuid "28c0664b-f152-4712-ba97-e57f449548d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 1.3 -4.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6bcc4f28-40a3-41ae-8a96-c70061af6f1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ebd1691-112e-4a9a-8e4b-93b0f857b287")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b10e492-3a53-4370-8e77-3489fe1541fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11eda901-444c-4e61-a9ee-d3cfa4007481")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "1.6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea147306-4e8c-4f64-afca-0316b267c728")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "419731a8-c92a-4f94-a410-06b36eb58278")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bcf7171b-f77e-4e66-af84-41b704d81f58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67a250f5-5ac2-4746-9946-b14cbc5c3c2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e3fd576-9157-4a64-a579-4c3d690e6f71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7445ef8-49df-4f63-a455-13261d534bdf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e8198b2-b9bc-431e-9a12-84fc65cb8885")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/04f3e571-8035-4bdb-a59e-3e9095c2645a")
+		(sheetname "Root")
+		(sheetfile "Chessboard-Hardware.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -2.05 -0.69)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "683f1128-89a5-4a4c-bc91-b505422641ee")
+		)
+		(fp_line
+			(start 0 -5)
+			(end 0 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "fb9bc46d-d4c9-4b8b-8e64-89b074b4f9cd")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e91f5f43-480c-4e22-98e2-2ac8ce35a2a3")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "96e0d94e-ee0a-44db-89c0-2c946e647020")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "438b28be-3204-4d4f-ba8b-4aeca94bbcda")
+		)
+		(fp_rect
+			(start -2.05 -5)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "44ee8a48-3d2f-4988-b643-54e964aef5ba")
+		)
+		(fp_rect
+			(start -2.05 -3.7)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "faf20b7d-f04b-45af-bd5e-3291ca8c13a3")
+		)
+		(fp_line
+			(start -2.3 -0.94)
+			(end 2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "75b867ce-aeb8-4d1b-882e-d79c02d2de05")
+		)
+		(fp_line
+			(start -2.3 1.16)
+			(end -2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fe3a28fa-639d-47f4-b112-57a3d353fcf5")
+		)
+		(fp_line
+			(start 2.3 -0.94)
+			(end 2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fe74b4b7-bb2a-4be9-af80-2d45fe07d0c0")
+		)
+		(fp_line
+			(start 2.3 1.16)
+			(end -2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "885337e6-ee4b-40ce-a7c0-a721ad2b1c01")
+		)
+		(fp_line
+			(start -2.05 -0.69)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b595844c-0e6a-40c8-a74a-c1920c448165")
+		)
+		(fp_line
+			(start -2.05 -0.04)
+			(end -1.4 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "98cbfbfb-9fdf-4e17-a8dc-cb3a6e801222")
+		)
+		(fp_line
+			(start -2.05 0.91)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5930864b-e6f5-4528-b70c-1dc3f4d8c3c7")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end 2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5ce283a6-1d9f-4453-b8de-78303aa052d1")
+		)
+		(fp_line
+			(start 2.05 0.91)
+			(end -2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9d645907-f4ac-4c1a-88a6-6340632e8aa9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.3 -2.1 0)
+			(layer "F.Fab")
+			(uuid "d6b4a473-544e-44d7-a646-166ed659ac58")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at -1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "VCC")
+			(pinfunction "+")
+			(pintype "passive")
+			(uuid "d5f7bb9b-8369-412b-86f0-973acbfb8708")
+		)
+		(pad "2" thru_hole circle
+			(at 0 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "-")
+			(pintype "passive")
+			(uuid "f8e59ecd-4f14-486e-b070-c5ef6266196b")
+		)
+		(pad "3" thru_hole circle
+			(at 1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 14 "Net-(IC12-O)")
+			(pinfunction "O")
+			(pintype "passive")
+			(uuid "1afc2a66-38d8-4db5-9fe0-170fce234c2b")
+		)
+		(model "C:\\Users\\ckyiu\\SamacSys_PCB_Library_KiCad\\SamacSys_Parts.3dshapes\\SS49E.stp"
+			(offset
+				(xyz -0.000000067 0.09999999999 6.139999774)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 0 0)
+			)
+		)
+	)
+	(footprint "Custom SamacSys Footprints:TO130P160X410X300-3P"
+		(layer "F.Cu")
+		(uuid "5c9b5099-5474-4282-a7bc-95cfcf89cf82")
+		(at 207.7 61)
+		(descr "SS49E")
+		(tags "Integrated Circuit")
+		(property "Reference" "IC3"
+			(at 1.3 2.4 0)
+			(layer "F.SilkS")
+			(uuid "ee4613ea-5b82-4937-9bf0-c0e4a2b714f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 1.3 -4.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "609bc7c3-7257-4a4a-be44-52ce2ba6c719")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e92bbe29-3411-452d-9b19-243c3f08c445")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8942239a-cfe0-40dc-a4c9-01c6d133bd91")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f774f0b7-c500-4c14-8aca-896eb8618595")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "1.6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d4fb3d5-75ba-4d59-908d-4f212ecd72e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2fb1a509-5c37-4ba3-aee7-1a1939c9cc58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "103fea1b-76a4-4366-982a-18ccbe70ac6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "735bd8f7-75b0-412d-9e0a-c7f0a625d4d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "689db1fe-b243-41ec-9efd-421dae22cba5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8b5ad4c-aae0-4899-abd5-002348bd5fde")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "019b8414-e328-442d-ade6-7e25b5445ebf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2ae82fa4-b0d2-47b6-b6eb-082d091c9ba1")
+		(sheetname "Root")
+		(sheetfile "Chessboard-Hardware.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -2.05 -0.69)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2f51ad23-92d4-483c-a9c7-919bfde28b9f")
+		)
+		(fp_line
+			(start 0 -5)
+			(end 0 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "0cc6865a-e0d4-4a0c-bc9d-40c2211c96e7")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "50b10e16-8df2-4e2b-98c2-d11d337336fb")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1bccfbf8-8b39-4b60-8fb1-9996fddfb328")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ade28548-5a92-418e-a28c-d8d3947c25e1")
+		)
+		(fp_rect
+			(start -2.05 -5)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "fbb3d64a-ed9b-4d27-b523-9c42e878d677")
+		)
+		(fp_rect
+			(start -2.05 -3.7)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "7eb980e1-31af-4521-96af-700788649ad8")
+		)
+		(fp_line
+			(start -2.3 -0.94)
+			(end 2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "db2435ab-38d4-43d1-968c-679c75ba6a5f")
+		)
+		(fp_line
+			(start -2.3 1.16)
+			(end -2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bc84ba1c-2763-48c5-bc29-09fefc972fda")
+		)
+		(fp_line
+			(start 2.3 -0.94)
+			(end 2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "04f198b8-0875-4f58-8402-7d4f4d72b364")
+		)
+		(fp_line
+			(start 2.3 1.16)
+			(end -2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "07c72619-96dd-42d5-8d1e-dec6ad2f4d19")
+		)
+		(fp_line
+			(start -2.05 -0.69)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "56c87ffc-b951-456b-82ce-a695302ec66b")
+		)
+		(fp_line
+			(start -2.05 -0.04)
+			(end -1.4 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8f97b683-b21e-4e59-9bb2-412803d722c8")
+		)
+		(fp_line
+			(start -2.05 0.91)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "af84813a-aeb7-417b-b48c-dcb27dfeb090")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end 2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e96038d5-4a4c-4495-a7ae-41dba662d435")
+		)
+		(fp_line
+			(start 2.05 0.91)
+			(end -2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "95eacd66-3228-4871-af07-a342611ca45c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.3 -2.1 0)
+			(layer "F.Fab")
+			(uuid "08a2e410-4e1c-4b19-b5a0-ff0b6c1a233a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at -1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "VCC")
+			(pinfunction "+")
+			(pintype "passive")
+			(uuid "702eec63-fa20-487f-8f1d-ac443625b6d3")
+		)
+		(pad "2" thru_hole circle
+			(at 0 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "-")
+			(pintype "passive")
+			(uuid "1700ffc2-87b5-4a5d-ac95-40fb9b17417c")
+		)
+		(pad "3" thru_hole circle
+			(at 1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 5 "Net-(IC3-O)")
+			(pinfunction "O")
+			(pintype "passive")
+			(uuid "91035c7c-eebf-4e29-aeea-2a48cd604a66")
+		)
+		(model "C:\\Users\\ckyiu\\SamacSys_PCB_Library_KiCad\\SamacSys_Parts.3dshapes\\SS49E.stp"
+			(offset
+				(xyz -0.000000067 0.09999999999 6.139999774)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 0 0)
+			)
+		)
+	)
+	(footprint "Custom SamacSys Footprints:TO130P160X410X300-3P"
+		(layer "F.Cu")
+		(uuid "6234bcc4-2571-4c2a-92b5-0c073ff0e3c5")
+		(at 180.7 108)
+		(descr "SS49E")
+		(tags "Integrated Circuit")
+		(property "Reference" "IC10"
+			(at 1.3 2.4 0)
+			(layer "F.SilkS")
+			(uuid "d756dfe2-86f9-4c23-a23a-43169b50f230")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 1.3 -4.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c1a881c0-0087-4ea5-8deb-0b3ab49e7ffa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0faddc09-7430-46da-8cd2-1e9649c20223")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08eb40eb-a783-43a1-84e0-cf5322c0e849")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61e8d7b7-b5bb-4ed6-af0c-3c2729e6c7b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "1.6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55f1997f-e07c-4858-a0f6-bc887fb99c9e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "033a6afa-3bd8-400e-941c-7d56ed5612f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdcba4fd-f3b1-42cc-8f16-c42bb66cfa30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d1b4624-e0b6-4aee-ad07-d59c01d149a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd6119ec-e08b-4586-a785-2706ee4d414f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d0b7992-7522-4743-92b3-50b3eea7cb9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83aaa695-45a0-4331-a39a-3a082e554735")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/4fc87ea5-5ec2-44d0-a18f-34f3f8600b66")
+		(sheetname "Root")
+		(sheetfile "Chessboard-Hardware.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -2.05 -0.69)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "90c9d950-fb26-402a-84db-5e5ad21d0126")
+		)
+		(fp_line
+			(start 0 -5)
+			(end 0 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "135142a3-20d5-4453-9fb6-2de273f66c72")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "460a120c-8bad-432f-9f45-635ab3daf047")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "80efbdeb-b9d1-447d-9345-31f7d38a77f4")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7f204f7a-1ae6-487b-a295-4c6c1aae9340")
+		)
+		(fp_rect
+			(start -2.05 -5)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "85f8db5e-8432-49a1-86cc-c0c8a20cfd89")
+		)
+		(fp_rect
+			(start -2.05 -3.7)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "16762626-b89c-4806-a056-90b37ee7c45f")
+		)
+		(fp_line
+			(start -2.3 -0.94)
+			(end 2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ed19dfbf-b215-45d9-a01d-dccd7fadbff2")
+		)
+		(fp_line
+			(start -2.3 1.16)
+			(end -2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5e43526b-ca8c-45ab-bfe1-32945df7f5e1")
+		)
+		(fp_line
+			(start 2.3 -0.94)
+			(end 2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8387b1ea-fc83-4aa6-a7bc-7fecd6137872")
+		)
+		(fp_line
+			(start 2.3 1.16)
+			(end -2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fabb6ffa-e19c-4d0c-8649-295a85632f2b")
+		)
+		(fp_line
+			(start -2.05 -0.69)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b91ad9ee-5d8b-472e-b2d2-6bd13bd4e491")
+		)
+		(fp_line
+			(start -2.05 -0.04)
+			(end -1.4 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4410d3fe-6eee-408c-92a7-9461431e6fd5")
+		)
+		(fp_line
+			(start -2.05 0.91)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b070b6a8-d3ca-40b6-afed-b7d25ad0e106")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end 2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "890c13ef-03e7-4d49-8a1c-636480a3064a")
+		)
+		(fp_line
+			(start 2.05 0.91)
+			(end -2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f148d06b-77cc-49c4-bf45-0e6142599577")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.3 -2.1 0)
+			(layer "F.Fab")
+			(uuid "ac689d01-80da-44d8-9c02-cf36481fceb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at -1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "VCC")
+			(pinfunction "+")
+			(pintype "passive")
+			(uuid "a9dea504-be08-4ec9-953b-92a905846298")
+		)
+		(pad "2" thru_hole circle
+			(at 0 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "-")
+			(pintype "passive")
+			(uuid "9eda84a2-3433-4f54-93c7-6adfeeee6517")
+		)
+		(pad "3" thru_hole circle
+			(at 1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 12 "Net-(IC10-O)")
+			(pinfunction "O")
+			(pintype "passive")
+			(uuid "d344d177-2599-4383-b0e8-ed22ad9b0a21")
+		)
+		(model "C:\\Users\\ckyiu\\SamacSys_PCB_Library_KiCad\\SamacSys_Parts.3dshapes\\SS49E.stp"
+			(offset
+				(xyz -0.000000067 0.09999999999 6.139999774)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 0 0)
+			)
+		)
+	)
+	(footprint "Custom SamacSys Footprints:TO130P160X410X300-3P"
+		(layer "F.Cu")
+		(uuid "6706dcac-e1ea-4501-9672-8a09e402bc6a")
+		(at 183.7 60)
+		(descr "SS49E")
+		(tags "Integrated Circuit")
+		(property "Reference" "IC2"
+			(at 1.3 2.4 0)
+			(layer "F.SilkS")
+			(uuid "f6b4c46c-5b29-4ce7-bf17-0e6077bed0d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 1.3 -4.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "87267ad0-e6bb-4eac-94b6-806b9c86e83c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b89672ee-ab1c-4066-a613-1189f7107daa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dae4bbea-50ce-4738-ac3c-c0b157431943")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71eb0f3a-7f0a-473c-aac4-fddf45ba5440")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "1.6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f342360d-8065-4632-8cdc-784f5334c55a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "889d9532-183c-41cb-81ea-4b960b1103af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e773fd9-5a41-40a3-b94f-aa6d441463e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51498f8c-7a68-4463-bf70-31b39e859e5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ccf0296-8887-454b-ab51-f872584787df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4dd3e101-eae1-4dd5-aa29-f7b3f39cbb7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14114cbc-006b-443d-9a3d-ff24bf8767ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/9dfe0840-23a6-45f1-9e00-9788a6200c56")
+		(sheetname "Root")
+		(sheetfile "Chessboard-Hardware.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -2.05 -0.69)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "51cb0e6b-2d91-4c48-8629-02b252fd4680")
+		)
+		(fp_line
+			(start 0 -5)
+			(end 0 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "b04ad038-9bcb-4935-afe8-f9e4c7b34e4e")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b432e1ca-bf8a-4130-895e-5ef210af3793")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ad14cbe1-1779-4f1f-aaf3-ad5f2d248c79")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6cc2ce1d-b172-44c6-b7b8-66776152083d")
+		)
+		(fp_rect
+			(start -2.05 -5)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "b3ca6c10-f9d1-46f3-94bb-18ccb99a3f08")
+		)
+		(fp_rect
+			(start -2.05 -3.7)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "5a284659-e921-461a-a3dd-f262d6434fee")
+		)
+		(fp_line
+			(start -2.3 -0.94)
+			(end 2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "caf2a6b5-9508-4eea-b4e1-7cff2ea5d0a8")
+		)
+		(fp_line
+			(start -2.3 1.16)
+			(end -2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3610134c-5dc6-4d57-a5c7-03cd44704874")
+		)
+		(fp_line
+			(start 2.3 -0.94)
+			(end 2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4180de84-a4c9-4e9f-a6db-ca902f0b9e4f")
+		)
+		(fp_line
+			(start 2.3 1.16)
+			(end -2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "69d4ebf1-1df8-4438-af2e-c2abb4800ead")
+		)
+		(fp_line
+			(start -2.05 -0.69)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b8925349-78d1-4b2d-93cd-2c044d708485")
+		)
+		(fp_line
+			(start -2.05 -0.04)
+			(end -1.4 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8b0d3af4-cdbb-4e8d-9448-f32f7f44c087")
+		)
+		(fp_line
+			(start -2.05 0.91)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a4fbf68a-3f13-4ce0-b296-0e67b8a63765")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end 2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c63702ef-0c65-45eb-9ebe-a157652859c8")
+		)
+		(fp_line
+			(start 2.05 0.91)
+			(end -2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "aaf41ca5-4ff7-4b5f-846c-96f7018b9e01")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.3 -2.1 0)
+			(layer "F.Fab")
+			(uuid "db5e0746-d603-4c2e-a6bf-ab6e53e26497")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at -1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "VCC")
+			(pinfunction "+")
+			(pintype "passive")
+			(uuid "2164743c-ad7a-41ce-8916-e8d6e3ba31e2")
+		)
+		(pad "2" thru_hole circle
+			(at 0 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "-")
+			(pintype "passive")
+			(uuid "3bbafa8d-614f-43a1-b4ac-62821e0fb6d1")
+		)
+		(pad "3" thru_hole circle
+			(at 1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "Net-(IC2-O)")
+			(pinfunction "O")
+			(pintype "passive")
+			(uuid "c222db4d-e8dc-476a-92fc-2af1175c1fff")
+		)
+		(model "C:\\Users\\ckyiu\\SamacSys_PCB_Library_KiCad\\SamacSys_Parts.3dshapes\\SS49E.stp"
+			(offset
+				(xyz -0.000000067 0.09999999999 6.139999774)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 0 0)
+			)
+		)
+	)
+	(footprint "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm"
+		(layer "F.Cu")
+		(uuid "6dcf0126-4d11-4f56-a1fa-eb1bc7cdf2c4")
+		(at 285.23 107.5)
+		(descr "SOIC, 24 Pin (JEDEC MS-013AD, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_wide-rw/RW_24.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(tags "SOIC SO")
+		(property "Reference" "U1"
+			(at 0 -8.65 0)
+			(layer "F.SilkS")
+			(uuid "67cf1ade-a80d-48d7-9107-cd6b71349f6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CD74HC4067M"
+			(at 0 8.65 0)
+			(layer "F.Fab")
+			(uuid "e1a28f1c-adf2-430f-aecb-03dc3d672cf2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8659088e-41b6-4fd6-acaf-987716db2b96")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da7ca411-31a3-4cf4-b516-359065468a86")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15871f0c-d23a-4f26-abe0-c070a593cc95")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "SOIC*W*7.5x15.4mm*P1.27mm*")
+		(path "/3562478d-d727-45f9-9900-266b7a7326c5")
+		(sheetname "Root")
+		(sheetfile "Chessboard-Hardware.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -3.86 -7.81)
+			(end -3.86 -7.545)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3b64b5a4-0092-41c4-a8b6-12d36fac8c86")
+		)
+		(fp_line
+			(start -3.86 7.81)
+			(end -3.86 7.545)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "37f35be6-226c-4668-9d15-13be98524f69")
+		)
+		(fp_line
+			(start 0 -7.81)
+			(end -3.86 -7.81)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ecc0a706-c9a4-438f-9d8d-c5e9d5f931dd")
+		)
+		(fp_line
+			(start 0 -7.81)
+			(end 3.86 -7.81)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2fa4df70-f442-4025-a9ef-24306ce9ca89")
+		)
+		(fp_line
+			(start 0 7.81)
+			(end -3.86 7.81)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "de0a8005-37a2-4794-b6f0-37208c1039e2")
+		)
+		(fp_line
+			(start 0 7.81)
+			(end 3.86 7.81)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3a2b5c5c-67a8-47a4-8aee-1aec56e59dd4")
+		)
+		(fp_line
+			(start 3.86 -7.81)
+			(end 3.86 -7.545)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4568ce34-e3c5-4612-8056-db267e2415cf")
+		)
+		(fp_line
+			(start 3.86 7.81)
+			(end 3.86 7.545)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6ca50658-0963-465c-ba74-31e252efabc9")
+		)
+		(fp_poly
+			(pts
+				(xy -4.7125 -7.545) (xy -5.0525 -8.015) (xy -4.3725 -8.015) (xy -4.7125 -7.545)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "83ffbdbb-3868-493b-b3e1-4e9501d876a5")
+		)
+		(fp_line
+			(start -5.93 -7.95)
+			(end -5.93 7.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5b0b8e75-e641-44e2-a883-8b9d6d51f0c0")
+		)
+		(fp_line
+			(start -5.93 7.95)
+			(end 5.93 7.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f1841c4d-badc-4852-8aa5-44519e0f1510")
+		)
+		(fp_line
+			(start 5.93 -7.95)
+			(end -5.93 -7.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cc2b25b1-b406-40ba-8452-1c76c00b79c8")
+		)
+		(fp_line
+			(start 5.93 7.95)
+			(end 5.93 -7.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2ce56944-fd49-4886-9993-b507be7ffadb")
+		)
+		(fp_line
+			(start -3.75 -6.7)
+			(end -2.75 -7.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "097b9934-7223-4e9f-8698-21652d88d1bc")
+		)
+		(fp_line
+			(start -3.75 7.7)
+			(end -3.75 -6.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bb47ebfd-14c6-4718-9e41-c68fcfac3cf6")
+		)
+		(fp_line
+			(start -2.75 -7.7)
+			(end 3.75 -7.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "78577ec0-23c3-4920-b60f-36aab49c8208")
+		)
+		(fp_line
+			(start 3.75 -7.7)
+			(end 3.75 7.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cd087c5b-4591-4374-b0b6-4858a92ddc4b")
+		)
+		(fp_line
+			(start 3.75 7.7)
+			(end -3.75 7.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8cec4262-2684-4574-b58d-1459d52fe4b7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "7810ec4b-56b3-46e7-acb7-f58ed452e801")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -4.65 -6.985)
+			(size 2.05 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 23 "Net-(J1-Pin_4)")
+			(pinfunction "COM")
+			(pintype "passive")
+			(uuid "2cd424a6-3ae0-43dd-9731-a58f211d0c86")
+		)
+		(pad "2" smd roundrect
+			(at -4.65 -5.715)
+			(size 2.05 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 10 "Net-(IC8-O)")
+			(pinfunction "I7")
+			(pintype "passive")
+			(uuid "302a2379-7626-4aec-8d7e-dbadeaf2fb7a")
+		)
+		(pad "3" smd roundrect
+			(at -4.65 -4.445)
+			(size 2.05 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 9 "Net-(IC7-O)")
+			(pinfunction "I6")
+			(pintype "passive")
+			(uuid "54a2e2bd-befa-4d10-a927-c83c65dac55f")
+		)
+		(pad "4" smd roundrect
+			(at -4.65 -3.175)
+			(size 2.05 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 8 "Net-(IC6-O)")
+			(pinfunction "I5")
+			(pintype "passive")
+			(uuid "7da52372-af43-44d8-bda2-b0deff6b9db2")
+		)
+		(pad "5" smd roundrect
+			(at -4.65 -1.905)
+			(size 2.05 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 7 "Net-(IC5-O)")
+			(pinfunction "I4")
+			(pintype "passive")
+			(uuid "c3239f11-db9f-4a7b-b909-b8dfebcba943")
+		)
+		(pad "6" smd roundrect
+			(at -4.65 -0.635)
+			(size 2.05 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 6 "Net-(IC4-O)")
+			(pinfunction "I3")
+			(pintype "passive")
+			(uuid "16abe09f-0980-450f-a895-49555312e547")
+		)
+		(pad "7" smd roundrect
+			(at -4.65 0.635)
+			(size 2.05 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 5 "Net-(IC3-O)")
+			(pinfunction "I2")
+			(pintype "passive")
+			(uuid "42071ca3-86af-4f02-95e3-356d76546d98")
+		)
+		(pad "8" smd roundrect
+			(at -4.65 1.905)
+			(size 2.05 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 4 "Net-(IC2-O)")
+			(pinfunction "I1")
+			(pintype "passive")
+			(uuid "7b3275bd-b010-4342-8588-eb6f5503c2ed")
+		)
+		(pad "9" smd roundrect
+			(at -4.65 3.175)
+			(size 2.05 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 3 "Net-(IC1-O)")
+			(pinfunction "I0")
+			(pintype "passive")
+			(uuid "71147087-21ee-4fa5-bd1b-4dec72d58d8f")
+		)
+		(pad "10" smd roundrect
+			(at -4.65 4.445)
+			(size 2.05 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 24 "Net-(J1-Pin_5)")
+			(pinfunction "S0")
+			(pintype "input")
+			(uuid "f7f3d3e3-263e-430a-83b6-7763ab38dc4c")
+		)
+		(pad "11" smd roundrect
+			(at -4.65 5.715)
+			(size 2.05 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 22 "Net-(J1-Pin_6)")
+			(pinfunction "S1")
+			(pintype "input")
+			(uuid "483f0de5-9dcc-4b29-a8f3-202b402e3a9a")
+		)
+		(pad "12" smd roundrect
+			(at -4.65 6.985)
+			(size 2.05 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "534114fe-7b86-4089-b1d5-9656f480440e")
+		)
+		(pad "13" smd roundrect
+			(at 4.65 6.985)
+			(size 2.05 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 20 "Net-(J1-Pin_8)")
+			(pinfunction "S3")
+			(pintype "input")
+			(uuid "6b338d1d-56c3-45eb-b13c-76b325e9e5ce")
+		)
+		(pad "14" smd roundrect
+			(at 4.65 5.715)
+			(size 2.05 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 19 "Net-(J1-Pin_7)")
+			(pinfunction "S2")
+			(pintype "input")
+			(uuid "0cb3720e-ed34-4dd7-8871-42e28b45e5a5")
+		)
+		(pad "15" smd roundrect
+			(at 4.65 4.445)
+			(size 2.05 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 21 "Net-(J1-Pin_3)")
+			(pinfunction "~{E}")
+			(pintype "input")
+			(uuid "28987d1f-3181-4eb1-b0a4-3cf0798f2ccf")
+		)
+		(pad "16" smd roundrect
+			(at 4.65 3.175)
+			(size 2.05 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 18 "Net-(IC16-O)")
+			(pinfunction "I15")
+			(pintype "passive")
+			(uuid "e07a3abf-731d-423d-9982-a486b02dd88d")
+		)
+		(pad "17" smd roundrect
+			(at 4.65 1.905)
+			(size 2.05 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 17 "Net-(IC15-O)")
+			(pinfunction "I14")
+			(pintype "passive")
+			(uuid "3b6e8faf-ce79-4d74-ba86-09f45f8be3c7")
+		)
+		(pad "18" smd roundrect
+			(at 4.65 0.635)
+			(size 2.05 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 16 "Net-(IC14-O)")
+			(pinfunction "I13")
+			(pintype "passive")
+			(uuid "5d076fa6-9bbc-45ea-9e62-fa7f3499cca8")
+		)
+		(pad "19" smd roundrect
+			(at 4.65 -0.635)
+			(size 2.05 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 15 "Net-(IC13-O)")
+			(pinfunction "I12")
+			(pintype "passive")
+			(uuid "fc253282-1e6e-4285-a4ac-3a684c240b59")
+		)
+		(pad "20" smd roundrect
+			(at 4.65 -1.905)
+			(size 2.05 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 14 "Net-(IC12-O)")
+			(pinfunction "I11")
+			(pintype "passive")
+			(uuid "a47bc833-65cc-4cc5-a25f-c1c0376ef4ab")
+		)
+		(pad "21" smd roundrect
+			(at 4.65 -3.175)
+			(size 2.05 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 13 "Net-(IC11-O)")
+			(pinfunction "I10")
+			(pintype "passive")
+			(uuid "096677d0-d5db-4ddd-a1e1-2846eb759516")
+		)
+		(pad "22" smd roundrect
+			(at 4.65 -4.445)
+			(size 2.05 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 12 "Net-(IC10-O)")
+			(pinfunction "I9")
+			(pintype "passive")
+			(uuid "6158c4eb-9683-4c13-b358-4de87a025357")
+		)
+		(pad "23" smd roundrect
+			(at 4.65 -5.715)
+			(size 2.05 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 11 "Net-(IC9-O)")
+			(pinfunction "I8")
+			(pintype "passive")
+			(uuid "534cd12d-6afa-490d-b30e-f2162f158724")
+		)
+		(pad "24" smd roundrect
+			(at 4.65 -6.985)
+			(size 2.05 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 2 "VCC")
+			(pinfunction "VCC")
+			(pintype "power_in")
+			(uuid "273c86a0-02a4-4a4e-97fb-b0fdffd48fa0")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-24W_7.5x15.4mm_P1.27mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Custom SamacSys Footprints:TO130P160X410X300-3P"
+		(layer "F.Cu")
+		(uuid "81d0a7e8-9fa3-40cb-b3bb-41f46b16f8e6")
+		(at 238.3 136)
+		(descr "SS49E")
+		(tags "Integrated Circuit")
+		(property "Reference" "IC16"
+			(at 1.3 2.4 0)
+			(layer "F.SilkS")
+			(uuid "c5dac459-a21f-47b8-96e3-abfe5e87d0c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 1.3 -4.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2698f225-7d92-41cc-ba02-b8ee1c419ad8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db852d47-0c5a-4eed-b3c0-011ec6b409e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "472ef7fb-aa38-44d2-ba42-7c1e4e447b34")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e8b851c-e3a2-4fe9-9148-97249a769970")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "1.6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "908ed534-5b44-4534-be56-d075484f5056")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e1b014f-d57d-47dc-ac25-a25442eb5a53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26ff57b6-a468-4d4c-963d-faf8446ddc48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f36c6b3-5db8-46fb-b860-66087035dfe3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5fd70328-eb27-458d-a5ca-4c2a0451b19d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc727bb1-7120-4bfe-aa17-ea4d3a58de5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bb0a1cd-254f-400f-bd64-d94c7834789a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/9e2f1a19-f270-4d9e-bfae-45af2db34725")
+		(sheetname "Root")
+		(sheetfile "Chessboard-Hardware.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -2.05 -0.69)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "72094e9f-9732-47ec-8a32-4c3a9a113cc0")
+		)
+		(fp_line
+			(start 0 -5)
+			(end 0 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "d0965537-7cce-4a29-8a8f-0940ce07771f")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "365fb56b-9b78-4a54-9f9d-8cfbb2558ce0")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "936430b4-f7a9-4752-b0af-7e308cce6f67")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "42d0a308-e471-4311-8af7-ae374c08e376")
+		)
+		(fp_rect
+			(start -2.05 -5)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "ade79230-d086-4f66-875c-55bb319f7372")
+		)
+		(fp_rect
+			(start -2.05 -3.7)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "658de882-d9c4-4eb9-8fa7-960c0a509a0e")
+		)
+		(fp_line
+			(start -2.3 -0.94)
+			(end 2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "390f7379-3172-4a38-aee6-e0ae35a74dcb")
+		)
+		(fp_line
+			(start -2.3 1.16)
+			(end -2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a8b25f9f-e189-4cee-a936-88a6fd5cde82")
+		)
+		(fp_line
+			(start 2.3 -0.94)
+			(end 2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "77c1eb81-8535-48b2-a7fc-8b39eaa20fa0")
+		)
+		(fp_line
+			(start 2.3 1.16)
+			(end -2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3823c9a6-46d5-4343-bdae-a7f3b38a71bb")
+		)
+		(fp_line
+			(start -2.05 -0.69)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "87e0f807-7a8d-4691-8d97-e84a8623d669")
+		)
+		(fp_line
+			(start -2.05 -0.04)
+			(end -1.4 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a3224fb0-fcf3-43a4-9b0c-b469ce2c03d7")
+		)
+		(fp_line
+			(start -2.05 0.91)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b7a8125d-6bb2-4dcc-9bab-06208a8465cf")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end 2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "71107099-6406-406b-87a3-f8ffcc942fbe")
+		)
+		(fp_line
+			(start 2.05 0.91)
+			(end -2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f2264829-1591-41ce-8110-32b71a9d9474")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.3 -2.1 0)
+			(layer "F.Fab")
+			(uuid "77b2926c-1e32-439b-87a4-683605915402")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at -1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "VCC")
+			(pinfunction "+")
+			(pintype "passive")
+			(uuid "5064620e-22a3-447d-b203-e3dc878f917f")
+		)
+		(pad "2" thru_hole circle
+			(at 0 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "-")
+			(pintype "passive")
+			(uuid "935c9a7b-d7cc-4149-9e48-3d597a23272b")
+		)
+		(pad "3" thru_hole circle
+			(at 1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 18 "Net-(IC16-O)")
+			(pinfunction "O")
+			(pintype "passive")
+			(uuid "a085cecc-5b4e-40dc-9711-1e4770d55c43")
+		)
+		(model "C:\\Users\\ckyiu\\SamacSys_PCB_Library_KiCad\\SamacSys_Parts.3dshapes\\SS49E.stp"
+			(offset
+				(xyz -0.000000067 0.09999999999 6.139999774)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 0 0)
+			)
+		)
+	)
+	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+		(layer "F.Cu")
+		(uuid "87524b55-a4c7-45e1-bda0-f3334bc4dafa")
+		(at 259.5 101.25)
+		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
+		(tags "Through hole pin header THT 1x08 2.54mm single row")
+		(property "Reference" "J1"
+			(at 0 -2.33 0)
+			(layer "F.SilkS")
+			(uuid "fe654d8f-0330-4b37-8e1e-53446c90f688")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x08_Pin"
+			(at 0 20.11 0)
+			(layer "F.Fab")
+			(uuid "3aef2051-a1d2-4c28-937f-7d6d0e63d05f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c397073-282f-4144-8952-3ceb4303a8f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8788aecb-6d9d-41f0-b513-20997716f14f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "981d6745-74e3-4f04-a7ff-2f1ad9fab5b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/570492a9-344b-47e7-a026-3705d5432c5f")
+		(sheetname "Root")
+		(sheetfile "Chessboard-Hardware.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -1.33 -1.33)
+			(end 0 -1.33)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1949d90d-274c-4303-8092-aedbf512954f")
+		)
+		(fp_line
+			(start -1.33 0)
+			(end -1.33 -1.33)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "124ea6fa-a02f-4f68-b209-0f65bd7465d6")
+		)
+		(fp_line
+			(start -1.33 1.27)
+			(end -1.33 19.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b68a1fce-f581-41aa-9305-13d00ef075ff")
+		)
+		(fp_line
+			(start -1.33 1.27)
+			(end 1.33 1.27)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c090550d-3921-4ec0-a276-5d20384fcb34")
+		)
+		(fp_line
+			(start -1.33 19.11)
+			(end 1.33 19.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cf5c4c14-b09e-4dce-b5f3-8010f77e3f70")
+		)
+		(fp_line
+			(start 1.33 1.27)
+			(end 1.33 19.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d1e7b214-dddc-422b-9db8-e5616d969a30")
+		)
+		(fp_line
+			(start -1.8 -1.8)
+			(end -1.8 19.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f5c0e876-3880-4110-99be-888a161e212f")
+		)
+		(fp_line
+			(start -1.8 19.55)
+			(end 1.8 19.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "84a94a2f-5a98-4e42-b655-e6567ced8c62")
+		)
+		(fp_line
+			(start 1.8 -1.8)
+			(end -1.8 -1.8)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "33cc0b86-1b88-44bf-b4ee-539cf68fd32c")
+		)
+		(fp_line
+			(start 1.8 19.55)
+			(end 1.8 -1.8)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "92a2fb1a-6430-4b93-8e7a-025df4da3110")
+		)
+		(fp_line
+			(start -1.27 -0.635)
+			(end -0.635 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fbbaf5e6-d1d9-48e9-a491-1014de2b0758")
+		)
+		(fp_line
+			(start -1.27 19.05)
+			(end -1.27 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "14f3d8e8-e9b9-4956-abf2-da0b37a643de")
+		)
+		(fp_line
+			(start -0.635 -1.27)
+			(end 1.27 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ab006d3b-6726-4c6f-9765-3047e6497a0c")
+		)
+		(fp_line
+			(start 1.27 -1.27)
+			(end 1.27 19.05)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "665fd673-637d-4a9b-83b4-d7d5dd2c41a8")
+		)
+		(fp_line
+			(start 1.27 19.05)
+			(end -1.27 19.05)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6992e4f9-5594-485f-8565-0fe58a093f43")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 8.89 90)
+			(layer "F.Fab")
+			(uuid "b2f45879-3792-4f54-af41-85a1d67833d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "VCC")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "a426888c-9136-46c6-94e3-d7f8a2737ed6")
+		)
+		(pad "2" thru_hole oval
+			(at 0 2.54)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "Pin_2")
+			(pintype "passive")
+			(uuid "52ffd1ab-2439-46e5-86b8-b798ccc7d411")
+		)
+		(pad "3" thru_hole oval
+			(at 0 5.08)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 21 "Net-(J1-Pin_3)")
+			(pinfunction "Pin_3")
+			(pintype "passive")
+			(uuid "fc8e9f4c-dc89-43d2-8979-f86ae4a0a584")
+		)
+		(pad "4" thru_hole oval
+			(at 0 7.62)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 23 "Net-(J1-Pin_4)")
+			(pinfunction "Pin_4")
+			(pintype "passive")
+			(uuid "e0d83be7-6737-40ce-bb41-87ec05189ce8")
+		)
+		(pad "5" thru_hole oval
+			(at 0 10.16)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 24 "Net-(J1-Pin_5)")
+			(pinfunction "Pin_5")
+			(pintype "passive")
+			(uuid "05659af0-4099-49b8-a8d1-7009a58eeb22")
+		)
+		(pad "6" thru_hole oval
+			(at 0 12.7)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 22 "Net-(J1-Pin_6)")
+			(pinfunction "Pin_6")
+			(pintype "passive")
+			(uuid "f2d83d35-59e8-4f82-aacc-81d4d546864f")
+		)
+		(pad "7" thru_hole oval
+			(at 0 15.24)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 19 "Net-(J1-Pin_7)")
+			(pinfunction "Pin_7")
+			(pintype "passive")
+			(uuid "031262fd-54ee-46b2-a253-9ff529195ac9")
+		)
+		(pad "8" thru_hole oval
+			(at 0 17.78)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 20 "Net-(J1-Pin_8)")
+			(pinfunction "Pin_8")
+			(pintype "passive")
+			(uuid "56f98929-bb82-461c-bc26-3f188473fec8")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(layer "F.Cu")
+		(uuid "ba1d8925-5c0d-4e9d-9dcf-9a7290fd565d")
+		(at 280.8 118)
+		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
+		(tags "C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor")
+		(property "Reference" "C1"
+			(at 1.25 -2.5 0)
+			(layer "F.SilkS")
+			(uuid "d73c2b05-bed3-4f73-980a-36938d5e78b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "100nf"
+			(at 1.25 2.5 0)
+			(layer "F.Fab")
+			(uuid "b4ed8a51-46cb-42a0-aee9-b66fa45ea874")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e19aa26-3cad-4578-a6f1-23e664cd3c2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6164d6d-a012-4858-9a57-f69b2f3921aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1111420c-f86c-4d9a-88b0-e2f5243e9efc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/a666ca5a-c23d-438d-8e3c-c24389ce46b4")
+		(sheetname "Root")
+		(sheetfile "Chessboard-Hardware.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -1.37 -1.37)
+			(end -1.37 1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3458f670-740c-43cb-9dce-63282e1c64bd")
+		)
+		(fp_line
+			(start -1.37 -1.37)
+			(end 3.87 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5690f3bf-15a0-4dc5-b85f-8238110cbe12")
+		)
+		(fp_line
+			(start -1.37 1.37)
+			(end 3.87 1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1f9b1d6d-83e9-45fb-bdac-d68f37e727da")
+		)
+		(fp_line
+			(start 3.87 -1.37)
+			(end 3.87 1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "08242f0e-cc63-4138-adf7-3fc4bbd98ab9")
+		)
+		(fp_line
+			(start -1.5 -1.5)
+			(end -1.5 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6605672f-c928-4666-875f-448825306347")
+		)
+		(fp_line
+			(start -1.5 1.5)
+			(end 4 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e655e540-6416-49a6-9d56-b2f56de18853")
+		)
+		(fp_line
+			(start 4 -1.5)
+			(end -1.5 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2ebd5527-b705-43eb-9270-30132f9639f9")
+		)
+		(fp_line
+			(start 4 1.5)
+			(end 4 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "77df8956-84b4-4abc-846a-cbca684c69c2")
+		)
+		(fp_line
+			(start -1.25 -1.25)
+			(end -1.25 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "748b27a3-8429-4ab6-800d-1912a704dbbf")
+		)
+		(fp_line
+			(start -1.25 1.25)
+			(end 3.75 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5a65b6c2-3be3-4b96-8fcb-373809f2db0a")
+		)
+		(fp_line
+			(start 3.75 -1.25)
+			(end -1.25 -1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "05200d2c-bb9a-4a6c-b578-3ffc25ec868b")
+		)
+		(fp_line
+			(start 3.75 1.25)
+			(end 3.75 -1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "030fa204-45c9-4887-bfa4-2cb2db9b51c8")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.25 0 0)
+			(layer "F.Fab")
+			(uuid "3ccc4177-64dd-4f44-8037-24f68b379a89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pintype "passive")
+			(uuid "c5742dea-5501-4e4a-b638-d6fb8732f492")
+		)
+		(pad "2" thru_hole circle
+			(at 2.5 0)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "VCC")
+			(pintype "passive")
+			(uuid "f3c30893-6548-4915-8707-6138d41e554b")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P2.50mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Custom SamacSys Footprints:TO130P160X410X300-3P"
+		(layer "F.Cu")
+		(uuid "c4ac6b2f-931e-4e8c-aa79-d8e66e7ef266")
+		(at 158 84)
+		(descr "SS49E")
+		(tags "Integrated Circuit")
+		(property "Reference" "IC5"
+			(at 1.3 2.4 0)
+			(layer "F.SilkS")
+			(uuid "c0e7b8d9-4adf-4017-953d-fe8fe7544b8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 1.3 -4.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3f93f683-b660-4729-823d-f8af6b46556f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a079e50a-a2e5-427f-9eac-e23800d9e9a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4af757e-edd2-493a-be5f-97c9e82ef766")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e11becb1-ed23-4e96-a431-a29f70152229")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "1.6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b68e1883-ebb4-4483-86f5-e130d2b65bb5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b0b5f55-ba2f-4620-b4ee-8365bc4ae8c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "347b78e3-c272-4037-98d0-c145548ef3a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b8e54a6-ceff-442a-a976-6d9f360868f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a7e3220-83e7-45ac-b03c-70a02a7e4d18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25e5e8a9-1170-481c-98a5-e403a0ec934b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d798abb-60d2-4860-a5ac-2835a3f0f939")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/87da5156-b455-4dca-b797-9efc4cf51c5d")
+		(sheetname "Root")
+		(sheetfile "Chessboard-Hardware.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -2.05 -0.69)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "76f42b91-0742-405d-9aaa-0af5f4f9979a")
+		)
+		(fp_line
+			(start 0 -5)
+			(end 0 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "c5e2075b-4349-4554-b181-423acc9da95f")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dc2b4c4b-1c6a-4b8d-bc8a-935e9786920d")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cccf3cfd-d2ff-436e-b27a-27e123dceea6")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a6bdab74-0c98-453d-9bf0-ce39116478b2")
+		)
+		(fp_rect
+			(start -2.05 -5)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "c7327b17-2fe8-4938-88bf-044f0ac50486")
+		)
+		(fp_rect
+			(start -2.05 -3.7)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "2784dc87-67f3-4c3a-af74-100ebd759436")
+		)
+		(fp_line
+			(start -2.3 -0.94)
+			(end 2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "27a6011b-d459-44c9-a4d5-40f46f333a84")
+		)
+		(fp_line
+			(start -2.3 1.16)
+			(end -2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3680ed98-48d8-4b99-b2a6-d82c29eb6811")
+		)
+		(fp_line
+			(start 2.3 -0.94)
+			(end 2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "efd746ce-2611-45bf-8fcb-b400312e3f83")
+		)
+		(fp_line
+			(start 2.3 1.16)
+			(end -2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "81d3544f-ee7c-43ba-9382-d191dab10dbe")
+		)
+		(fp_line
+			(start -2.05 -0.69)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "18449e8e-28cf-4f2a-b44f-09e5a23ec4c3")
+		)
+		(fp_line
+			(start -2.05 -0.04)
+			(end -1.4 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ff02bee1-6789-4178-8c4a-cf7e66f457c7")
+		)
+		(fp_line
+			(start -2.05 0.91)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7d6ebd9e-5c21-4fdb-a668-d8030ac221b6")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end 2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "12bdeaad-01bc-461d-bcc1-ab715e0b6d4d")
+		)
+		(fp_line
+			(start 2.05 0.91)
+			(end -2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6d4d34ce-486e-4de6-b802-cec66c139a7b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.3 -2.1 0)
+			(layer "F.Fab")
+			(uuid "c01024f0-bcb5-4d58-89b2-3176acfda7a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at -1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "VCC")
+			(pinfunction "+")
+			(pintype "passive")
+			(uuid "660d9644-1698-4b1e-a3f3-b755ab00162c")
+		)
+		(pad "2" thru_hole circle
+			(at 0 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "-")
+			(pintype "passive")
+			(uuid "5da93226-a50e-415a-a464-38142d1a081d")
+		)
+		(pad "3" thru_hole circle
+			(at 1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 7 "Net-(IC5-O)")
+			(pinfunction "O")
+			(pintype "passive")
+			(uuid "4f6ce05d-627c-47bc-ae4f-5b048cd2897b")
+		)
+		(model "C:\\Users\\ckyiu\\SamacSys_PCB_Library_KiCad\\SamacSys_Parts.3dshapes\\SS49E.stp"
+			(offset
+				(xyz -0.000000067 0.09999999999 6.139999774)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 0 0)
+			)
+		)
+	)
+	(footprint "Custom SamacSys Footprints:TO130P160X410X300-3P"
+		(layer "F.Cu")
+		(uuid "ecdd15d3-582f-49bf-bc80-fa5bc5666ade")
+		(at 157.7 109)
+		(descr "SS49E")
+		(tags "Integrated Circuit")
+		(property "Reference" "IC9"
+			(at 1.3 2.4 0)
+			(layer "F.SilkS")
+			(uuid "5f8e00f9-dd56-45bc-9213-626beb40cdd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 1.3 -4.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1c54465a-9e26-4e2c-8fab-e764342002aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff1d21cb-5fcb-4fb3-b106-079f144a1d96")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ff3e4e8-6aac-447a-bb29-6bea94ca5bc7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "552447b9-b51f-4880-95a9-719fda5708d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "1.6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdfdaebd-dcd9-4316-be73-5340978c5b06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "640cabde-109a-4eeb-8196-2829551a4dfc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36f54f1b-3ad3-4ff4-8283-572c34f5b9d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "827e7ca6-2743-480b-8a81-9c68aa3b619f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bae82e74-32b8-42fc-9f4b-31da271909bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be486033-8cb2-4199-b5e4-790994afd25b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce89545d-706c-4a73-80a6-2b1396e89ee8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/9db5e3f6-dc45-4709-ba7f-e0beca87be45")
+		(sheetname "Root")
+		(sheetfile "Chessboard-Hardware.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -2.05 -0.69)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fccbdcd3-ef8e-417c-97e5-f4d195a003d7")
+		)
+		(fp_line
+			(start 0 -5)
+			(end 0 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "f459a6c7-088b-4a14-8678-5cf5dcb3b03c")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "811b6982-1d21-44ce-a38b-1680d2524de4")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ba706efb-3bd0-43a7-a707-8c99ece8540e")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "747f5cdf-461e-42ad-b69e-13058e77e184")
+		)
+		(fp_rect
+			(start -2.05 -5)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "83438210-1651-43be-b589-6b3a9b373425")
+		)
+		(fp_rect
+			(start -2.05 -3.7)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "bcbd68da-997d-4610-be5d-bf702da33315")
+		)
+		(fp_line
+			(start -2.3 -0.94)
+			(end 2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bff4e98c-51a1-4cb4-9477-c3dbe2e7181b")
+		)
+		(fp_line
+			(start -2.3 1.16)
+			(end -2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "736a250d-2af7-41d0-8234-b7de249374ef")
+		)
+		(fp_line
+			(start 2.3 -0.94)
+			(end 2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0a59cd80-c481-43d3-96a2-5b8cd7f651f1")
+		)
+		(fp_line
+			(start 2.3 1.16)
+			(end -2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5393bece-bf61-4ec0-a5cb-777c0e78c120")
+		)
+		(fp_line
+			(start -2.05 -0.69)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d9524bb3-f7ca-4a39-ad55-ec4c03596a1b")
+		)
+		(fp_line
+			(start -2.05 -0.04)
+			(end -1.4 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "022fdb72-4ab2-4fd9-ac16-d9575446d25e")
+		)
+		(fp_line
+			(start -2.05 0.91)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "eb21dd7b-291e-4e49-bc3e-225a82d2ed11")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end 2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9591db30-1cc0-40ef-9506-bf510d9c68b3")
+		)
+		(fp_line
+			(start 2.05 0.91)
+			(end -2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bc365477-4444-4f09-8962-766ba70077ed")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.3 -2.1 0)
+			(layer "F.Fab")
+			(uuid "4579e576-b3cd-403c-86f3-152d6768225e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at -1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "VCC")
+			(pinfunction "+")
+			(pintype "passive")
+			(uuid "4254ca84-5437-417f-995c-beafeb5830d7")
+		)
+		(pad "2" thru_hole circle
+			(at 0 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "-")
+			(pintype "passive")
+			(uuid "03a392a8-31cd-44ed-b6cf-d77318ba2dde")
+		)
+		(pad "3" thru_hole circle
+			(at 1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 11 "Net-(IC9-O)")
+			(pinfunction "O")
+			(pintype "passive")
+			(uuid "c3c76ac1-cbf1-440c-84a4-49a2a83c9723")
+		)
+		(model "C:\\Users\\ckyiu\\SamacSys_PCB_Library_KiCad\\SamacSys_Parts.3dshapes\\SS49E.stp"
+			(offset
+				(xyz -0.000000067 0.09999999999 6.139999774)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 0 0)
+			)
+		)
+	)
+	(footprint "Custom SamacSys Footprints:TO130P160X410X300-3P"
+		(layer "F.Cu")
+		(uuid "f317598b-0cce-4332-a46e-c5eb41770364")
+		(at 211 133)
+		(descr "SS49E")
+		(tags "Integrated Circuit")
+		(property "Reference" "IC15"
+			(at 1.3 2.4 0)
+			(layer "F.SilkS")
+			(uuid "68b9696b-d6e9-4279-aad5-71c865af7c2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 1.3 -4.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "106967ce-34f9-47d9-af70-665fd4d9ab73")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "442f0368-6d76-4e9f-a60a-65cf01a90b9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48591889-8ec8-4b7a-8fe2-e0ae40a05003")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "085eb462-0775-4b78-93e4-f9c293cb1274")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "1.6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92b631e7-3a57-4896-9ed1-86f4c47af61c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f738c80b-df3a-403d-8f88-c5b3f42339b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6f355c2-8c29-401d-92d5-62cc5fa6c5cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0986464f-b080-4b7b-9722-073647f4895d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "513b3fba-2839-477f-bc89-58cfc79fbd3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69294058-eb45-45f2-b621-6890755bf0d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8782212f-cbaa-4efb-9600-7ac18bc82c24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/557d0518-d2a4-4f01-aa83-9735732b50e5")
+		(sheetname "Root")
+		(sheetfile "Chessboard-Hardware.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -2.05 -0.69)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b7de6b9e-8ef9-45a4-9b79-633f40c1d62c")
+		)
+		(fp_line
+			(start 0 -5)
+			(end 0 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "ec1d4782-307e-4752-98cd-2717e4c22c36")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "92b99422-0e4c-4bc0-9d83-f5766dda19b2")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b759f279-de0a-4c63-80be-2de11c3bbf15")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2c4561cb-8178-4a87-94e2-837b0519d3bd")
+		)
+		(fp_rect
+			(start -2.05 -5)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "608f1519-b22e-4309-9f5d-390b4a645139")
+		)
+		(fp_rect
+			(start -2.05 -3.7)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "6daaea6f-92ae-48ac-a735-27d54a75b5d6")
+		)
+		(fp_line
+			(start -2.3 -0.94)
+			(end 2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e3906167-14a2-4f56-ba62-831e764297f7")
+		)
+		(fp_line
+			(start -2.3 1.16)
+			(end -2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d6a43f40-c9f1-4546-959b-9a50c8bf31cb")
+		)
+		(fp_line
+			(start 2.3 -0.94)
+			(end 2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8f6cead9-4671-42a6-a463-d7403d856e6b")
+		)
+		(fp_line
+			(start 2.3 1.16)
+			(end -2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "49b41146-6c7a-410b-84e1-d16353cbc36b")
+		)
+		(fp_line
+			(start -2.05 -0.69)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "56b1e828-eb30-4ba9-ba0d-7e91e44ab83d")
+		)
+		(fp_line
+			(start -2.05 -0.04)
+			(end -1.4 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a87708bf-a546-499d-a5bf-b3a978f891e7")
+		)
+		(fp_line
+			(start -2.05 0.91)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "918d6d72-cfe7-4fdc-99da-635ef1740ee4")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end 2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b63e162b-bb17-498d-be3c-7c9ae33b5bb3")
+		)
+		(fp_line
+			(start 2.05 0.91)
+			(end -2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6907e765-12dd-4402-8656-c6d429191470")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.3 -2.1 0)
+			(layer "F.Fab")
+			(uuid "3f667471-f371-45ca-abb5-838f7358a887")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at -1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "VCC")
+			(pinfunction "+")
+			(pintype "passive")
+			(uuid "7ee4480a-b1a6-406a-b061-4a58e771663a")
+		)
+		(pad "2" thru_hole circle
+			(at 0 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "-")
+			(pintype "passive")
+			(uuid "e73b1688-afc9-4b9d-ab57-4fcc27376bb4")
+		)
+		(pad "3" thru_hole circle
+			(at 1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 17 "Net-(IC15-O)")
+			(pinfunction "O")
+			(pintype "passive")
+			(uuid "072797fa-9f6d-40f5-8c18-c5f56970dd65")
+		)
+		(model "C:\\Users\\ckyiu\\SamacSys_PCB_Library_KiCad\\SamacSys_Parts.3dshapes\\SS49E.stp"
+			(offset
+				(xyz -0.000000067 0.09999999999 6.139999774)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 0 0)
+			)
+		)
+	)
+	(footprint "Custom SamacSys Footprints:TO130P160X410X300-3P"
+		(layer "F.Cu")
+		(uuid "f3bba92a-c886-4766-ae68-fbd751203327")
+		(at 235 85)
+		(descr "SS49E")
+		(tags "Integrated Circuit")
+		(property "Reference" "IC8"
+			(at 1.3 2.4 0)
+			(layer "F.SilkS")
+			(uuid "7b38ba18-8b92-4fa2-9dbe-c947f3654d12")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 1.3 -4.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1c234012-e48d-4d3e-8fb8-bd8c3779151d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dda81cff-ea25-450c-a56e-4933ba9bc6d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50cdb00f-2495-4c84-a89b-e1fb76ca2092")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19a06ae9-1b95-4b3d-bc11-56bf1662d130")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "1.6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb7210bd-f781-4bda-9d5a-a3512928fe1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c88f7c29-aa06-41ec-ba3e-721415736f45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd890b26-4e50-4296-a2a1-087d77e8b180")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5c32f8c-d596-40b2-9e6e-357cfcdc8d2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5051fca6-f6ef-49d0-b8f5-e9d6298e9fb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a20a04ee-68a0-46b5-a093-5765d8bb5102")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ee8da0b-c257-4b8e-84ef-62c697d27289")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/9811c3e2-488f-43ff-8c7c-efad3b7bd7e0")
+		(sheetname "Root")
+		(sheetfile "Chessboard-Hardware.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -2.05 -0.69)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3ef1c51f-f7d6-455a-8bc9-fc2e647153db")
+		)
+		(fp_line
+			(start 0 -5)
+			(end 0 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "9a3841a7-d4fd-4282-b412-2b25adceb36a")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "950c73c9-3f1d-4486-9fa6-5dc330be1c11")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8607fe97-1a09-4d54-ab8d-4255bef79cc9")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "eadf766f-0972-48f5-819c-924db7d46811")
+		)
+		(fp_rect
+			(start -2.05 -5)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "c7f471fb-44d8-4705-befc-844218de4bb7")
+		)
+		(fp_rect
+			(start -2.05 -3.7)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "4779a102-2fd9-42c2-aba1-7ea2a4ce8414")
+		)
+		(fp_line
+			(start -2.3 -0.94)
+			(end 2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "dc1024e1-3989-4d70-9205-43d4c6e350a7")
+		)
+		(fp_line
+			(start -2.3 1.16)
+			(end -2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7191db5e-4040-405a-a40b-7929f4e56127")
+		)
+		(fp_line
+			(start 2.3 -0.94)
+			(end 2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "af69b359-9509-4e32-83f1-2904af1944e5")
+		)
+		(fp_line
+			(start 2.3 1.16)
+			(end -2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d290b54a-c97a-4410-a847-6d59ff443f90")
+		)
+		(fp_line
+			(start -2.05 -0.69)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1e5c7079-714f-43c9-8f2d-c7caa45a9196")
+		)
+		(fp_line
+			(start -2.05 -0.04)
+			(end -1.4 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "40ea42b4-a1eb-4c56-9bcf-35d0aaf74f0a")
+		)
+		(fp_line
+			(start -2.05 0.91)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bb1354e4-b5ee-49bf-b126-13c5cf7a3609")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end 2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3dac866b-feb8-4a47-a3c6-c6c8e96d12e5")
+		)
+		(fp_line
+			(start 2.05 0.91)
+			(end -2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "22e6b454-e6cc-4fa4-ba86-b52f9e7715f8")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.3 -2.1 0)
+			(layer "F.Fab")
+			(uuid "da0a10ca-6a10-4971-827d-6d4d9183e01d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at -1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "VCC")
+			(pinfunction "+")
+			(pintype "passive")
+			(uuid "64370adb-05c6-4f1d-978e-ace6eb982397")
+		)
+		(pad "2" thru_hole circle
+			(at 0 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "-")
+			(pintype "passive")
+			(uuid "fa7f48a9-d460-4960-beca-079f0be4138e")
+		)
+		(pad "3" thru_hole circle
+			(at 1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 10 "Net-(IC8-O)")
+			(pinfunction "O")
+			(pintype "passive")
+			(uuid "f312c5a5-ee69-4d38-98e3-3bafdfdd92ac")
+		)
+		(model "C:\\Users\\ckyiu\\SamacSys_PCB_Library_KiCad\\SamacSys_Parts.3dshapes\\SS49E.stp"
+			(offset
+				(xyz -0.000000067 0.09999999999 6.139999774)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 0 0)
+			)
+		)
+	)
+	(footprint "Custom SamacSys Footprints:TO130P160X410X300-3P"
+		(layer "F.Cu")
+		(uuid "feeefb16-2f97-4bd6-b630-354082ad10e8")
+		(at 212 84)
+		(descr "SS49E")
+		(tags "Integrated Circuit")
+		(property "Reference" "IC7"
+			(at 1.3 2.4 0)
+			(layer "F.SilkS")
+			(uuid "3f89d068-4e75-4181-813b-634d8a3c2ce9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 1.3 -4.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7ef4611d-665e-49ea-b0c9-b56f3ab31ef6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "Custom SamacSys Footprints:TO130P160X410X300-3P"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5957ada3-b5a7-48e2-9890-d4c3cba51e30")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71c8f0b9-267b-43d1-b977-c9b8b18cb3d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96e7a9b6-95de-4346-b50d-cf63a289522a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "1.6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cef41096-5012-49eb-b378-dce283f123d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dde99b54-e6f4-473a-9fbb-3d48c7606dc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53c9089e-025e-476d-b947-4a7730dd2494")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67ae34ed-5a47-4d57-b14e-56bdc6708874")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e11eca9a-2a18-4b33-9a4e-9684144c74a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4962ada4-ac20-4150-85a2-cf13ccfc4a1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8048f34-58de-476f-827c-1f45062e4376")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f481af88-7eb4-4e18-b4bf-67127dd122e4")
+		(sheetname "Root")
+		(sheetfile "Chessboard-Hardware.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -2.05 -0.69)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "31bebd7e-d66b-438a-906e-e2d51b715b8a")
+		)
+		(fp_line
+			(start 0 -5)
+			(end 0 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "2bc2c685-7cb1-41fc-ad8b-853e53d8fb45")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ae02560c-c000-46aa-abb7-3a58dc446a48")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end -2.05 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a24894c0-c3bd-4fcb-b2dd-4091692101b0")
+		)
+		(fp_line
+			(start 2.05 0.9)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5137b7a9-1b00-4703-97a9-b95e222e4cc2")
+		)
+		(fp_rect
+			(start -2.05 -5)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "5f9ccf3d-6905-4f3b-812e-fd7e9d999485")
+		)
+		(fp_rect
+			(start -2.05 -3.7)
+			(end 2.05 -2)
+			(stroke
+				(width 0.2)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "312db869-ffac-4fc1-8867-722f6c1067cc")
+		)
+		(fp_line
+			(start -2.3 -0.94)
+			(end 2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "061f2c04-a9e1-4c99-84d0-1f22c61d2142")
+		)
+		(fp_line
+			(start -2.3 1.16)
+			(end -2.3 -0.94)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2b565e56-74a5-48c8-a9a4-087ce84ab773")
+		)
+		(fp_line
+			(start 2.3 -0.94)
+			(end 2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "14023ad2-8a29-4f7f-9943-31bb41f41ce7")
+		)
+		(fp_line
+			(start 2.3 1.16)
+			(end -2.3 1.16)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c82b4990-9f70-468a-9b9a-078de29f6385")
+		)
+		(fp_line
+			(start -2.05 -0.69)
+			(end 2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1dca3330-5175-4a50-812a-dca1252c0e7c")
+		)
+		(fp_line
+			(start -2.05 -0.04)
+			(end -1.4 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "92019e2b-cecd-42f0-8157-e4b5c405018a")
+		)
+		(fp_line
+			(start -2.05 0.91)
+			(end -2.05 -0.69)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "64f8cb06-edf1-4479-9e92-45d8ff13adb8")
+		)
+		(fp_line
+			(start 2.05 -0.69)
+			(end 2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d357606c-e9d1-424b-958c-3d0daa4e0078")
+		)
+		(fp_line
+			(start 2.05 0.91)
+			(end -2.05 0.91)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a6cd890a-f7e5-4aa8-b81d-5571bbaf105e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.3 -2.1 0)
+			(layer "F.Fab")
+			(uuid "fc846819-114b-4d58-b9a1-8f4419163309")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at -1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "VCC")
+			(pinfunction "+")
+			(pintype "passive")
+			(uuid "5ebf6795-37d7-4a8a-8726-d46e7dcaa481")
+		)
+		(pad "2" thru_hole circle
+			(at 0 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "-")
+			(pintype "passive")
+			(uuid "d7fe7876-0750-446b-82b4-f89423d92a33")
+		)
+		(pad "3" thru_hole circle
+			(at 1.3 0)
+			(size 1.08 1.08)
+			(drill 0.68)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 9 "Net-(IC7-O)")
+			(pinfunction "O")
+			(pintype "passive")
+			(uuid "77c5f8f9-2043-4ea9-895c-91e8bf19c269")
+		)
+		(model "C:\\Users\\ckyiu\\SamacSys_PCB_Library_KiCad\\SamacSys_Parts.3dshapes\\SS49E.stp"
+			(offset
+				(xyz -0.000000067 0.09999999999 6.139999774)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 0 0)
+			)
+		)
+	)
+	(gr_line
+		(start 52 125)
+		(end 148 125)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "57bc2e25-2f3a-4ade-8ff3-def8f26f76c2")
+	)
+	(gr_line
+		(start 125 52)
+		(end 125 148)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "62e14e11-205b-456f-991a-b5ea6ce2c3b0")
+	)
+	(gr_line
+		(start 52 100)
+		(end 148 100)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "857bb7b4-119d-4543-a9e7-55708671bd7e")
+	)
+	(gr_line
+		(start 100 148)
+		(end 100 52)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "8a1fa0c3-75ec-4df4-9282-80a9e29222b5")
+	)
+	(gr_line
+		(start 52 75)
+		(end 148 75)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "e78d26f0-0683-4d96-832c-bbe63b740223")
+	)
+	(gr_line
+		(start 75 52)
+		(end 75 148)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "f6216e65-b9fe-42ae-90a3-e9fbe039b7d3")
+	)
+	(gr_line
+		(start 100 52)
+		(end 100 148)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1600d065-2c3d-4b9e-9cff-bb0ecc246e4e")
+	)
+	(gr_line
+		(start 112.5 55)
+		(end 112.5 145)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "21ae38af-fa84-4a8c-92f1-b8259e95ee25")
+	)
+	(gr_line
+		(start 52 75)
+		(end 148 75)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "340eeca3-77bc-4e82-be13-1c2abc4e9a76")
+	)
+	(gr_line
+		(start 52 100)
+		(end 148 100)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "38c8c0ad-7aab-4498-83db-b7438feb8881")
+	)
+	(gr_line
+		(start 55 62.5)
+		(end 145 62.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4d6b9b9d-6b42-47f1-940c-0ca39ac50b92")
+	)
+	(gr_line
+		(start 62.5 55)
+		(end 62.5 145)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "840bcd12-dfa9-4889-8e4c-e97f114a6349")
+	)
+	(gr_line
+		(start 52 125)
+		(end 148 125)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8aef44b2-aed9-4d8b-a531-bd9547b11f49")
+	)
+	(gr_line
+		(start 55 137.5)
+		(end 145 137.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "96a161a6-0c50-4a70-b600-dd89e4006bba")
+	)
+	(gr_line
+		(start 125 52)
+		(end 125 148)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9dfaa9e9-23e9-4d88-898b-15698e5854eb")
+	)
+	(gr_line
+		(start 75 52)
+		(end 75 148)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b25d9e76-ac21-4b9b-bdb0-5dc293edeaff")
+	)
+	(gr_line
+		(start 55 87.5)
+		(end 145 87.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c66c3a4e-e159-4347-86ef-57b00bdb55f9")
+	)
+	(gr_line
+		(start 55 112.5)
+		(end 145 112.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d892758d-c928-4920-900f-4faefe5b09c1")
+	)
+	(gr_line
+		(start 87.5 55)
+		(end 87.5 145)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d89e5d7a-92d4-4104-8968-3137a6d0603e")
+	)
+	(gr_line
+		(start 137.5 55)
+		(end 137.5 145)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "de22ba35-bb0c-4527-8531-cfcb2323f46e")
+	)
+	(gr_rect
+		(start 50 50)
+		(end 150 150)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "f0ade37f-f157-4dff-bfc9-fe427d02b293")
+	)
 )
