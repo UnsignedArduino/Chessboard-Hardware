@@ -5,7 +5,7 @@
 	(uuid "2a503a66-10ee-4866-9e1c-91c7319fc25d")
 	(paper "A4")
 	(title_block
-		(title "Chessboard Hardware - Chessboard sensor quarter")
+		(title "Chessboard Hardware - Sensor quarter")
 		(rev "0")
 		(comment 1 "This is only one quarter of the entire sensing array.")
 		(comment 2 "An Arduino Nano is expected to handle all four sensing quarters.")

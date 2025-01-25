@@ -8,7 +8,7 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "Chessboard hardware - Chessboard sensor quarter")
+		(title "Chessboard hardware - Sensor quarter")
 		(rev "0")
 		(comment 1 "This is only one quarter of the entire sensing array.")
 		(comment 2 "An Arduino Nano is expected to handle all four sensing quarters.")
