@@ -502,7 +502,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "JLCPCB_1-2Layer.kicad_pro",
+    "filename": "Chessboard Hardware.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -640,7 +640,7 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 0,
+      "model_mode": 4,
       "workbook_filename": ""
     },
     "page_layout_descr_file": "default.kicad_wks",
@@ -659,6 +659,22 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       "Root"
+    ],
+    [
+      "8e1972c9-4296-4da2-bbbd-193ae1c5a31b",
+      "Top left sensor quarter"
+    ],
+    [
+      "e339ace2-ffad-48ab-bd37-1ec83ab6e60f",
+      "Top right sensor quarter"
+    ],
+    [
+      "63feb482-9ea5-4f33-b235-9f8ea3119f34",
+      "Bottom left sensor quarter"
+    ],
+    [
+      "ed647678-a7f1-4c2e-bf35-cfa04cc2df0f",
+      "Bottom right sensor quarter"
     ]
   ],
   "text_variables": {}

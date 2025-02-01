@@ -1,0 +1,7239 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b53ab09d-7a8d-4b7a-836b-8220e20c838c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SamacSys_PCB_Library_KiCad:CD74HC4067M96"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 25.4 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CD74HC4067M96"
+				(at 25.4 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOIC127P1030X265-24N"
+				(at 41.91 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/cd74hc4067"
+				(at 41.91 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "High Speed CMOS 16-Channel Analog Multiplexer/Demultiplexer"
+				(at 0 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.65"
+				(at 41.91 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 41.91 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CD74HC4067M96"
+				(at 41.91 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-CD74HC4067M96"
+				(at 41.91 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD74HC4067M96?qs=xFfolx0DHx0XT7d9xTTZBA%3D%3D"
+				(at 41.91 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "CD74HC4067M96"
+				(at 41.91 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cd74hc4067m96/texas-instruments?utm_currency=USD&region=nac"
+				(at 41.91 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "CD74HC4067M96_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 24.13 -30.48)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "S0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -25.4 0)
+					(length 5.08)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -27.94 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 29.21 -27.94 180)
+					(length 5.08)
+					(name "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 29.21 -25.4 180)
+					(length 5.08)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 29.21 -22.86 180)
+					(length 5.08)
+					(name "~{E}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 29.21 -20.32 180)
+					(length 5.08)
+					(name "I15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 29.21 -17.78 180)
+					(length 5.08)
+					(name "I14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 29.21 -15.24 180)
+					(length 5.08)
+					(name "I13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 29.21 -12.7 180)
+					(length 5.08)
+					(name "I12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "I7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 29.21 -10.16 180)
+					(length 5.08)
+					(name "I11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 29.21 -7.62 180)
+					(length 5.08)
+					(name "I10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 29.21 -5.08 180)
+					(length 5.08)
+					(name "I9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 29.21 -2.54 180)
+					(length 5.08)
+					(name "I8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 29.21 0 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "I6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "I5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "I4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "I3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "I2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "I1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "I0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SamacSys_PCB_Library_KiCad:SS49E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SS49E"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "TO130P160X410X300-3P"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.6"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Honeywell"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SS49E"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "785-SS49E"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "SS49E"
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SS49E_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 5.08)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "O"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 162.56 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfa9bef2-6a5d-4298-923e-fbe8fa1eda9d")
+	)
+	(wire
+		(pts
+			(xy 64.77 93.98) (xy 133.35 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0576a57b-a7f3-48ed-b7cc-d36a000f9890")
+	)
+	(wire
+		(pts
+			(xy 240.03 93.98) (xy 240.03 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "064a3813-e305-494b-a97b-0e88f9c64c08")
+	)
+	(wire
+		(pts
+			(xy 162.56 88.9) (xy 201.93 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "085886a8-889d-4778-b865-62d517f21f45")
+	)
+	(wire
+		(pts
+			(xy 121.92 116.84) (xy 124.46 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cbf7aec-edc0-437a-a98c-da3746790f31")
+	)
+	(wire
+		(pts
+			(xy 177.8 76.2) (xy 175.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e252d27-e7a8-4a2b-ba30-b2c0042cdac6")
+	)
+	(wire
+		(pts
+			(xy 133.35 96.52) (xy 59.69 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10d4d336-c68b-4659-8305-02a2512caaab")
+	)
+	(wire
+		(pts
+			(xy 133.35 104.14) (xy 116.84 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10dd0a0b-bc54-41a9-b0e2-466a2f5be959")
+	)
+	(wire
+		(pts
+			(xy 162.56 104.14) (xy 175.26 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "150b02ed-96b1-4665-bd93-8c08ec060114")
+	)
+	(wire
+		(pts
+			(xy 83.82 76.2) (xy 83.82 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "158fce87-b108-4964-9fb4-daa3cdb246d2")
+	)
+	(wire
+		(pts
+			(xy 64.77 76.2) (xy 64.77 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18446caa-bfe7-4bdd-9261-0f3045941c8d")
+	)
+	(wire
+		(pts
+			(xy 162.56 101.6) (xy 194.31 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d4df820-025c-4a7a-8b75-39e30b559914")
+	)
+	(wire
+		(pts
+			(xy 162.56 80.01) (xy 163.83 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22c52975-867a-433a-9d9f-ae5e4c002551")
+	)
+	(wire
+		(pts
+			(xy 162.56 96.52) (xy 232.41 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27360620-cedb-406b-a213-800e35d225f5")
+	)
+	(wire
+		(pts
+			(xy 162.56 93.98) (xy 240.03 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b32e88-9b32-425f-b196-9ff1685923e2")
+	)
+	(wire
+		(pts
+			(xy 196.85 76.2) (xy 194.31 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d2b1cc0-0cc1-4fde-8435-43f810b6e7ce")
+	)
+	(wire
+		(pts
+			(xy 116.84 76.2) (xy 114.3 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42cb1d74-a1d0-4837-93f8-8e882ef123cd")
+	)
+	(wire
+		(pts
+			(xy 102.87 116.84) (xy 105.41 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "454748ea-1a9c-4499-b2be-b9e04147dcd4")
+	)
+	(wire
+		(pts
+			(xy 162.56 99.06) (xy 213.36 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dbf8c31-9a05-4614-9c0f-1b441ba22a18")
+	)
+	(wire
+		(pts
+			(xy 102.87 76.2) (xy 102.87 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "511f0af9-9794-4f43-97b3-5d0c3ee57d24")
+	)
+	(wire
+		(pts
+			(xy 121.92 86.36) (xy 133.35 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "677c6d64-42ed-499e-804e-494a85f39b76")
+	)
+	(wire
+		(pts
+			(xy 59.69 96.52) (xy 59.69 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c3acda7-0fcf-4fd9-9e87-e2fed0cb2352")
+	)
+	(wire
+		(pts
+			(xy 162.56 80.01) (xy 162.56 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d736d4d-2310-4e85-b666-d729619dc933")
+	)
+	(wire
+		(pts
+			(xy 121.92 76.2) (xy 121.92 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6def7351-45b7-4efc-be86-a4e7875ecddf")
+	)
+	(wire
+		(pts
+			(xy 182.88 86.36) (xy 162.56 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fb2c705-e63c-49e0-9606-2e22593a5b38")
+	)
+	(wire
+		(pts
+			(xy 215.9 76.2) (xy 213.36 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79a462c6-1f67-4dd7-a1e1-ef221196c024")
+	)
+	(wire
+		(pts
+			(xy 234.95 76.2) (xy 232.41 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79fa8715-a5f5-489b-b7c9-2be191347e65")
+	)
+	(wire
+		(pts
+			(xy 133.35 99.06) (xy 78.74 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ce542ae-0921-4952-8dbb-b6042c5fe682")
+	)
+	(wire
+		(pts
+			(xy 162.56 78.74) (xy 162.56 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8240a2d5-5802-4554-a318-21cad5533d04")
+	)
+	(wire
+		(pts
+			(xy 162.56 91.44) (xy 220.98 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "862412d2-a7fa-4586-8ba2-066de1c89b3c")
+	)
+	(wire
+		(pts
+			(xy 133.35 101.6) (xy 97.79 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "883d4f08-3933-49d2-944c-0a4b7a3865d4")
+	)
+	(wire
+		(pts
+			(xy 201.93 88.9) (xy 201.93 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c931cc7-31cc-4143-9030-8e88fd843a01")
+	)
+	(wire
+		(pts
+			(xy 59.69 76.2) (xy 57.15 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaf8e5f3-938b-4540-a46d-39d26155ac05")
+	)
+	(wire
+		(pts
+			(xy 116.84 104.14) (xy 116.84 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7742b53-8901-4118-be77-9f009353f1d2")
+	)
+	(wire
+		(pts
+			(xy 199.39 116.84) (xy 201.93 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "badaa7e4-c93c-4da5-ac37-c4e400a5259e")
+	)
+	(wire
+		(pts
+			(xy 194.31 101.6) (xy 194.31 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb0c6d63-0ed7-4201-ba31-77e7b5291f33")
+	)
+	(wire
+		(pts
+			(xy 78.74 99.06) (xy 78.74 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2ded0c3-bc6e-4a26-93eb-ebb63a8a5d6d")
+	)
+	(wire
+		(pts
+			(xy 218.44 116.84) (xy 220.98 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4da96a6-a7f0-44ab-b3a1-128c41cd839d")
+	)
+	(wire
+		(pts
+			(xy 97.79 76.2) (xy 95.25 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6a83c93-3b7d-4149-bfeb-d80e3aa9dc9b")
+	)
+	(wire
+		(pts
+			(xy 64.77 116.84) (xy 67.31 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9fc1ecb-5866-4e3b-8d5b-489ce12cbbd9")
+	)
+	(wire
+		(pts
+			(xy 232.41 116.84) (xy 232.41 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d37171e0-3edd-4a39-ac93-54d4ea19b07c")
+	)
+	(wire
+		(pts
+			(xy 220.98 91.44) (xy 220.98 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d60516f6-1957-484f-9133-bbcd2751c076")
+	)
+	(wire
+		(pts
+			(xy 182.88 76.2) (xy 182.88 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da85eca8-fdf8-4b6d-82a8-6244c1e8a1f4")
+	)
+	(wire
+		(pts
+			(xy 97.79 101.6) (xy 97.79 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddda4705-a6a9-4ae5-a0f7-c4051de3e5f8")
+	)
+	(wire
+		(pts
+			(xy 237.49 116.84) (xy 240.03 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6632d7e-9b46-47df-b155-a6c51e60017a")
+	)
+	(wire
+		(pts
+			(xy 213.36 99.06) (xy 213.36 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4dc8670-338e-49f8-a645-decd087c24a5")
+	)
+	(wire
+		(pts
+			(xy 78.74 76.2) (xy 76.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5bf12ba-94c0-4281-8b94-69ba1e2dcdfc")
+	)
+	(wire
+		(pts
+			(xy 102.87 88.9) (xy 133.35 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8963ee4-1803-4210-aee2-995146d3409f")
+	)
+	(wire
+		(pts
+			(xy 180.34 116.84) (xy 182.88 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f98cd145-387c-47b5-8cf8-18d405b6bc23")
+	)
+	(wire
+		(pts
+			(xy 83.82 116.84) (xy 86.36 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fba7b9af-7434-4008-a09e-666fc36df991")
+	)
+	(wire
+		(pts
+			(xy 83.82 91.44) (xy 133.35 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd7addba-b6e4-407d-9717-a236e21289fa")
+	)
+	(wire
+		(pts
+			(xy 175.26 104.14) (xy 175.26 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fefb4803-4765-4f24-ba95-3f7f013e9c93")
+	)
+	(hierarchical_label "S1"
+		(shape input)
+		(at 133.35 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "04b2429f-4271-49b0-885b-3246468fab06")
+	)
+	(hierarchical_label "EN"
+		(shape input)
+		(at 162.56 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "054e6ac9-11a0-4899-9ef5-9d62b9c7018c")
+	)
+	(hierarchical_label "S0"
+		(shape input)
+		(at 133.35 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0955cf9d-945c-4f31-b2e7-8832fb7b133b")
+	)
+	(hierarchical_label "S3"
+		(shape input)
+		(at 162.56 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2aedba76-267d-43b9-8b25-e67f4d627293")
+	)
+	(hierarchical_label "COM"
+		(shape output)
+		(at 133.35 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b1ea99f-b078-41d9-8d6e-ab5aba5b9d27")
+	)
+	(hierarchical_label "S2"
+		(shape input)
+		(at 162.56 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8eba4396-ca86-4695-b9fb-228341a0553d")
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 201.93 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04fd4932-099f-4058-b17e-679fb40f0acb")
+		(property "Reference" "#PWR098"
+			(at 201.93 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 201.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 201.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63e7ed70-4fb8-4669-a7d2-d50f54b99170")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR098")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR030")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR064")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_PCB_Library_KiCad:SS49E")
+		(at 196.85 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "051e971c-fb8d-40a2-a709-711bf16d2682")
+		(property "Reference" "IC40"
+			(at 205.74 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 205.74 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+			(at 291.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at 391.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 196.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.6"
+			(at 591.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at 691.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at 791.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at 891.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at 991.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at 1091.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at 1191.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6f4c061-b565-4d7e-90aa-befa7e37b17e")
+		)
+		(pin "2"
+			(uuid "5242871c-cf34-4ade-98af-857fea9e0ac5")
+		)
+		(pin "3"
+			(uuid "d8a9b47d-7961-4fc6-874e-ae38dfc0089a")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "IC40")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "IC10")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "IC23")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "IC57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 234.95 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06de82bb-ff11-458c-837d-ecfe76bef817")
+		(property "Reference" "#PWR0101"
+			(at 234.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8e44342-a7c2-4090-8610-49f751f272bd")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR033")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR067")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0809c415-83f5-43da-bf97-4425ea620b96")
+		(property "Reference" "#PWR099"
+			(at 215.9 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d09f13d7-24ae-4d97-87b9-121f4eb6f4f5")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR099")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR031")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR065")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_PCB_Library_KiCad:SS49E")
+		(at 83.82 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e45b634-5d07-4013-ae5b-a36798685246")
+		(property "Reference" "IC45"
+			(at 87.63 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 87.63 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+			(at -11.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at -111.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 83.82 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.6"
+			(at -311.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at -411.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at -511.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at -611.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at -711.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at -811.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at -911.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74b8b05f-17d4-47b9-9396-07f9612b8c6d")
+		)
+		(pin "2"
+			(uuid "e289a848-4f9d-4ad6-b91b-4cb7a3276d01")
+		)
+		(pin "3"
+			(uuid "0bbae9ea-d466-43d7-9aca-02e2873db78e")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "IC45")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "IC3")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "IC28")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "IC62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 76.2 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f8342f1-882e-47f9-bfe4-2dff911b1d79")
+		(property "Reference" "#PWR071"
+			(at 76.2 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f0e0698-0d00-49b0-b183-c9496cf12aa8")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR071")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR03")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR037")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_PCB_Library_KiCad:SS49E")
+		(at 199.39 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12d0e252-15d1-497d-b085-ada9cdbdc346")
+		(property "Reference" "IC49"
+			(at 203.2 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 203.2 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+			(at 104.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at 4.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 199.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.6"
+			(at -195.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at -295.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at -395.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at -495.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at -595.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at -695.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at -795.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d608014f-aaa6-4cc8-93d2-fc537d7a6680")
+		)
+		(pin "2"
+			(uuid "2c64aa0b-d49c-4e39-bff1-3ce0027b57b4")
+		)
+		(pin "3"
+			(uuid "6dec4a9b-32c1-4246-837b-5158ae66797d")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "IC49")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "IC15")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "IC32")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "IC66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13695ae2-73ca-4417-928d-58087173f752")
+		(property "Reference" "#PWR095"
+			(at 177.8 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f346a1f4-6080-4835-b2f5-d778c58b00d6")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR095")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR061")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_PCB_Library_KiCad:SS49E")
+		(at 97.79 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14af6728-272d-46ec-976b-55929d541393")
+		(property "Reference" "IC37"
+			(at 106.68 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 106.68 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+			(at 192.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at 292.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 97.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.6"
+			(at 492.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at 592.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at 692.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at 792.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at 892.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at 992.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at 1092.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cea700c9-2390-4bb8-a1e6-be39be4bdbfc")
+		)
+		(pin "2"
+			(uuid "da3fcf32-7261-40fe-b1eb-553f4f3e7a4b")
+		)
+		(pin "3"
+			(uuid "27118e7c-e5f4-4572-ba3d-f96a1384b4df")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "IC37")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "IC7")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "IC20")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "IC54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16dbc109-6a72-4ca2-96da-823460477787")
+		(property "Reference" "C3"
+			(at 167.64 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 167.64 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 171.45 79.0448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91c0980c-d295-4255-91ac-195ca8847461")
+		)
+		(pin "2"
+			(uuid "8df96e1a-eb28-422b-90f2-a38ce160505a")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "C3")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "C1")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "C2")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b576eca-eb9e-4beb-84d6-1547c44c9d3c")
+		(property "Reference" "#PWR076"
+			(at 119.38 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48fb7d7f-3525-4a21-a0d0-023fae79b872")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR076")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR08")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR042")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21f13419-0317-4589-a62c-703357d8b530")
+		(property "Reference" "#PWR0104"
+			(at 62.23 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "176b3e55-9f44-4639-ad05-fa585b6dd7c5")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR070")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR072")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 220.98 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "281a8b75-6669-4df0-a51f-6110b21321b5")
+		(property "Reference" "#PWR0100"
+			(at 220.98 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 220.98 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 220.98 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abb1dc80-7750-448c-b7ff-f7acca7ba2af")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR032")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR066")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 182.88 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ca4032f-3ac5-4813-b7c8-b0b6a16a66c7")
+		(property "Reference" "#PWR096"
+			(at 182.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 182.88 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 182.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55418393-bc8b-41a8-a90f-b5757b5ec773")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR096")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR028")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR062")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_PCB_Library_KiCad:SS49E")
+		(at 237.49 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31fbee1f-24c4-4ba8-8e9f-4d8221cfa3db")
+		(property "Reference" "IC51"
+			(at 241.3 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 241.3 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+			(at 142.57 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at 42.57 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 237.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.6"
+			(at -157.43 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at -257.43 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at -357.43 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at -457.43 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at -557.43 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at -657.43 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at -757.43 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41dd71dc-c0ec-402e-a543-2da07b5af582")
+		)
+		(pin "2"
+			(uuid "cb8fc405-cbb6-460e-9646-3ffdae879fbe")
+		)
+		(pin "3"
+			(uuid "3b809248-d57e-4535-8a8d-97d24eff8cdb")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "IC51")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "IC13")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "IC34")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "IC68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 95.25 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32689bc4-aeca-4a13-8385-3526f3520145")
+		(property "Reference" "#PWR073"
+			(at 95.25 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 95.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 95.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05a1831a-8c22-47a2-a461-e5e616027add")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR073")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR039")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_PCB_Library_KiCad:SS49E")
+		(at 177.8 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "389e87ec-fb9e-41db-a951-548a5ba7a9d2")
+		(property "Reference" "IC39"
+			(at 186.69 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 186.69 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+			(at 272.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at 372.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 177.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.6"
+			(at 572.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at 672.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at 772.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at 872.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at 972.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at 1072.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at 1172.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec7ce249-fd13-488b-9c12-7d0e95e62267")
+		)
+		(pin "2"
+			(uuid "7d9d2238-11ad-4885-8403-a303dbfa47e6")
+		)
+		(pin "3"
+			(uuid "69d3ecde-e289-4b4c-ae4a-271635e5edd1")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "IC39")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "IC9")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "IC22")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "IC56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 81.28 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4406e8da-7bec-485a-902c-0daa643132f7")
+		(property "Reference" "#PWR036"
+			(at 81.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1085197-43e0-49e2-96bc-3e5930772e9a")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR036")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR02")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR04")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 237.49 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47271843-93ca-4219-8bf4-b189af98eeda")
+		(property "Reference" "#PWR084"
+			(at 237.49 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e86340b-cec1-4b2d-b9a0-49e95e2a9aeb")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR084")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR016")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR050")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a50845a-8001-4b18-9d2d-4ddccc8b8f88")
+		(property "Reference" "#PWR087"
+			(at 62.23 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24c5ccd2-996f-43b4-b90c-6d8d5431ab08")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR087")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR019")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR053")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c23f0fc-75c2-4fca-9f77-36cfbc9b6c80")
+		(property "Reference" "#PWR086"
+			(at 133.35 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bfddf2e-44ae-4d27-b4e0-a8a8e45b22c4")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR086")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR018")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR052")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 232.41 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5741c1f8-72c5-4322-983a-6080d008f073")
+		(property "Reference" "#PWR083"
+			(at 232.41 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 232.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 232.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c66465ed-e94e-40ba-881c-f4ab5f5ae20a")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR083")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR015")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR049")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_PCB_Library_KiCad:SS49E")
+		(at 102.87 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5906494e-f3f0-4fb8-9491-dfe33900d51b")
+		(property "Reference" "IC46"
+			(at 106.68 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 106.68 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+			(at 7.95 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at -92.05 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 102.87 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.6"
+			(at -292.05 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at -392.05 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at -492.05 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at -592.05 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at -692.05 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at -792.05 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at -892.05 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "642dcc6b-2d9e-4059-95f6-66382e8a5184")
+		)
+		(pin "2"
+			(uuid "c28abb76-cb7f-427c-a5d0-7e1d01a37372")
+		)
+		(pin "3"
+			(uuid "7eb152d7-b2d6-41be-b570-a713401adae7")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "IC46")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "IC2")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "IC29")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "IC63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 105.41 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a466f47-ee67-4dad-89c3-080c5f0c4337")
+		(property "Reference" "#PWR092"
+			(at 105.41 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 105.41 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 105.41 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e910bdc-e79e-495a-9aaf-031580fd62dc")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR092")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR024")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR058")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 81.28 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b6baaf7-67a3-4bca-96e3-fc4f44143090")
+		(property "Reference" "#PWR089"
+			(at 81.28 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de244e27-22cb-4c6e-a3c1-b52c46f731f3")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR089")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR021")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR055")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_PCB_Library_KiCad:SS49E")
+		(at 218.44 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "706104c4-ddfd-480e-b9ee-cee068c1a564")
+		(property "Reference" "IC50"
+			(at 222.25 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 222.25 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+			(at 123.52 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at 23.52 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 218.44 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.6"
+			(at -176.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at -276.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at -376.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at -476.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at -576.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at -676.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at -776.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32ca100c-ad58-47f5-b2f5-217b3213a93c")
+		)
+		(pin "2"
+			(uuid "de9cc980-a53d-4fb9-89c2-5eec778eb84a")
+		)
+		(pin "3"
+			(uuid "2deceda6-225f-40c9-b2d2-1b638afa6a4d")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "IC50")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "IC14")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "IC33")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "IC67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_PCB_Library_KiCad:SS49E")
+		(at 215.9 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c1c2de1-aef4-4df0-a24a-2aaec7381cf1")
+		(property "Reference" "IC41"
+			(at 224.79 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 224.79 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+			(at 310.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at 410.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 215.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.6"
+			(at 610.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at 710.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at 810.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at 910.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at 1010.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at 1110.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at 1210.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09db42d0-bd38-4a47-9b0f-1936661a19ca")
+		)
+		(pin "2"
+			(uuid "34cea849-111f-4ece-b5aa-a751c22ca743")
+		)
+		(pin "3"
+			(uuid "4daf157b-aaa0-44b4-b289-1804e444bb0d")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "IC41")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "IC11")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "IC24")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "IC58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85ddd5e3-2aa9-451d-9e36-f3fa0922596c")
+		(property "Reference" "#PWR097"
+			(at 196.85 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "456ce834-bf5a-4e1d-b375-6c9ca9c6408e")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR097")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR029")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR063")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 86.36 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87c2aae7-082e-4c4d-9f7d-7b3b8c81ddd0")
+		(property "Reference" "#PWR090"
+			(at 86.36 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 86.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 86.36 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d960070-6c5c-48cf-8ad0-5490c10dd9c1")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR090")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR022")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR056")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_PCB_Library_KiCad:SS49E")
+		(at 180.34 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a5c1320-61f2-48d7-9fe7-f7ba9e3070d1")
+		(property "Reference" "IC48"
+			(at 184.15 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 184.15 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+			(at 85.42 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at -14.58 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 180.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.6"
+			(at -214.58 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at -314.58 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at -414.58 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at -514.58 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at -614.58 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at -714.58 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at -814.58 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff01dfee-c4f0-4c28-a2a8-e877dfe74348")
+		)
+		(pin "2"
+			(uuid "d3dfb7f0-9084-4ec2-898c-940d43e20441")
+		)
+		(pin "3"
+			(uuid "c03cc254-6814-45b8-b219-d70eb6273a9f")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "IC48")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "IC16")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "IC31")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "IC65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 57.15 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d245d69-739a-4494-9a00-db5972869726")
+		(property "Reference" "#PWR069"
+			(at 57.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 57.15 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 57.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "badf6833-9df3-4de1-bc87-e96d8ebc8f5a")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR069")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR01")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR035")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 67.31 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96077002-61ce-46a4-ad2f-b5d58ef2cdeb")
+		(property "Reference" "#PWR088"
+			(at 67.31 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 67.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 67.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73396ea3-39a2-4284-8ca9-daf51244576f")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR088")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR020")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR054")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 162.56 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a135595a-98b6-46b1-a17b-0bebd2029741")
+		(property "Reference" "#PWR085"
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 162.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 162.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32989c8e-76e9-4657-a773-26a4ec7939f8")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR085")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR017")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR051")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 171.45 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a223ffe0-6d96-4cf4-8a8f-bb880bf12473")
+		(property "Reference" "#PWR0141"
+			(at 171.45 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2055604-a82d-4714-8c3e-be67b584c337")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR0139")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 175.26 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b24ebbb2-a078-42be-9c62-0a0461588b15")
+		(property "Reference" "#PWR077"
+			(at 175.26 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 175.26 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 175.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "138ef7e4-3122-4122-bf47-bbefd19ee599")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR077")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 114.3 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b44c9b81-885d-40e2-a302-541e4737a994")
+		(property "Reference" "#PWR075"
+			(at 114.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 114.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 114.3 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce2cd2a0-77bd-44d1-9050-f3f7e0e9d7f1")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR075")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR041")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8d7c32c-836e-4f7b-9f9f-f932a6fd1797")
+		(property "Reference" "#PWR093"
+			(at 119.38 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "342514c2-b31c-40b7-a795-45171204998a")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR093")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR025")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR059")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_PCB_Library_KiCad:CD74HC4067M96")
+		(at 133.35 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be2a3efe-a92c-489c-b7cd-c1df21df8f32")
+		(property "Reference" "IC43"
+			(at 147.955 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CD74HC4067M96"
+			(at 147.955 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:SOIC127P1030X265-24N"
+			(at 175.26 178.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/cd74hc4067"
+			(at 175.26 278.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Speed CMOS 16-Channel Analog Multiplexer/Demultiplexer"
+			(at 133.35 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.65"
+			(at 175.26 478.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 175.26 578.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CD74HC4067M96"
+			(at 175.26 678.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-CD74HC4067M96"
+			(at 175.26 778.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD74HC4067M96?qs=xFfolx0DHx0XT7d9xTTZBA%3D%3D"
+			(at 175.26 878.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "CD74HC4067M96"
+			(at 175.26 978.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cd74hc4067m96/texas-instruments?utm_currency=USD&region=nac"
+			(at 175.26 1078.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "a185c033-cf39-4eab-97e1-ecec396f73fd")
+		)
+		(pin "8"
+			(uuid "96601640-f774-43c2-af84-490f5c1f4745")
+		)
+		(pin "23"
+			(uuid "56f148c7-fafc-4946-ab1c-1638ff8597b8")
+		)
+		(pin "6"
+			(uuid "d2414a84-aea7-4b38-96fd-6e69cf0b1227")
+		)
+		(pin "12"
+			(uuid "9da7ac9e-426e-4db9-9086-aacdfbfcc65b")
+		)
+		(pin "5"
+			(uuid "f6ca98c6-9a79-45ca-8bec-96250348a318")
+		)
+		(pin "4"
+			(uuid "cd2b6392-1764-4b9c-bda3-35605758f22b")
+		)
+		(pin "1"
+			(uuid "6fe7a321-fd29-4b52-8d64-c286d8ce4a29")
+		)
+		(pin "14"
+			(uuid "57f5bc86-2cf7-4513-b678-afef6d5445c1")
+		)
+		(pin "22"
+			(uuid "beccb04b-5e80-4909-8a03-052572bcceda")
+		)
+		(pin "24"
+			(uuid "197b6f99-f006-4cda-aab1-b7191047e6ee")
+		)
+		(pin "11"
+			(uuid "6595d8c1-f6c1-452e-8c0f-5c10e19e043a")
+		)
+		(pin "9"
+			(uuid "2694c983-d84f-42f7-8eee-e04c378a7ed0")
+		)
+		(pin "2"
+			(uuid "daf6de1e-d6b7-42ce-9184-8980b42ef072")
+		)
+		(pin "7"
+			(uuid "712f433d-d335-4e92-a47a-f8ffafe81879")
+		)
+		(pin "15"
+			(uuid "4f51b68b-76b1-4451-939e-94222f91fc30")
+		)
+		(pin "21"
+			(uuid "718f11d8-989a-42d0-a8f4-e7f58ebe506a")
+		)
+		(pin "20"
+			(uuid "bd48a750-c936-486d-9916-c04380972909")
+		)
+		(pin "3"
+			(uuid "64ae60a0-87fb-4213-b6a2-5e089de35bad")
+		)
+		(pin "10"
+			(uuid "461322ef-5b8b-43cf-a5a8-7d7baf029e87")
+		)
+		(pin "16"
+			(uuid "6bf0fab7-05b8-4a0e-9489-5605e064985f")
+		)
+		(pin "17"
+			(uuid "f069b0b1-904f-4b82-8a78-14b9a723059d")
+		)
+		(pin "19"
+			(uuid "f469fd8b-80e2-4624-80fe-c7b91aec62a6")
+		)
+		(pin "18"
+			(uuid "c58c73bf-9086-4f4a-a72f-7099704eddb0")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "IC43")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "IC17")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "IC26")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "IC60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c66b9880-254c-4e77-bb40-5fe095c39ba2")
+		(property "Reference" "#PWR091"
+			(at 100.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be32ab2b-8bcb-40ed-949f-8066e8d0c2c1")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR091")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR023")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR057")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 213.36 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8e66228-d289-4cec-ad35-9a7b1991c89c")
+		(property "Reference" "#PWR081"
+			(at 213.36 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 213.36 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 213.36 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30e92c75-da4b-4e7d-ade3-c4e2f9432b3f")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR081")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR047")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_PCB_Library_KiCad:SS49E")
+		(at 121.92 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca054bae-298b-4917-afab-b25ce5c1c0f3")
+		(property "Reference" "IC47"
+			(at 125.73 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 125.73 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+			(at 27 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at -73 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 121.92 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.6"
+			(at -273 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at -373 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at -473 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at -573 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at -673 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at -773 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at -873 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5279bf3-341b-4846-9ef4-a937156e4ae5")
+		)
+		(pin "2"
+			(uuid "33605f48-e23e-46eb-85d8-9b14443fc96d")
+		)
+		(pin "3"
+			(uuid "c6cf1d09-116b-44d1-8f04-b32fba42f364")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "IC47")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "IC1")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "IC30")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "IC64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_PCB_Library_KiCad:SS49E")
+		(at 78.74 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdea87ba-952b-4b18-b7ac-913c0e535c27")
+		(property "Reference" "IC36"
+			(at 87.63 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 87.63 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+			(at 173.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at 273.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.6"
+			(at 473.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at 573.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at 673.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at 773.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at 873.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at 973.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at 1073.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c599bee-46dd-43be-81ac-6d4af5da8d48")
+		)
+		(pin "2"
+			(uuid "7e06da0d-5d28-4a27-9879-4cffea1bca14")
+		)
+		(pin "3"
+			(uuid "d55bf726-2ce3-41b5-8d1d-67cfe06a37ad")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "IC36")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "IC6")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "IC19")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "IC53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 218.44 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d251b173-f996-4b2a-9e16-dc7996df7adc")
+		(property "Reference" "#PWR082"
+			(at 218.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39a9a5ef-d5b7-4f8f-9e32-ce974560466b")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR082")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR048")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d72f1a9f-0be1-4136-b1f0-bcf9dc32de91")
+		(property "Reference" "#PWR080"
+			(at 199.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88d8edce-fc43-4690-902a-27723ab93bbc")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR080")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR012")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_PCB_Library_KiCad:SS49E")
+		(at 116.84 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db1aae67-e0be-4986-9bbb-907886dfb767")
+		(property "Reference" "IC38"
+			(at 125.73 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 125.73 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+			(at 211.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at 311.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 116.84 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.6"
+			(at 511.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at 611.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at 711.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at 811.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at 911.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at 1011.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at 1111.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c39e11f5-19c9-4485-bc19-ef2b8f013010")
+		)
+		(pin "2"
+			(uuid "6a0d1165-1665-41bf-b6c1-e305dd06fd01")
+		)
+		(pin "3"
+			(uuid "855d1a6e-3fc0-413a-9596-492a754de25b")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "IC38")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "IC8")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "IC21")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "IC55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_PCB_Library_KiCad:SS49E")
+		(at 234.95 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc2ee681-1ec1-4f17-aa54-2c50f2189023")
+		(property "Reference" "IC42"
+			(at 243.84 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 243.84 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+			(at 329.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at 429.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 234.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.6"
+			(at 629.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at 729.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at 829.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at 929.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at 1029.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at 1129.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at 1229.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c6bd53f-6613-4073-89f7-549dff886a2c")
+		)
+		(pin "2"
+			(uuid "ba0d2fbb-7477-4ba4-9a6b-b7d6b99ec266")
+		)
+		(pin "3"
+			(uuid "ffdb73a0-0c89-47a1-b8d7-e8f5fca529bb")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "IC42")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "IC12")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "IC25")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "IC59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de4598a4-d1ef-44df-b660-f90f6155efd1")
+		(property "Reference" "#PWR074"
+			(at 100.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9eb0f47-5524-4d7c-80f8-cbf9244d1f36")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR074")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR040")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_PCB_Library_KiCad:SS49E")
+		(at 64.77 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7406534-4c9e-45a7-b270-de791d9d26d1")
+		(property "Reference" "IC44"
+			(at 68.58 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 68.58 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+			(at -30.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at -130.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 64.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.6"
+			(at -330.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at -430.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at -530.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at -630.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at -730.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at -830.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at -930.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf20fc5f-cd88-4fd7-955e-0b394787bbd9")
+		)
+		(pin "2"
+			(uuid "d7250623-03d0-4950-a118-d8269a3d33ac")
+		)
+		(pin "3"
+			(uuid "02a35ec3-d222-4d1f-990f-a8fd333fc717")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "IC44")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "IC4")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "IC27")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "IC61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 124.46 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebe9d8d9-5e16-4730-bc50-13390535accd")
+		(property "Reference" "#PWR094"
+			(at 124.46 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 124.46 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 124.46 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "caa234a7-3121-4195-ab34-99255df313ef")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR094")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR026")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR060")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_PCB_Library_KiCad:SS49E")
+		(at 59.69 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec5487aa-f2ac-4b60-a862-b4af5801ad26")
+		(property "Reference" "IC35"
+			(at 68.58 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SS49E"
+			(at 68.58 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+			(at 154.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at 254.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
+			(at 59.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.6"
+			(at 454.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Honeywell"
+			(at 554.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at 654.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "785-SS49E"
+			(at 754.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at 854.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SS49E"
+			(at 954.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ss49e/honeywell?region=europe"
+			(at 1054.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae4450f4-fab5-4d84-94e1-d7ae1b3d568f")
+		)
+		(pin "2"
+			(uuid "31860569-cd2a-4669-873a-14242f227ce7")
+		)
+		(pin "3"
+			(uuid "188124d6-12e6-45d8-bb1a-c9a90a3e1b9a")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "IC35")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "IC5")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "IC18")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "IC52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 194.31 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee6cb5a1-fb30-46ee-af26-68d7f4a3f199")
+		(property "Reference" "#PWR079"
+			(at 194.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 194.31 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 194.31 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6e1789e-bdab-4ccc-987d-8a45cbf6086b")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR079")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR011")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 240.03 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f320bcb1-8fa2-4e48-ad0a-07b7a84adbc4")
+		(property "Reference" "#PWR0102"
+			(at 240.03 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 240.03 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 240.03 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d1b2545-0965-492b-8322-3dbeab1200e1")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR034")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR068")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5575f20-540a-4765-ae27-528ffa368297")
+		(property "Reference" "#PWR078"
+			(at 180.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "469b1cda-bfd9-49ee-9337-bd94ebb0c1c9")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
+					(reference "#PWR078")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
+					(reference "#PWR044")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
