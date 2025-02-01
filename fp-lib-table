@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SamacSys_PCB_Library_KiCad")(type "KiCad")(uri "${KIPRJMOD}/Custom/SamacSys_PCB_Library_KiCad/SamacSys_Parts.pretty")(options "")(descr ""))
+)

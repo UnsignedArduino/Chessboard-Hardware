@@ -6,9 +6,9 @@
 	(descr "SS49E")
 	(tags "Integrated Circuit")
 	(property "Reference" "IC**"
-		(at 0 2.4 0)
+		(at 1.3 2.4 0)
 		(layer "F.SilkS")
-		(uuid "837069d1-ad0e-4ac2-a7f3-6cba636fdfcd")
+		(uuid "fab88dce-fbaa-4d5b-ba13-9e943e58bc00")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17,10 +17,10 @@
 		)
 	)
 	(property "Value" "TO130P160X410X300-3P"
-		(at 0 -8.7 0)
+		(at 1.3 -4.4 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "7b1d5135-fecd-494a-86e5-5c040e1914ae")
+		(uuid "dc35c37d-1a73-4234-8913-33fd3dbe25fa")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29,10 +29,10 @@
 		)
 	)
 	(property "Footprint" ""
-		(at -1.3 0 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5f352d2c-8ba7-4f1d-ab8f-cde4dd757fd7")
+		(uuid "7ce52c70-d4bc-4f41-bb45-60812b00d140")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,10 +41,10 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at -1.3 0 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d041b64b-d9aa-476a-93bb-64841e75cc17")
+		(uuid "b1cf49ab-589e-4805-b7b7-3fa2a9e6d328")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,10 +53,10 @@
 		)
 	)
 	(property "Description" ""
-		(at -1.3 0 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1cd0eea3-e732-4cfd-9cd6-f37de5580088")
+		(uuid "bc628f69-76c3-434b-93b8-4db421b21426")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -66,150 +66,129 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -2.05 -0.69)
-		(end -2.05 0.9)
+		(start -0.75 -0.69)
+		(end -0.75 0)
 		(stroke
 			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4b0151cd-3afd-4d0b-9aca-cc912da0a550")
+		(uuid "f864633c-571e-4ca3-9377-292dafa8e2ea")
 	)
 	(fp_line
-		(start 2.05 -0.69)
-		(end -2.05 -0.69)
+		(start 3.35 -0.69)
+		(end -0.75 -0.69)
 		(stroke
 			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d2287cb3-05b4-4e88-949c-acc211aab5eb")
+		(uuid "439dcf0c-6f64-41a3-9231-d0a734778df3")
 	)
 	(fp_line
-		(start 2.05 0.9)
-		(end -2.05 0.9)
+		(start 3.35 0.91)
+		(end 3.35 -0.69)
 		(stroke
 			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "8d90e3ad-ef01-4d6f-ab98-0e874923d030")
+		(uuid "e016662b-5df2-49cc-bd01-c89a21f9440a")
 	)
 	(fp_line
-		(start 2.05 0.9)
-		(end 2.05 -0.69)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "0243fd4f-8920-4ab3-b1c7-fcbe5b50ed42")
-	)
-	(fp_rect
-		(start -2.05 -5)
-		(end 2.05 -2)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "06b33177-62ba-4bc1-ad5e-b19045db8b2d")
-	)
-	(fp_line
-		(start -2.3 -0.94)
-		(end 2.3 -0.94)
+		(start -1 -0.94)
+		(end 3.6 -0.94)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "8d6c725e-4eaf-4452-88e3-2132d900ea83")
+		(uuid "eb869bb1-655f-4b48-a0d9-ba3a6377de9a")
 	)
 	(fp_line
-		(start -2.3 1.16)
-		(end -2.3 -0.94)
+		(start -1 1.16)
+		(end -1 -0.94)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "7e33923c-791a-4982-84f2-681a45f2b9b9")
+		(uuid "fd02e618-df1c-4a9e-9f26-2eeead9eedd6")
 	)
 	(fp_line
-		(start 2.3 -0.94)
-		(end 2.3 1.16)
+		(start 3.6 -0.94)
+		(end 3.6 1.16)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "0b2bbfe8-4fed-4bd8-85bd-bf5f5007313a")
+		(uuid "73cf03e7-05c1-4146-911a-86670c119bd0")
 	)
 	(fp_line
-		(start 2.3 1.16)
-		(end -2.3 1.16)
+		(start 3.6 1.16)
+		(end -1 1.16)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "65349150-2f32-4185-9e2c-dc1633d2ccbf")
+		(uuid "4e1e1715-8286-42c5-9d66-79000173473d")
 	)
 	(fp_line
-		(start -2.05 -0.69)
-		(end 2.05 -0.69)
+		(start -0.75 -0.69)
+		(end 3.35 -0.69)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "03e68fae-97db-432b-8bfc-a85e9f551cbc")
+		(uuid "85114c5f-5f8e-4d4b-aa15-9c773e093b89")
 	)
 	(fp_line
-		(start -2.05 -0.04)
-		(end -1.4 -0.69)
+		(start -0.75 -0.04)
+		(end -0.1 -0.69)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "22e0b582-b9f3-43be-99bf-3716d3d92a32")
+		(uuid "feb38e70-ef54-4158-9077-b3d59b0b5644")
 	)
 	(fp_line
-		(start -2.05 0.91)
-		(end -2.05 -0.69)
+		(start -0.75 0.91)
+		(end -0.75 -0.69)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "c7c3e692-c632-4c8e-b3dd-6c462f985327")
+		(uuid "b3a93fd6-205e-4202-bb87-6f15ae9b306a")
 	)
 	(fp_line
-		(start 2.05 -0.69)
-		(end 2.05 0.91)
+		(start 3.35 -0.69)
+		(end 3.35 0.91)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "482fb823-3ad5-49a3-9dc0-a39fe3e21195")
+		(uuid "846ffcfd-af41-46e7-a3b1-b0f31fc20eca")
 	)
 	(fp_line
-		(start 2.05 0.91)
-		(end -2.05 0.91)
+		(start 3.35 0.91)
+		(end -0.75 0.91)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "d5c625b2-5546-46cd-9425-fd98c5a8a49e")
+		(uuid "e5c708b1-df2c-4e73-9836-10f21c68ea57")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -6.6 0)
+		(at 1.4 -2.2 0)
 		(layer "F.Fab")
-		(uuid "edd2fa01-45c8-4632-a7c3-51a98657183a")
+		(uuid "7902f794-cf34-4c90-a52f-9d58f6335c44")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -218,32 +197,32 @@
 		)
 	)
 	(pad "1" thru_hole rect
-		(at -1.3 0)
-		(size 1.08 1.08)
-		(drill 0.68)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "877f6065-8f71-4437-b84d-a7c9778ed467")
-	)
-	(pad "2" thru_hole circle
 		(at 0 0)
 		(size 1.08 1.08)
 		(drill 0.68)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "90143a57-1ff6-46f9-9112-bb2094bc9d5c")
+		(uuid "56505208-e55d-4203-b76a-789e3e225878")
 	)
-	(pad "3" thru_hole circle
+	(pad "2" thru_hole circle
 		(at 1.3 0)
 		(size 1.08 1.08)
 		(drill 0.68)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "966c2bcb-e562-4aca-980c-654b378bae70")
+		(uuid "228c6645-d2f8-4c26-b105-901be0450e2c")
+	)
+	(pad "3" thru_hole circle
+		(at 2.6 0)
+		(size 1.08 1.08)
+		(drill 0.68)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1d1b7cc6-c693-4710-aca2-35e5ac2eebef")
 	)
 	(model "C:\\Users\\ckyiu\\SamacSys_PCB_Library_KiCad\\SamacSys_Parts.3dshapes\\SS49E.stp"
 		(offset
-			(xyz -0 0.1 6.14)
+			(xyz 1.3 0.1 6.14)
 		)
 		(scale
 			(xyz 1 1 1)

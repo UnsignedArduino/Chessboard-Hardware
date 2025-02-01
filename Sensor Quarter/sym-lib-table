@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Custom SamacSys Symbols")(type "KiCad")(uri "${KIPRJMOD}/Custom/SamacSys_Parts.kicad_sym")(options "")(descr "Copied over the necessary symbols from my SamacSys library."))
-)
