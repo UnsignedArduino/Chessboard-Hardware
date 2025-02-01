@@ -2459,6 +2459,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" ""
+			(at 101.6 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "27"
 			(uuid "aa409056-59e6-4549-ab57-be93bdab417a")
 		)

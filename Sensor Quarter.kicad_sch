@@ -1901,6 +1901,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "https://www.digikey.com/short/49qj7qmv"
+			(at 196.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a6f4c061-b565-4d7e-90aa-befa7e37b17e")
 		)
@@ -2214,6 +2223,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "https://www.digikey.com/short/49qj7qmv"
+			(at 83.82 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "74b8b05f-17d4-47b9-9396-07f9612b8c6d")
 		)
@@ -2446,6 +2464,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/short/49qj7qmv"
+			(at 199.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2684,6 +2711,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "https://www.digikey.com/short/49qj7qmv"
+			(at 97.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cea700c9-2390-4bb8-a1e6-be39be4bdbfc")
 		)
@@ -2759,6 +2795,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 167.64 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
 			(at 167.64 80.01 0)
 			(effects
 				(font
@@ -3233,6 +3278,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "https://www.digikey.com/short/49qj7qmv"
+			(at 237.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41dd71dc-c0ec-402e-a543-2da07b5af582")
 		)
@@ -3465,6 +3519,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/short/49qj7qmv"
+			(at 177.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4015,6 +4078,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "https://www.digikey.com/short/49qj7qmv"
+			(at 102.87 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "642dcc6b-2d9e-4059-95f6-66382e8a5184")
 		)
@@ -4328,6 +4400,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "https://www.digikey.com/short/49qj7qmv"
+			(at 218.44 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "32ca100c-ad58-47f5-b2f5-217b3213a93c")
 		)
@@ -4482,6 +4563,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/short/49qj7qmv"
+			(at 215.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4795,6 +4885,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/short/49qj7qmv"
+			(at 180.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5499,6 +5598,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "https://www.digikey.com/short/04m5555h"
+			(at 133.35 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "a185c033-cf39-4eab-97e1-ecec396f73fd")
 		)
@@ -5875,6 +5983,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "https://www.digikey.com/short/49qj7qmv"
+			(at 121.92 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5279bf3-341b-4846-9ef4-a937156e4ae5")
 		)
@@ -6029,6 +6146,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/short/49qj7qmv"
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6345,6 +6471,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "https://www.digikey.com/short/49qj7qmv"
+			(at 116.84 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c39e11f5-19c9-4485-bc19-ef2b8f013010")
 		)
@@ -6499,6 +6634,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/short/49qj7qmv"
+			(at 234.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6737,6 +6881,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "https://www.digikey.com/short/49qj7qmv"
+			(at 64.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf20fc5f-cd88-4fd7-955e-0b394787bbd9")
 		)
@@ -6969,6 +7122,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/short/49qj7qmv"
+			(at 59.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
