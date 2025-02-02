@@ -1784,7 +1784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "051e971c-fb8d-40a2-a709-711bf16d2682")
-		(property "Reference" "IC40"
+		(property "Reference" "IC42"
 			(at 205.74 64.7699 90)
 			(effects
 				(font
@@ -1922,7 +1922,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
-					(reference "IC40")
+					(reference "IC42")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
@@ -1930,11 +1930,11 @@
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
-					(reference "IC23")
+					(reference "IC26")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
-					(reference "IC57")
+					(reference "IC58")
 					(unit 1)
 				)
 			)
@@ -2106,7 +2106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e45b634-5d07-4013-ae5b-a36798685246")
-		(property "Reference" "IC45"
+		(property "Reference" "IC35"
 			(at 87.63 125.7299 90)
 			(effects
 				(font
@@ -2244,7 +2244,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
-					(reference "IC45")
+					(reference "IC35")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
@@ -2252,11 +2252,11 @@
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
-					(reference "IC28")
+					(reference "IC19")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
-					(reference "IC62")
+					(reference "IC51")
 					(unit 1)
 				)
 			)
@@ -2350,7 +2350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12d0e252-15d1-497d-b085-ada9cdbdc346")
-		(property "Reference" "IC49"
+		(property "Reference" "IC47"
 			(at 203.2 125.7299 90)
 			(effects
 				(font
@@ -2488,7 +2488,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
-					(reference "IC49")
+					(reference "IC47")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
@@ -2496,11 +2496,11 @@
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
-					(reference "IC32")
+					(reference "IC31")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
-					(reference "IC66")
+					(reference "IC63")
 					(unit 1)
 				)
 			)
@@ -2594,7 +2594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14af6728-272d-46ec-976b-55929d541393")
-		(property "Reference" "IC37"
+		(property "Reference" "IC39"
 			(at 106.68 64.7699 90)
 			(effects
 				(font
@@ -2732,7 +2732,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
-					(reference "IC37")
+					(reference "IC39")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
@@ -2740,11 +2740,11 @@
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
-					(reference "IC20")
+					(reference "IC23")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
-					(reference "IC54")
+					(reference "IC55")
 					(unit 1)
 				)
 			)
@@ -3161,7 +3161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31fbee1f-24c4-4ba8-8e9f-4d8221cfa3db")
-		(property "Reference" "IC51"
+		(property "Reference" "IC45"
 			(at 241.3 125.7299 90)
 			(effects
 				(font
@@ -3299,7 +3299,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
-					(reference "IC51")
+					(reference "IC45")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
@@ -3307,11 +3307,11 @@
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
-					(reference "IC34")
+					(reference "IC29")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
-					(reference "IC68")
+					(reference "IC61")
 					(unit 1)
 				)
 			)
@@ -3405,7 +3405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "389e87ec-fb9e-41db-a951-548a5ba7a9d2")
-		(property "Reference" "IC39"
+		(property "Reference" "IC41"
 			(at 186.69 64.7699 90)
 			(effects
 				(font
@@ -3543,7 +3543,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
-					(reference "IC39")
+					(reference "IC41")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
@@ -3551,11 +3551,11 @@
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
-					(reference "IC22")
+					(reference "IC25")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
-					(reference "IC56")
+					(reference "IC57")
 					(unit 1)
 				)
 			)
@@ -3961,7 +3961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5906494e-f3f0-4fb8-9491-dfe33900d51b")
-		(property "Reference" "IC46"
+		(property "Reference" "IC34"
 			(at 106.68 125.7299 90)
 			(effects
 				(font
@@ -4099,7 +4099,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
-					(reference "IC46")
+					(reference "IC34")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
@@ -4107,11 +4107,11 @@
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
-					(reference "IC29")
+					(reference "IC18")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
-					(reference "IC63")
+					(reference "IC50")
 					(unit 1)
 				)
 			)
@@ -4283,7 +4283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "706104c4-ddfd-480e-b9ee-cee068c1a564")
-		(property "Reference" "IC50"
+		(property "Reference" "IC46"
 			(at 222.25 125.7299 90)
 			(effects
 				(font
@@ -4421,7 +4421,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
-					(reference "IC50")
+					(reference "IC46")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
@@ -4429,11 +4429,11 @@
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
-					(reference "IC33")
+					(reference "IC30")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
-					(reference "IC67")
+					(reference "IC62")
 					(unit 1)
 				)
 			)
@@ -4449,7 +4449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c1c2de1-aef4-4df0-a24a-2aaec7381cf1")
-		(property "Reference" "IC41"
+		(property "Reference" "IC43"
 			(at 224.79 64.7699 90)
 			(effects
 				(font
@@ -4587,7 +4587,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
-					(reference "IC41")
+					(reference "IC43")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
@@ -4595,11 +4595,11 @@
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
-					(reference "IC24")
+					(reference "IC27")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
-					(reference "IC58")
+					(reference "IC59")
 					(unit 1)
 				)
 			)
@@ -4917,11 +4917,11 @@
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
-					(reference "IC31")
+					(reference "IC32")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
-					(reference "IC65")
+					(reference "IC64")
 					(unit 1)
 				)
 			)
@@ -5483,7 +5483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be2a3efe-a92c-489c-b7cd-c1df21df8f32")
-		(property "Reference" "IC43"
+		(property "Reference" "IC67"
 			(at 147.955 76.2 0)
 			(effects
 				(font
@@ -5682,19 +5682,19 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
-					(reference "IC43")
+					(reference "IC67")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
-					(reference "IC17")
+					(reference "IC65")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
-					(reference "IC26")
+					(reference "IC66")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
-					(reference "IC60")
+					(reference "IC68")
 					(unit 1)
 				)
 			)
@@ -5866,7 +5866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca054bae-298b-4917-afab-b25ce5c1c0f3")
-		(property "Reference" "IC47"
+		(property "Reference" "IC33"
 			(at 125.73 125.7299 90)
 			(effects
 				(font
@@ -6004,7 +6004,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
-					(reference "IC47")
+					(reference "IC33")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
@@ -6012,11 +6012,11 @@
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
-					(reference "IC30")
+					(reference "IC17")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
-					(reference "IC64")
+					(reference "IC49")
 					(unit 1)
 				)
 			)
@@ -6032,7 +6032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdea87ba-952b-4b18-b7ac-913c0e535c27")
-		(property "Reference" "IC36"
+		(property "Reference" "IC38"
 			(at 87.63 64.7699 90)
 			(effects
 				(font
@@ -6170,7 +6170,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
-					(reference "IC36")
+					(reference "IC38")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
@@ -6178,11 +6178,11 @@
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
-					(reference "IC19")
+					(reference "IC22")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
-					(reference "IC53")
+					(reference "IC54")
 					(unit 1)
 				)
 			)
@@ -6354,7 +6354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db1aae67-e0be-4986-9bbb-907886dfb767")
-		(property "Reference" "IC38"
+		(property "Reference" "IC40"
 			(at 125.73 64.7699 90)
 			(effects
 				(font
@@ -6492,7 +6492,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
-					(reference "IC38")
+					(reference "IC40")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
@@ -6500,11 +6500,11 @@
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
-					(reference "IC21")
+					(reference "IC24")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
-					(reference "IC55")
+					(reference "IC56")
 					(unit 1)
 				)
 			)
@@ -6520,7 +6520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc2ee681-1ec1-4f17-aa54-2c50f2189023")
-		(property "Reference" "IC42"
+		(property "Reference" "IC44"
 			(at 243.84 64.7699 90)
 			(effects
 				(font
@@ -6658,7 +6658,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
-					(reference "IC42")
+					(reference "IC44")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
@@ -6666,11 +6666,11 @@
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
-					(reference "IC25")
+					(reference "IC28")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
-					(reference "IC59")
+					(reference "IC60")
 					(unit 1)
 				)
 			)
@@ -6764,7 +6764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7406534-4c9e-45a7-b270-de791d9d26d1")
-		(property "Reference" "IC44"
+		(property "Reference" "IC36"
 			(at 68.58 125.7299 90)
 			(effects
 				(font
@@ -6902,7 +6902,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
-					(reference "IC44")
+					(reference "IC36")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
@@ -6910,11 +6910,11 @@
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
-					(reference "IC27")
+					(reference "IC20")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
-					(reference "IC61")
+					(reference "IC52")
 					(unit 1)
 				)
 			)
@@ -7008,7 +7008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec5487aa-f2ac-4b60-a862-b4af5801ad26")
-		(property "Reference" "IC35"
+		(property "Reference" "IC37"
 			(at 68.58 64.7699 90)
 			(effects
 				(font
@@ -7146,7 +7146,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/63feb482-9ea5-4f33-b235-9f8ea3119f34"
-					(reference "IC35")
+					(reference "IC37")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8e1972c9-4296-4da2-bbbd-193ae1c5a31b"
@@ -7154,11 +7154,11 @@
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e339ace2-ffad-48ab-bd37-1ec83ab6e60f"
-					(reference "IC18")
+					(reference "IC21")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ed647678-a7f1-4c2e-bf35-cfa04cc2df0f"
-					(reference "IC52")
+					(reference "IC53")
 					(unit 1)
 				)
 			)
