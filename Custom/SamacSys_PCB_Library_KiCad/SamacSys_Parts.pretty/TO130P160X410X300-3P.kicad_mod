@@ -99,7 +99,7 @@
 		(start -0.75 -8)
 		(end 3.35 -5)
 		(stroke
-			(width 0.1524)
+			(width 0.2)
 			(type default)
 		)
 		(fill none)
