@@ -1297,6 +1297,12 @@
 		(uuid "034561d1-8580-4d3f-97ec-c5df1e3bdb03")
 	)
 	(junction
+		(at 123.19 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "058b3ba7-929e-4cd9-ab67-b9ab9d188d30")
+	)
+	(junction
 		(at 123.19 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1307,6 +1313,36 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50b50f21-c1ba-414c-85eb-c99bc8a90961")
+	)
+	(junction
+		(at 121.92 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8667b962-daa3-43b4-97ff-8a402cc86e75")
+	)
+	(junction
+		(at 121.92 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cef17b14-8d8c-480a-9cd9-cb16186026bf")
+	)
+	(junction
+		(at 123.19 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e35ca277-c8f9-4d63-9df4-faf09ba890e8")
+	)
+	(junction
+		(at 123.19 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f10aab75-14c7-4d20-91ef-8bd7bb1cd23e")
+	)
+	(junction
+		(at 121.92 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f217a71f-32ae-4cc1-9dba-5979c012cc20")
 	)
 	(junction
 		(at 101.6 124.46)
@@ -1778,6 +1814,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 121.92) (xy 124.46 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bcf7008-37dd-49e8-89aa-3dd2f3fe713b")
+	)
+	(wire
+		(pts
 			(xy 69.85 167.64) (xy 76.2 167.64)
 		)
 		(stroke
@@ -1796,6 +1842,26 @@
 		)
 		(uuid "0de8d17b-2a40-4691-b994-eb47412a6c65")
 	)
+	(wire
+		(pts
+			(xy 123.19 134.62) (xy 123.19 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e099635-b08c-4e46-8f48-92ba856ba069")
+	)
+	(wire
+		(pts
+			(xy 124.46 121.92) (xy 123.19 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10d8c3b7-5f9a-4edb-ab76-2abda4b86255")
+	)
 	(bus
 		(pts
 			(xy 78.74 68.58) (xy 82.55 64.77)
@@ -1805,6 +1871,16 @@
 			(type default)
 		)
 		(uuid "12506d6e-fa3d-4016-8ed7-6193bdcaa317")
+	)
+	(wire
+		(pts
+			(xy 121.92 111.76) (xy 121.92 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c00eb1-bff0-462a-8984-0cb4c82f9218")
 	)
 	(bus
 		(pts
@@ -1968,6 +2044,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 135.89) (xy 121.92 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b936524-27df-41d5-a1c3-d4febbe39c61")
+	)
+	(wire
+		(pts
 			(xy 69.85 30.48) (xy 76.2 30.48)
 		)
 		(stroke
@@ -2018,13 +2104,23 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 111.76) (xy 132.08 111.76)
+			(xy 114.3 111.76) (xy 121.92 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5a12d52c-b285-4e33-b8c0-8a65760a32be")
+	)
+	(wire
+		(pts
+			(xy 132.08 135.89) (xy 124.46 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b23532f-7bc3-4b2a-802b-3863ace105be")
 	)
 	(wire
 		(pts
@@ -2106,6 +2202,16 @@
 		)
 		(uuid "778244ee-0ca1-4faa-99a2-138b4110b869")
 	)
+	(wire
+		(pts
+			(xy 124.46 138.43) (xy 121.92 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "797dd5f3-a4fe-4d68-95c6-ea45c7ef640d")
+	)
 	(bus
 		(pts
 			(xy 123.19 20.32) (xy 123.19 22.86)
@@ -2146,6 +2252,16 @@
 		)
 		(uuid "82f3fe0b-2bbe-4c13-a391-19b6c60a94cf")
 	)
+	(wire
+		(pts
+			(xy 124.46 152.4) (xy 132.08 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8524c47a-90ec-4df8-a9e2-06e53da8900c")
+	)
 	(bus
 		(pts
 			(xy 78.74 33.02) (xy 78.74 39.37)
@@ -2155,6 +2271,36 @@
 			(type default)
 		)
 		(uuid "8846e04f-145c-4095-8e34-4c2ac67e788a")
+	)
+	(wire
+		(pts
+			(xy 121.92 149.86) (xy 124.46 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89c9b4be-9b4b-4ab8-b85a-cef0ce7224d0")
+	)
+	(wire
+		(pts
+			(xy 123.19 109.22) (xy 132.08 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cbb26ba-115f-43fe-8600-de4a94205867")
+	)
+	(wire
+		(pts
+			(xy 124.46 135.89) (xy 123.19 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eff68e6-19aa-4294-8c27-59366eec7e73")
 	)
 	(wire
 		(pts
@@ -2248,6 +2394,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 124.46) (xy 121.92 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45f5a30-39bd-45d3-bb02-10200bdc305b")
+	)
+	(wire
+		(pts
 			(xy 69.85 72.39) (xy 76.2 72.39)
 		)
 		(stroke
@@ -2326,6 +2482,16 @@
 		)
 		(uuid "b3ad624a-882e-4781-bc4a-6231daca5209")
 	)
+	(wire
+		(pts
+			(xy 123.19 148.59) (xy 124.46 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b48c381d-c576-46f8-8130-ed32c8a6f96f")
+	)
 	(bus
 		(pts
 			(xy 78.74 44.45) (xy 78.74 46.99)
@@ -2335,6 +2501,16 @@
 			(type default)
 		)
 		(uuid "b7ca433e-334f-4ccc-aa47-9e13e16cd0aa")
+	)
+	(wire
+		(pts
+			(xy 123.19 120.65) (xy 123.19 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9057fc3-c8a5-4b64-86e1-c820112c86bb")
 	)
 	(bus
 		(pts
@@ -2456,6 +2632,26 @@
 		)
 		(uuid "c85b3956-b1a2-4d25-b8f4-57d25693ebc2")
 	)
+	(wire
+		(pts
+			(xy 124.46 149.86) (xy 132.08 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0f01fe4-b23e-43fd-b523-517b4efadba7")
+	)
+	(wire
+		(pts
+			(xy 132.08 124.46) (xy 124.46 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1049f37-21f7-465f-afaf-854b2063b757")
+	)
 	(bus
 		(pts
 			(xy 78.74 83.82) (xy 78.74 86.36)
@@ -2526,6 +2722,16 @@
 		)
 		(uuid "db1ec485-2717-464f-af2b-fe6cc706d12c")
 	)
+	(wire
+		(pts
+			(xy 121.92 111.76) (xy 132.08 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd5d44f2-fd2e-475f-ac2e-9a6078e991c5")
+	)
 	(bus
 		(pts
 			(xy 123.19 27.94) (xy 123.19 33.02)
@@ -2548,13 +2754,23 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 109.22) (xy 132.08 109.22)
+			(xy 114.3 109.22) (xy 123.19 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e34bb092-48d1-4ba5-83b4-b2c2c30f0b8c")
+	)
+	(wire
+		(pts
+			(xy 121.92 121.92) (xy 121.92 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4046d8c-7f37-464c-81da-fd01592bc5c5")
 	)
 	(bus
 		(pts
@@ -2605,6 +2821,16 @@
 			(type default)
 		)
 		(uuid "eb8063c0-5f3b-4e92-ae2b-c04493b2eb58")
+	)
+	(wire
+		(pts
+			(xy 132.08 138.43) (xy 124.46 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efcc00e5-a692-43fe-8281-2d9054d94d82")
 	)
 	(bus
 		(pts
@@ -2675,6 +2901,16 @@
 			(type default)
 		)
 		(uuid "fd260187-6dfb-4e3d-bd32-858fba2ec96c")
+	)
+	(wire
+		(pts
+			(xy 123.19 109.22) (xy 123.19 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd70551b-125b-4706-8f02-a9cc47d1069d")
 	)
 	(wire
 		(pts
@@ -3204,6 +3440,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 132.08 133.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0337f918-ed0e-4722-899d-2ca7a2f0755f")
+		(property "Reference" "#PWR0150"
+			(at 125.73 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96d5684d-0213-4164-b1dd-aeddb01f22cc")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 133.35 53.34 270)
 		(unit 1)
@@ -3702,6 +4005,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 132.08 119.38 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37ad31a0-041d-4f47-a4e3-d5aef0f386c2")
+		(property "Reference" "#PWR0148"
+			(at 125.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36a87647-d57a-42ac-ac4f-169ef636dc3a")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 132.08 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b2b645d-e38f-4a1a-9718-269b6c5d0c12")
+		(property "Reference" "#PWR0152"
+			(at 125.73 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fa56c25-1b7f-45c7-9ec2-46aad50f65c8")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0152")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 133.35 58.42 270)
 		(unit 1)
@@ -3763,6 +4200,73 @@
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 132.08 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51046107-14d9-415c-aacc-4e5b78ad8dac")
+		(property "Reference" "#PWR0149"
+			(at 135.89 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 128.27 130.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 132.08 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "777bf6bf-e31d-4954-9b57-341c1a0dfffe")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -4037,6 +4541,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 137.16 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f06f06d-100f-4bac-9cfb-133ba4ff0a96")
+		(property "Reference" "J3"
+			(at 138.43 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 138.43 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 137.16 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 137.16 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e5be86c3-4d0f-4de8-b710-6303ec2cf811")
+		)
+		(pin "4"
+			(uuid "a628d478-0455-456f-87a3-42c2ea3de017")
+		)
+		(pin "1"
+			(uuid "3eb110fc-98e9-40f3-a8c5-a2744acd065a")
+		)
+		(pin "2"
+			(uuid "24d28e7d-0486-4450-b965-5d64f01330cc")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 110.49 20.32 0)
 		(unit 1)
@@ -4163,6 +4743,149 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 132.08 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e78ad04-1bf5-4c57-ad38-4f90772da50d")
+		(property "Reference" "#PWR0147"
+			(at 135.89 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 128.27 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 132.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e972a9f-6b07-469a-afcf-4f5f924c8e09")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 137.16 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a215a5c7-99d8-4ca8-9a1b-caa03611adc5")
+		(property "Reference" "J2"
+			(at 138.43 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 138.43 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 137.16 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 137.16 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5acd9ba9-586d-486c-a28e-174ae4868ac1")
+		)
+		(pin "4"
+			(uuid "55d9cd38-c38e-4074-b962-b50f99f7d253")
+		)
+		(pin "1"
+			(uuid "ca26e8b8-188b-4772-b652-48e70d7dcd56")
+		)
+		(pin "2"
+			(uuid "87184b45-ee23-46df-91ab-9a27fc08be2c")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4373,6 +5096,149 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 132.08 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0ef27e6-f562-42e5-9f54-fbb420684386")
+		(property "Reference" "#PWR0151"
+			(at 135.89 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 128.27 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 132.08 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ed658f4-3c79-4dc9-8719-4907fa4704c7")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 137.16 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d826208b-22da-4364-ac49-c37f8bfb9225")
+		(property "Reference" "J4"
+			(at 138.43 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 138.43 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 137.16 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 137.16 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f90e4553-6eac-4e6a-99eb-3f997ab7001e")
+		)
+		(pin "4"
+			(uuid "7597bfd4-2117-4b81-9c5b-a382c4d283f9")
+		)
+		(pin "1"
+			(uuid "9ac3707e-169a-403e-b952-30348c4f902c")
+		)
+		(pin "2"
+			(uuid "8645daad-8667-44c9-964d-8d44530591e0")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J4")
 					(unit 1)
 				)
 			)
