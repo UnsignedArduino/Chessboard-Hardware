@@ -1,3 +1,3 @@
 # Chessboard-Hardware
 
-Hardware for a magnetic-piece-tracking digital chessboard!
+Hardware for a magnetic-piece-tracking digital chessboard! WIP
