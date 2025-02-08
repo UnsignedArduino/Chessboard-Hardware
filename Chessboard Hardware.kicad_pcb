@@ -8,6 +8,7 @@
 	)
 	(paper "USLetter")
 	(title_block
+		(title "Chessboard Hardware")
 		(rev "1")
 	)
 	(layers
