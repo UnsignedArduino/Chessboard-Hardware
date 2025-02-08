@@ -1802,7 +1802,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:SS49E"
 			(at 291.77 59.69 0)
 			(effects
 				(font
@@ -2124,7 +2124,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:SS49E"
 			(at -11.1 133.35 0)
 			(effects
 				(font
@@ -2368,7 +2368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:SS49E"
 			(at 104.47 133.35 0)
 			(effects
 				(font
@@ -2612,7 +2612,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:SS49E"
 			(at 192.71 59.69 0)
 			(effects
 				(font
@@ -3179,7 +3179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:SS49E"
 			(at 142.57 133.35 0)
 			(effects
 				(font
@@ -3423,7 +3423,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:SS49E"
 			(at 272.72 59.69 0)
 			(effects
 				(font
@@ -3979,7 +3979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:SS49E"
 			(at 7.95 133.35 0)
 			(effects
 				(font
@@ -4301,7 +4301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:SS49E"
 			(at 123.52 133.35 0)
 			(effects
 				(font
@@ -4467,7 +4467,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:SS49E"
 			(at 310.82 59.69 0)
 			(effects
 				(font
@@ -4789,7 +4789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:SS49E"
 			(at 85.42 133.35 0)
 			(effects
 				(font
@@ -5884,7 +5884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:SS49E"
 			(at 27 133.35 0)
 			(effects
 				(font
@@ -6050,7 +6050,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:SS49E"
 			(at 173.66 59.69 0)
 			(effects
 				(font
@@ -6372,7 +6372,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:SS49E"
 			(at 211.76 59.69 0)
 			(effects
 				(font
@@ -6538,7 +6538,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:SS49E"
 			(at 329.87 59.69 0)
 			(effects
 				(font
@@ -6782,7 +6782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:SS49E"
 			(at -30.15 133.35 0)
 			(effects
 				(font
@@ -7026,7 +7026,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_PCB_Library_KiCad:TO130P160X410X300-3P"
+		(property "Footprint" "SamacSys_PCB_Library_KiCad:SS49E"
 			(at 154.61 59.69 0)
 			(effects
 				(font
