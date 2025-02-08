@@ -183,15 +183,15 @@
 		(remove_unused_layers no)
 		(uuid "587516cf-983d-4203-91eb-6d16f299b835")
 	)
-	(model "C:\\Users\\ckyiu\\SamacSys_PCB_Library_KiCad\\SamacSys_Parts.3dshapes\\SS49E.stp"
+	(model "${KIPRJMOD}/Custom/SamacSys_PCB_Library_KiCad/SamacSys_Parts.3dshapes/SS49E fixed.step"
 		(offset
-			(xyz 0 -0.15 6.64)
+			(xyz 0 -0.15 10.14)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 180 0)
+			(xyz 0 0 0)
 		)
 	)
 )
