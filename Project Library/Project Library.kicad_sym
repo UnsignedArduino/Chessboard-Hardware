@@ -381,7 +381,7 @@
 			)
 		)
 		(property "Footprint" "Project Library:SS49E"
-			(at 0 12.7 0)
+			(at 0 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -390,7 +390,7 @@
 			)
 		)
 		(property "Datasheet" "https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/en-us/products/sensors/magnetic-sensors/linear-and-angle-sensor-ics/common/documents/sps-siot-ss39et-ss49e-ss59et-product-sheet-005850-3-en-ciid-50359.pdf"
-			(at -0.254 7.62 0)
+			(at -0.254 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -399,7 +399,7 @@
 			)
 		)
 		(property "Description" "SENSOR HALL ANALOG RADIAL LEAD"
-			(at 0 9.906 0)
+			(at 0 22.606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -409,8 +409,8 @@
 		)
 		(symbol "SS49E_0_1"
 			(rectangle
-				(start -5.08 5.08)
-				(end 5.08 -6.35)
+				(start -6.35 8.89)
+				(end 6.35 -8.89)
 				(stroke
 					(width 0)
 					(type default)
@@ -422,7 +422,7 @@
 		)
 		(symbol "SS49E_1_1"
 			(text "SS49E"
-				(at 0 3.302 0)
+				(at 0 -2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -430,7 +430,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -8.89 90)
+				(at 0 11.43 270)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -448,7 +448,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -8.89 90)
+				(at 0 -11.43 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -466,7 +466,7 @@
 				)
 			)
 			(pin output line
-				(at 2.54 -8.89 90)
+				(at 8.89 0 180)
 				(length 2.54)
 				(name "SIG"
 					(effects

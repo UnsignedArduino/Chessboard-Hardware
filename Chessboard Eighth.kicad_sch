@@ -1,0 +1,3563 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "cc6c4068-876c-4822-911c-f184905150d4")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Project Library:SN74HC4851N"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+				(at 0 29.972 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/scls542b/scls542b.pdf"
+				(at 0 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "IC MUX 8:1 195OHM 16DIP"
+				(at 0 33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SN74HC4851N_1_1"
+				(rectangle
+					(start -10.16 12.7)
+					(end 10.16 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "SN74HC4851N"
+					(at -0.254 -3.302 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name "Y4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 1.27 180)
+					(length 2.54)
+					(name "Y3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 8.89 180)
+					(length 2.54)
+					(name "Y0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 6.35 180)
+					(length 2.54)
+					(name "Y1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 3.81 180)
+					(length 2.54)
+					(name "Y2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -6.35 180)
+					(length 2.54)
+					(name "Y6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 8.89 0)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -8.89 180)
+					(length 2.54)
+					(name "Y7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name "Y5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -6.35 0)
+					(length 2.54)
+					(name "INH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 -8.89 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Project Library:SS49E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Project Library:SS49E"
+				(at 0 25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/en-us/products/sensors/magnetic-sensors/linear-and-angle-sensor-ics/common/documents/sps-siot-ss39et-ss49e-ss59et-product-sheet-005850-3-en-ciid-50359.pdf"
+				(at -0.254 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SENSOR HALL ANALOG RADIAL LEAD"
+				(at 0 22.606 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS49E_0_1"
+				(rectangle
+					(start -6.35 8.89)
+					(end 6.35 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SS49E_1_1"
+				(text "SS49E"
+					(at 0 -2.032 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 11.43 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -11.43 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "SIG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 78.74 73.66) (xy 104.14 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "004891fc-895a-49e8-b933-840e5ed431cd")
+	)
+	(wire
+		(pts
+			(xy 124.46 71.12) (xy 78.74 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03041f9c-a99c-49a9-9d14-51fe66605a6a")
+	)
+	(wire
+		(pts
+			(xy 165.1 35.56) (xy 165.1 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "183aca8e-88ed-4ee7-bd7f-8446974ccff6")
+	)
+	(wire
+		(pts
+			(xy 144.78 68.58) (xy 78.74 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "204d49ce-2fb6-418c-bd96-b42f672504e8")
+	)
+	(wire
+		(pts
+			(xy 78.74 66.04) (xy 165.1 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28d07397-362c-49ba-8264-3cacd24d5986")
+	)
+	(wire
+		(pts
+			(xy 78.74 55.88) (xy 104.14 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2c591c-713e-452b-9791-c5000aa30d9e")
+	)
+	(wire
+		(pts
+			(xy 104.14 73.66) (xy 104.14 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5900765f-04ad-4822-b52d-0b3d009b024a")
+	)
+	(wire
+		(pts
+			(xy 144.78 35.56) (xy 144.78 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c63d252-1f4f-48da-87f7-75865debccb9")
+	)
+	(wire
+		(pts
+			(xy 124.46 71.12) (xy 124.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7580f624-3efe-4de0-83ab-92f46d77806c")
+	)
+	(wire
+		(pts
+			(xy 78.74 63.5) (xy 165.1 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c277b9-abb0-4982-afd5-8b14b414e5c0")
+	)
+	(wire
+		(pts
+			(xy 104.14 55.88) (xy 104.14 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7faa7205-670f-492c-97da-a36ae581f785")
+	)
+	(wire
+		(pts
+			(xy 144.78 68.58) (xy 144.78 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac80832f-364a-478d-ba5d-53f8c1dd88a5")
+	)
+	(wire
+		(pts
+			(xy 78.74 60.96) (xy 144.78 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d45b9536-0456-463f-a9e1-54401a210c14")
+	)
+	(wire
+		(pts
+			(xy 124.46 35.56) (xy 124.46 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2b5bcd7-8e2c-489a-a0fa-f74061b7beb3")
+	)
+	(wire
+		(pts
+			(xy 78.74 58.42) (xy 124.46 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4ddad15-d9da-40ec-9d37-0ad065b2aa9d")
+	)
+	(wire
+		(pts
+			(xy 165.1 66.04) (xy 165.1 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa25bf22-d674-494c-98e7-846cd51843eb")
+	)
+	(hierarchical_label "A"
+		(shape input)
+		(at 53.34 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69a563dd-d544-4d0d-850e-bed1aa182c23")
+	)
+	(hierarchical_label "C"
+		(shape input)
+		(at 53.34 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d84cd44-1c3b-45f4-82be-9a7635305e31")
+	)
+	(hierarchical_label "COM"
+		(shape output)
+		(at 53.34 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83452b99-a2b2-42c8-9b7d-e17f97fe7885")
+	)
+	(hierarchical_label "INH"
+		(shape input)
+		(at 53.34 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9eca0c1c-4741-467e-b156-70f28b395905")
+	)
+	(hierarchical_label "B"
+		(shape input)
+		(at 53.34 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1edc461-3013-4927-b182-ea15ce881339")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "271b9c02-7e6e-4f89-b2a2-75fd0ede13c2")
+		(property "Reference" "#PWR022"
+			(at 156.21 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb5caa6d-ed3d-45d9-ac0f-eb0547ee596b")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0a97662c-6566-4e1d-afc5-82a5fb54d5c1"
+					(reference "#PWR058")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2cc389a0-19b7-477f-9935-260f74c2b165"
+					(reference "#PWR094")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5515513e-868f-4ac2-8212-63f927d4c305"
+					(reference "#PWR076")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6ff0f717-87ae-4710-96ea-9ed2085024e0"
+					(reference "#PWR0148")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7201e36b-84cd-4f5e-823d-16da688e57ec"
+					(reference "#PWR040")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9ab27e34-a744-41d7-b2b4-f273a8bfac2f"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b56c74a5-7b5e-4776-9f0a-48333d5f8270"
+					(reference "#PWR022")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e9fb6c6b-71dd-42a0-a36e-8962cbc1247e"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Project Library:SS49E")
+		(at 156.21 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3067862c-1279-4b94-a2c6-99bffb49e47e")
+		(property "Reference" "U5"
+			(at 148.59 34.9249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 148.59 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Project Library:SS49E"
+			(at 156.21 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/en-us/products/sensors/magnetic-sensors/linear-and-angle-sensor-ics/common/documents/sps-siot-ss39et-ss49e-ss59et-product-sheet-005850-3-en-ciid-50359.pdf"
+			(at 155.956 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SENSOR HALL ANALOG RADIAL LEAD"
+			(at 156.21 12.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "70ad4577-e8a2-4ee8-9ceb-a361f4a3fa73")
+		)
+		(pin "1"
+			(uuid "0d2b6c2a-53d4-42ed-8b5a-dbb161280362")
+		)
+		(pin "3"
+			(uuid "012a3ae0-37a9-4d5b-a50a-756b53520218")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0a97662c-6566-4e1d-afc5-82a5fb54d5c1"
+					(reference "U23")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2cc389a0-19b7-477f-9935-260f74c2b165"
+					(reference "U41")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5515513e-868f-4ac2-8212-63f927d4c305"
+					(reference "U32")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6ff0f717-87ae-4710-96ea-9ed2085024e0"
+					(reference "U68")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7201e36b-84cd-4f5e-823d-16da688e57ec"
+					(reference "U14")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9ab27e34-a744-41d7-b2b4-f273a8bfac2f"
+					(reference "U59")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b56c74a5-7b5e-4776-9f0a-48333d5f8270"
+					(reference "U5")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e9fb6c6b-71dd-42a0-a36e-8962cbc1247e"
+					(reference "U50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Project Library:SS49E")
+		(at 156.21 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31cdda72-2d3e-4383-bbb1-07548860395d")
+		(property "Reference" "U10"
+			(at 148.59 93.3449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 148.59 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Project Library:SS49E"
+			(at 156.21 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/en-us/products/sensors/magnetic-sensors/linear-and-angle-sensor-ics/common/documents/sps-siot-ss39et-ss49e-ss59et-product-sheet-005850-3-en-ciid-50359.pdf"
+			(at 155.956 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SENSOR HALL ANALOG RADIAL LEAD"
+			(at 156.21 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "744ff48c-b492-403e-b9f9-8d2a47ab9b34")
+		)
+		(pin "1"
+			(uuid "e959aed4-b781-43bb-8560-42cdcb304846")
+		)
+		(pin "3"
+			(uuid "ed8d6b6e-77ed-468e-8b21-71a62595020d")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0a97662c-6566-4e1d-afc5-82a5fb54d5c1"
+					(reference "U28")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2cc389a0-19b7-477f-9935-260f74c2b165"
+					(reference "U46")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5515513e-868f-4ac2-8212-63f927d4c305"
+					(reference "U37")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6ff0f717-87ae-4710-96ea-9ed2085024e0"
+					(reference "U73")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7201e36b-84cd-4f5e-823d-16da688e57ec"
+					(reference "U19")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9ab27e34-a744-41d7-b2b4-f273a8bfac2f"
+					(reference "U64")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b56c74a5-7b5e-4776-9f0a-48333d5f8270"
+					(reference "U10")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e9fb6c6b-71dd-42a0-a36e-8962cbc1247e"
+					(reference "U55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Project Library:SS49E")
+		(at 115.57 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32a57bc8-c4fb-4ea1-92a0-69ce68e108a4")
+		(property "Reference" "U3"
+			(at 107.95 34.9249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 107.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Project Library:SS49E"
+			(at 115.57 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/en-us/products/sensors/magnetic-sensors/linear-and-angle-sensor-ics/common/documents/sps-siot-ss39et-ss49e-ss59et-product-sheet-005850-3-en-ciid-50359.pdf"
+			(at 115.316 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SENSOR HALL ANALOG RADIAL LEAD"
+			(at 115.57 12.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1370c9b6-268a-46fe-8d06-7685dc71d388")
+		)
+		(pin "1"
+			(uuid "8f09fc1d-070b-4b94-b61c-b4f9288ec435")
+		)
+		(pin "3"
+			(uuid "cae1e2e8-0248-4eaf-a6f0-f5e5206cf7f2")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0a97662c-6566-4e1d-afc5-82a5fb54d5c1"
+					(reference "U21")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2cc389a0-19b7-477f-9935-260f74c2b165"
+					(reference "U39")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5515513e-868f-4ac2-8212-63f927d4c305"
+					(reference "U30")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6ff0f717-87ae-4710-96ea-9ed2085024e0"
+					(reference "U66")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7201e36b-84cd-4f5e-823d-16da688e57ec"
+					(reference "U12")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9ab27e34-a744-41d7-b2b4-f273a8bfac2f"
+					(reference "U57")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b56c74a5-7b5e-4776-9f0a-48333d5f8270"
+					(reference "U3")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e9fb6c6b-71dd-42a0-a36e-8962cbc1247e"
+					(reference "U48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b76ee32-7ec8-4c5d-99f5-dd3ee229f4a8")
+		(property "Reference" "#PWR011"
+			(at 135.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22050dd0-f1de-4037-ad3d-9af696cff179")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0a97662c-6566-4e1d-afc5-82a5fb54d5c1"
+					(reference "#PWR047")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2cc389a0-19b7-477f-9935-260f74c2b165"
+					(reference "#PWR083")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5515513e-868f-4ac2-8212-63f927d4c305"
+					(reference "#PWR065")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6ff0f717-87ae-4710-96ea-9ed2085024e0"
+					(reference "#PWR0137")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7201e36b-84cd-4f5e-823d-16da688e57ec"
+					(reference "#PWR029")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9ab27e34-a744-41d7-b2b4-f273a8bfac2f"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b56c74a5-7b5e-4776-9f0a-48333d5f8270"
+					(reference "#PWR011")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e9fb6c6b-71dd-42a0-a36e-8962cbc1247e"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Project Library:SN74HC4851N")
+		(at 66.04 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ba78875-a5ae-4b6f-b448-274f1d6089ad")
+		(property "Reference" "U15"
+			(at 68.2341 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 66.04 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+			(at 66.04 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/scls542b/scls542b.pdf"
+			(at 66.04 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC MUX 8:1 195OHM 16DIP"
+			(at 66.04 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "772618c1-1951-4dce-a6fc-2feb6a45b80a")
+		)
+		(pin "6"
+			(uuid "b614addc-35cf-4a2e-a462-a9fbc789963f")
+		)
+		(pin "9"
+			(uuid "38c0cfc5-f9f3-4ab4-808d-f694250e005d")
+		)
+		(pin "3"
+			(uuid "db6b8b05-087f-43c6-9c9c-9273e080ec0b")
+		)
+		(pin "16"
+			(uuid "7cf9bf1e-b753-4d28-8648-3d9bba66d15d")
+		)
+		(pin "11"
+			(uuid "0e8d9a69-c6a4-44b8-af27-de25a57730f4")
+		)
+		(pin "4"
+			(uuid "cd7f17d6-185d-4642-bd3c-b236c764171d")
+		)
+		(pin "1"
+			(uuid "1ea35897-4163-4fe8-9c2b-5974a6ebf0a7")
+		)
+		(pin "13"
+			(uuid "dfef0015-e758-4339-bbb7-ebb3d62d1c5c")
+		)
+		(pin "15"
+			(uuid "ecb5522f-dbc8-491b-839d-851b79137961")
+		)
+		(pin "7"
+			(uuid "e7f5caf1-5d26-424b-8b97-1dad47d4d4ea")
+		)
+		(pin "10"
+			(uuid "c03e298f-7005-414d-98be-993abbcbca27")
+		)
+		(pin "12"
+			(uuid "109b3e64-c5c4-4bfa-a57d-faf9b30a3ca4")
+		)
+		(pin "8"
+			(uuid "93a4f3cb-c800-481e-a449-d9117ef11629")
+		)
+		(pin "14"
+			(uuid "ee331a78-248d-445f-86e5-b9eccfcf55c9")
+		)
+		(pin "5"
+			(uuid "f4b1a6bf-8713-45f6-a062-37b1568d83bf")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0a97662c-6566-4e1d-afc5-82a5fb54d5c1"
+					(reference "U24")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2cc389a0-19b7-477f-9935-260f74c2b165"
+					(reference "U42")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5515513e-868f-4ac2-8212-63f927d4c305"
+					(reference "U33")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6ff0f717-87ae-4710-96ea-9ed2085024e0"
+					(reference "U69")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7201e36b-84cd-4f5e-823d-16da688e57ec"
+					(reference "U15")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9ab27e34-a744-41d7-b2b4-f273a8bfac2f"
+					(reference "U60")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b56c74a5-7b5e-4776-9f0a-48333d5f8270"
+					(reference "U6")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e9fb6c6b-71dd-42a0-a36e-8962cbc1247e"
+					(reference "U51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Project Library:SS49E")
+		(at 95.25 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4dfee19b-9725-4f9a-a2ee-3e3ec89334d0")
+		(property "Reference" "U7"
+			(at 87.63 93.3449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 87.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Project Library:SS49E"
+			(at 95.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/en-us/products/sensors/magnetic-sensors/linear-and-angle-sensor-ics/common/documents/sps-siot-ss39et-ss49e-ss59et-product-sheet-005850-3-en-ciid-50359.pdf"
+			(at 94.996 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SENSOR HALL ANALOG RADIAL LEAD"
+			(at 95.25 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b50d059a-ddd8-4626-9d25-c71bd9495698")
+		)
+		(pin "1"
+			(uuid "ee27908d-ed42-414e-ba09-64e25536745a")
+		)
+		(pin "3"
+			(uuid "e46df12b-b160-4a47-8bc5-91281e271da1")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0a97662c-6566-4e1d-afc5-82a5fb54d5c1"
+					(reference "U25")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2cc389a0-19b7-477f-9935-260f74c2b165"
+					(reference "U43")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5515513e-868f-4ac2-8212-63f927d4c305"
+					(reference "U34")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6ff0f717-87ae-4710-96ea-9ed2085024e0"
+					(reference "U70")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7201e36b-84cd-4f5e-823d-16da688e57ec"
+					(reference "U16")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9ab27e34-a744-41d7-b2b4-f273a8bfac2f"
+					(reference "U61")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b56c74a5-7b5e-4776-9f0a-48333d5f8270"
+					(reference "U7")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e9fb6c6b-71dd-42a0-a36e-8962cbc1247e"
+					(reference "U52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 66.04 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bd602ff-8d0e-4d8e-9d8b-541275158db1")
+		(property "Reference" "#PWR031"
+			(at 66.04 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 66.04 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 66.04 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb97798f-9c32-454a-a523-d75b01b9c5e9")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0a97662c-6566-4e1d-afc5-82a5fb54d5c1"
+					(reference "#PWR049")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2cc389a0-19b7-477f-9935-260f74c2b165"
+					(reference "#PWR085")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5515513e-868f-4ac2-8212-63f927d4c305"
+					(reference "#PWR067")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6ff0f717-87ae-4710-96ea-9ed2085024e0"
+					(reference "#PWR0139")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7201e36b-84cd-4f5e-823d-16da688e57ec"
+					(reference "#PWR031")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9ab27e34-a744-41d7-b2b4-f273a8bfac2f"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b56c74a5-7b5e-4776-9f0a-48333d5f8270"
+					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e9fb6c6b-71dd-42a0-a36e-8962cbc1247e"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 135.89 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "691e58d5-6545-44b1-aaac-4ec6c97c632f")
+		(property "Reference" "#PWR07"
+			(at 135.89 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 135.89 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 135.89 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21c7a477-5f4d-4065-bee7-65d9e4dd763f")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0a97662c-6566-4e1d-afc5-82a5fb54d5c1"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2cc389a0-19b7-477f-9935-260f74c2b165"
+					(reference "#PWR079")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5515513e-868f-4ac2-8212-63f927d4c305"
+					(reference "#PWR061")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6ff0f717-87ae-4710-96ea-9ed2085024e0"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7201e36b-84cd-4f5e-823d-16da688e57ec"
+					(reference "#PWR025")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9ab27e34-a744-41d7-b2b4-f273a8bfac2f"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b56c74a5-7b5e-4776-9f0a-48333d5f8270"
+					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e9fb6c6b-71dd-42a0-a36e-8962cbc1247e"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e9f3f92-052a-4d5a-86ba-7a0326931be9")
+		(property "Reference" "#PWR021"
+			(at 135.89 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbdb9fc4-ec80-4874-b183-57669c9e9975")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0a97662c-6566-4e1d-afc5-82a5fb54d5c1"
+					(reference "#PWR057")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2cc389a0-19b7-477f-9935-260f74c2b165"
+					(reference "#PWR093")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5515513e-868f-4ac2-8212-63f927d4c305"
+					(reference "#PWR075")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6ff0f717-87ae-4710-96ea-9ed2085024e0"
+					(reference "#PWR0147")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7201e36b-84cd-4f5e-823d-16da688e57ec"
+					(reference "#PWR039")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9ab27e34-a744-41d7-b2b4-f273a8bfac2f"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b56c74a5-7b5e-4776-9f0a-48333d5f8270"
+					(reference "#PWR021")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e9fb6c6b-71dd-42a0-a36e-8962cbc1247e"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 115.57 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "818e87ff-3fee-4e5a-a5ac-eaf6607dfcd2")
+		(property "Reference" "#PWR06"
+			(at 115.57 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 115.57 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 115.57 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8c056ce-358c-465b-befb-e09037a5f828")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0a97662c-6566-4e1d-afc5-82a5fb54d5c1"
+					(reference "#PWR042")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2cc389a0-19b7-477f-9935-260f74c2b165"
+					(reference "#PWR078")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5515513e-868f-4ac2-8212-63f927d4c305"
+					(reference "#PWR060")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6ff0f717-87ae-4710-96ea-9ed2085024e0"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7201e36b-84cd-4f5e-823d-16da688e57ec"
+					(reference "#PWR024")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9ab27e34-a744-41d7-b2b4-f273a8bfac2f"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b56c74a5-7b5e-4776-9f0a-48333d5f8270"
+					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e9fb6c6b-71dd-42a0-a36e-8962cbc1247e"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 156.21 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87457564-4851-4236-bd65-4222597c1110")
+		(property "Reference" "#PWR018"
+			(at 156.21 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 156.21 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 156.21 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "192cddb3-11c6-405f-9f0b-ad456c4d167b")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0a97662c-6566-4e1d-afc5-82a5fb54d5c1"
+					(reference "#PWR054")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2cc389a0-19b7-477f-9935-260f74c2b165"
+					(reference "#PWR090")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5515513e-868f-4ac2-8212-63f927d4c305"
+					(reference "#PWR072")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6ff0f717-87ae-4710-96ea-9ed2085024e0"
+					(reference "#PWR0144")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7201e36b-84cd-4f5e-823d-16da688e57ec"
+					(reference "#PWR036")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9ab27e34-a744-41d7-b2b4-f273a8bfac2f"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b56c74a5-7b5e-4776-9f0a-48333d5f8270"
+					(reference "#PWR018")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e9fb6c6b-71dd-42a0-a36e-8962cbc1247e"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 135.89 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "897e284b-e329-4bee-ac1a-0cdb36c5f602")
+		(property "Reference" "#PWR017"
+			(at 135.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 135.89 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 135.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42a11fbb-e05f-482e-b7e7-ad00001a389e")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0a97662c-6566-4e1d-afc5-82a5fb54d5c1"
+					(reference "#PWR053")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2cc389a0-19b7-477f-9935-260f74c2b165"
+					(reference "#PWR089")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5515513e-868f-4ac2-8212-63f927d4c305"
+					(reference "#PWR071")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6ff0f717-87ae-4710-96ea-9ed2085024e0"
+					(reference "#PWR0143")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7201e36b-84cd-4f5e-823d-16da688e57ec"
+					(reference "#PWR035")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9ab27e34-a744-41d7-b2b4-f273a8bfac2f"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b56c74a5-7b5e-4776-9f0a-48333d5f8270"
+					(reference "#PWR017")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e9fb6c6b-71dd-42a0-a36e-8962cbc1247e"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 115.57 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95eb3023-7f13-4461-b070-ac7c4286af45")
+		(property "Reference" "#PWR016"
+			(at 115.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 115.57 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 115.57 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4d052b6-4510-4b60-8729-863330f8477b")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0a97662c-6566-4e1d-afc5-82a5fb54d5c1"
+					(reference "#PWR052")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2cc389a0-19b7-477f-9935-260f74c2b165"
+					(reference "#PWR088")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5515513e-868f-4ac2-8212-63f927d4c305"
+					(reference "#PWR070")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6ff0f717-87ae-4710-96ea-9ed2085024e0"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7201e36b-84cd-4f5e-823d-16da688e57ec"
+					(reference "#PWR034")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9ab27e34-a744-41d7-b2b4-f273a8bfac2f"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b56c74a5-7b5e-4776-9f0a-48333d5f8270"
+					(reference "#PWR016")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e9fb6c6b-71dd-42a0-a36e-8962cbc1247e"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 95.25 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4c77d70-9837-4292-a844-71aa16e4693f")
+		(property "Reference" "#PWR023"
+			(at 95.25 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 95.25 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 95.25 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fb2428b-5c0f-4b71-95de-715df65e7ed3")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0a97662c-6566-4e1d-afc5-82a5fb54d5c1"
+					(reference "#PWR041")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2cc389a0-19b7-477f-9935-260f74c2b165"
+					(reference "#PWR077")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5515513e-868f-4ac2-8212-63f927d4c305"
+					(reference "#PWR059")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6ff0f717-87ae-4710-96ea-9ed2085024e0"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7201e36b-84cd-4f5e-823d-16da688e57ec"
+					(reference "#PWR023")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9ab27e34-a744-41d7-b2b4-f273a8bfac2f"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b56c74a5-7b5e-4776-9f0a-48333d5f8270"
+					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e9fb6c6b-71dd-42a0-a36e-8962cbc1247e"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 156.21 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b14b37fe-1f18-482c-b376-8b0d7bbfd4eb")
+		(property "Reference" "#PWR08"
+			(at 156.21 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 156.21 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 156.21 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71aab3d6-6620-46f2-a17b-7c6e2ac8db8b")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0a97662c-6566-4e1d-afc5-82a5fb54d5c1"
+					(reference "#PWR044")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2cc389a0-19b7-477f-9935-260f74c2b165"
+					(reference "#PWR080")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5515513e-868f-4ac2-8212-63f927d4c305"
+					(reference "#PWR062")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6ff0f717-87ae-4710-96ea-9ed2085024e0"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7201e36b-84cd-4f5e-823d-16da688e57ec"
+					(reference "#PWR026")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9ab27e34-a744-41d7-b2b4-f273a8bfac2f"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b56c74a5-7b5e-4776-9f0a-48333d5f8270"
+					(reference "#PWR08")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e9fb6c6b-71dd-42a0-a36e-8962cbc1247e"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3244706-9bc4-48a5-adab-af89b2e92f27")
+		(property "Reference" "#PWR020"
+			(at 115.57 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2985e594-2753-4cec-a242-7932a62b9126")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0a97662c-6566-4e1d-afc5-82a5fb54d5c1"
+					(reference "#PWR056")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2cc389a0-19b7-477f-9935-260f74c2b165"
+					(reference "#PWR092")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5515513e-868f-4ac2-8212-63f927d4c305"
+					(reference "#PWR074")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6ff0f717-87ae-4710-96ea-9ed2085024e0"
+					(reference "#PWR0146")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7201e36b-84cd-4f5e-823d-16da688e57ec"
+					(reference "#PWR038")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9ab27e34-a744-41d7-b2b4-f273a8bfac2f"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b56c74a5-7b5e-4776-9f0a-48333d5f8270"
+					(reference "#PWR020")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e9fb6c6b-71dd-42a0-a36e-8962cbc1247e"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Project Library:SS49E")
+		(at 135.89 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b57450de-0a85-45ba-806f-0b71bf2382b0")
+		(property "Reference" "U4"
+			(at 128.27 34.9249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 128.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Project Library:SS49E"
+			(at 135.89 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/en-us/products/sensors/magnetic-sensors/linear-and-angle-sensor-ics/common/documents/sps-siot-ss39et-ss49e-ss59et-product-sheet-005850-3-en-ciid-50359.pdf"
+			(at 135.636 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SENSOR HALL ANALOG RADIAL LEAD"
+			(at 135.89 12.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fa54fdf4-a57e-4675-911c-1f92cf5923fb")
+		)
+		(pin "1"
+			(uuid "f09562eb-5d4c-45b4-a944-4c565e6fea31")
+		)
+		(pin "3"
+			(uuid "48aa8843-aeb1-4a28-8c11-2b5d63cb0aec")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0a97662c-6566-4e1d-afc5-82a5fb54d5c1"
+					(reference "U22")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2cc389a0-19b7-477f-9935-260f74c2b165"
+					(reference "U40")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5515513e-868f-4ac2-8212-63f927d4c305"
+					(reference "U31")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6ff0f717-87ae-4710-96ea-9ed2085024e0"
+					(reference "U67")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7201e36b-84cd-4f5e-823d-16da688e57ec"
+					(reference "U13")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9ab27e34-a744-41d7-b2b4-f273a8bfac2f"
+					(reference "U58")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b56c74a5-7b5e-4776-9f0a-48333d5f8270"
+					(reference "U4")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e9fb6c6b-71dd-42a0-a36e-8962cbc1247e"
+					(reference "U49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 95.25 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5ec0301-8ce2-44d2-abca-b75ee5fb3ee9")
+		(property "Reference" "#PWR015"
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 95.25 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 95.25 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf3179d3-88f4-4c0d-a958-dc100f0e4f62")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0a97662c-6566-4e1d-afc5-82a5fb54d5c1"
+					(reference "#PWR051")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2cc389a0-19b7-477f-9935-260f74c2b165"
+					(reference "#PWR087")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5515513e-868f-4ac2-8212-63f927d4c305"
+					(reference "#PWR069")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6ff0f717-87ae-4710-96ea-9ed2085024e0"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7201e36b-84cd-4f5e-823d-16da688e57ec"
+					(reference "#PWR033")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9ab27e34-a744-41d7-b2b4-f273a8bfac2f"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b56c74a5-7b5e-4776-9f0a-48333d5f8270"
+					(reference "#PWR015")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e9fb6c6b-71dd-42a0-a36e-8962cbc1247e"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5ffc5e8-92df-4691-a107-38705fa3967b")
+		(property "Reference" "#PWR027"
+			(at 95.25 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64283844-8e89-4003-9bde-ef30bdbab3e8")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0a97662c-6566-4e1d-afc5-82a5fb54d5c1"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2cc389a0-19b7-477f-9935-260f74c2b165"
+					(reference "#PWR081")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5515513e-868f-4ac2-8212-63f927d4c305"
+					(reference "#PWR063")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6ff0f717-87ae-4710-96ea-9ed2085024e0"
+					(reference "#PWR0135")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7201e36b-84cd-4f5e-823d-16da688e57ec"
+					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9ab27e34-a744-41d7-b2b4-f273a8bfac2f"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b56c74a5-7b5e-4776-9f0a-48333d5f8270"
+					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e9fb6c6b-71dd-42a0-a36e-8962cbc1247e"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Project Library:SS49E")
+		(at 135.89 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b94f3ffa-1c18-4e1a-937f-3591faf57a07")
+		(property "Reference" "U9"
+			(at 128.27 93.3449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 128.27 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Project Library:SS49E"
+			(at 135.89 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/en-us/products/sensors/magnetic-sensors/linear-and-angle-sensor-ics/common/documents/sps-siot-ss39et-ss49e-ss59et-product-sheet-005850-3-en-ciid-50359.pdf"
+			(at 135.636 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SENSOR HALL ANALOG RADIAL LEAD"
+			(at 135.89 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fde33582-7221-490b-8056-f85bf160b0f8")
+		)
+		(pin "1"
+			(uuid "501c5791-d725-43c5-a07c-80a77251e7bc")
+		)
+		(pin "3"
+			(uuid "e8740a84-ff0c-4304-838a-735fb2d11103")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0a97662c-6566-4e1d-afc5-82a5fb54d5c1"
+					(reference "U27")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2cc389a0-19b7-477f-9935-260f74c2b165"
+					(reference "U45")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5515513e-868f-4ac2-8212-63f927d4c305"
+					(reference "U36")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6ff0f717-87ae-4710-96ea-9ed2085024e0"
+					(reference "U72")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7201e36b-84cd-4f5e-823d-16da688e57ec"
+					(reference "U18")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9ab27e34-a744-41d7-b2b4-f273a8bfac2f"
+					(reference "U63")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b56c74a5-7b5e-4776-9f0a-48333d5f8270"
+					(reference "U9")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e9fb6c6b-71dd-42a0-a36e-8962cbc1247e"
+					(reference "U54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf337636-7b40-460a-ac7e-73350311c4d6")
+		(property "Reference" "#PWR012"
+			(at 156.21 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83d6f29f-3e7a-4ce4-9594-33478a752776")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0a97662c-6566-4e1d-afc5-82a5fb54d5c1"
+					(reference "#PWR048")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2cc389a0-19b7-477f-9935-260f74c2b165"
+					(reference "#PWR084")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5515513e-868f-4ac2-8212-63f927d4c305"
+					(reference "#PWR066")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6ff0f717-87ae-4710-96ea-9ed2085024e0"
+					(reference "#PWR0138")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7201e36b-84cd-4f5e-823d-16da688e57ec"
+					(reference "#PWR030")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9ab27e34-a744-41d7-b2b4-f273a8bfac2f"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b56c74a5-7b5e-4776-9f0a-48333d5f8270"
+					(reference "#PWR012")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e9fb6c6b-71dd-42a0-a36e-8962cbc1247e"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0078ec6-f871-4eac-9d18-f240e625ca70")
+		(property "Reference" "#PWR032"
+			(at 66.04 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b141be5-1b3f-4dce-aef8-ade3f69c9fc4")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0a97662c-6566-4e1d-afc5-82a5fb54d5c1"
+					(reference "#PWR050")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2cc389a0-19b7-477f-9935-260f74c2b165"
+					(reference "#PWR086")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5515513e-868f-4ac2-8212-63f927d4c305"
+					(reference "#PWR068")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6ff0f717-87ae-4710-96ea-9ed2085024e0"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7201e36b-84cd-4f5e-823d-16da688e57ec"
+					(reference "#PWR032")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9ab27e34-a744-41d7-b2b4-f273a8bfac2f"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b56c74a5-7b5e-4776-9f0a-48333d5f8270"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e9fb6c6b-71dd-42a0-a36e-8962cbc1247e"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e963f2e5-d8f5-4626-8fec-3d3b5262bb03")
+		(property "Reference" "#PWR010"
+			(at 115.57 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b943771-806e-47b8-9558-f1f88461834b")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0a97662c-6566-4e1d-afc5-82a5fb54d5c1"
+					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2cc389a0-19b7-477f-9935-260f74c2b165"
+					(reference "#PWR082")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5515513e-868f-4ac2-8212-63f927d4c305"
+					(reference "#PWR064")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6ff0f717-87ae-4710-96ea-9ed2085024e0"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7201e36b-84cd-4f5e-823d-16da688e57ec"
+					(reference "#PWR028")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9ab27e34-a744-41d7-b2b4-f273a8bfac2f"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b56c74a5-7b5e-4776-9f0a-48333d5f8270"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e9fb6c6b-71dd-42a0-a36e-8962cbc1247e"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Project Library:SS49E")
+		(at 115.57 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed85f17f-80b3-4da9-b73e-bf109b6389b1")
+		(property "Reference" "U8"
+			(at 107.95 93.3449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 107.95 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Project Library:SS49E"
+			(at 115.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/en-us/products/sensors/magnetic-sensors/linear-and-angle-sensor-ics/common/documents/sps-siot-ss39et-ss49e-ss59et-product-sheet-005850-3-en-ciid-50359.pdf"
+			(at 115.316 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SENSOR HALL ANALOG RADIAL LEAD"
+			(at 115.57 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2084f4e2-fc69-485c-bc1f-bf1ce478ba87")
+		)
+		(pin "1"
+			(uuid "81df1fbb-4650-4785-85aa-60e20f350177")
+		)
+		(pin "3"
+			(uuid "2747d5ce-838f-46cf-80e4-11434b005493")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0a97662c-6566-4e1d-afc5-82a5fb54d5c1"
+					(reference "U26")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2cc389a0-19b7-477f-9935-260f74c2b165"
+					(reference "U44")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5515513e-868f-4ac2-8212-63f927d4c305"
+					(reference "U35")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6ff0f717-87ae-4710-96ea-9ed2085024e0"
+					(reference "U71")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7201e36b-84cd-4f5e-823d-16da688e57ec"
+					(reference "U17")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9ab27e34-a744-41d7-b2b4-f273a8bfac2f"
+					(reference "U62")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b56c74a5-7b5e-4776-9f0a-48333d5f8270"
+					(reference "U8")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e9fb6c6b-71dd-42a0-a36e-8962cbc1247e"
+					(reference "U53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3248c2f-9137-4539-bf24-8139143d5683")
+		(property "Reference" "#PWR019"
+			(at 95.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d0890fd-2e58-4d28-a384-c73a03bfa99f")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0a97662c-6566-4e1d-afc5-82a5fb54d5c1"
+					(reference "#PWR055")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2cc389a0-19b7-477f-9935-260f74c2b165"
+					(reference "#PWR091")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5515513e-868f-4ac2-8212-63f927d4c305"
+					(reference "#PWR073")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6ff0f717-87ae-4710-96ea-9ed2085024e0"
+					(reference "#PWR0145")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7201e36b-84cd-4f5e-823d-16da688e57ec"
+					(reference "#PWR037")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9ab27e34-a744-41d7-b2b4-f273a8bfac2f"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b56c74a5-7b5e-4776-9f0a-48333d5f8270"
+					(reference "#PWR019")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e9fb6c6b-71dd-42a0-a36e-8962cbc1247e"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Project Library:SS49E")
+		(at 95.25 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fef6cdef-df86-435a-85a6-c8a74b7bbfc7")
+		(property "Reference" "U11"
+			(at 87.63 34.9249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 87.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Project Library:SS49E"
+			(at 95.25 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/en-us/products/sensors/magnetic-sensors/linear-and-angle-sensor-ics/common/documents/sps-siot-ss39et-ss49e-ss59et-product-sheet-005850-3-en-ciid-50359.pdf"
+			(at 94.996 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SENSOR HALL ANALOG RADIAL LEAD"
+			(at 95.25 12.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4093aa46-19ce-444c-887c-cdcad01a89d1")
+		)
+		(pin "1"
+			(uuid "6171c57d-5038-4ca9-a4c1-73f31b516431")
+		)
+		(pin "3"
+			(uuid "9a5764be-a1f6-43e3-bbb7-41203bbdfc07")
+		)
+		(instances
+			(project "Chessboard Hardware"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0a97662c-6566-4e1d-afc5-82a5fb54d5c1"
+					(reference "U20")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2cc389a0-19b7-477f-9935-260f74c2b165"
+					(reference "U38")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5515513e-868f-4ac2-8212-63f927d4c305"
+					(reference "U29")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6ff0f717-87ae-4710-96ea-9ed2085024e0"
+					(reference "U65")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7201e36b-84cd-4f5e-823d-16da688e57ec"
+					(reference "U11")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9ab27e34-a744-41d7-b2b4-f273a8bfac2f"
+					(reference "U56")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b56c74a5-7b5e-4776-9f0a-48333d5f8270"
+					(reference "U2")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e9fb6c6b-71dd-42a0-a36e-8962cbc1247e"
+					(reference "U47")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
