@@ -5038,7 +5038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03ea155d-73d6-46a1-9a48-a99ba34fedcf")
-		(property "Reference" "TP6"
+		(property "Reference" "TP12"
 			(at 233.68 91.4399 90)
 			(effects
 				(font
@@ -5089,7 +5089,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP6")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -5169,7 +5169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18460034-fb90-4789-afb9-162d6c28be7e")
-		(property "Reference" "#PWR0152"
+		(property "Reference" "#PWR02"
 			(at 247.65 66.04 0)
 			(effects
 				(font
@@ -5219,7 +5219,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0152")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -5235,7 +5235,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2984f9bc-c45c-4173-93af-dfd9586b6962")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR05"
 			(at 116.84 138.43 0)
 			(effects
 				(font
@@ -5285,7 +5285,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR02")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5301,7 +5301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cbfa361-298c-40a7-88e8-222fe45d9b4d")
-		(property "Reference" "#PWR0153"
+		(property "Reference" "#PWR03"
 			(at 247.65 90.17 0)
 			(effects
 				(font
@@ -5351,7 +5351,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0153")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5367,7 +5367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30eeecf7-f6ee-4f33-9248-b2dd556fef9a")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR08"
 			(at 116.84 171.45 0)
 			(effects
 				(font
@@ -5417,7 +5417,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR03")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5433,7 +5433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c1ae68f-bf11-4002-8bb7-83bb1a1be917")
-		(property "Reference" "TP5"
+		(property "Reference" "TP11"
 			(at 233.68 86.3599 90)
 			(effects
 				(font
@@ -5484,7 +5484,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP5")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -5566,7 +5566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52b2f83a-2855-46f9-96d1-b207595f85b0")
-		(property "Reference" "TP16"
+		(property "Reference" "TP15"
 			(at 25.4 154.9401 90)
 			(effects
 				(font
@@ -5617,7 +5617,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP16")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -5708,7 +5708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6423fdcc-0cc8-483b-b83b-10d270fce8f8")
-		(property "Reference" "#PWR0150"
+		(property "Reference" "#PWR06"
 			(at 85.09 154.94 0)
 			(effects
 				(font
@@ -5759,7 +5759,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0150")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5775,7 +5775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ab1dc64-e14f-4f27-b605-968ab4ee6e54")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR07"
 			(at 87.63 144.78 0)
 			(effects
 				(font
@@ -5826,7 +5826,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0149")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5842,7 +5842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c2b4693-3510-4345-ad71-8aec1417ad14")
-		(property "Reference" "TP18"
+		(property "Reference" "TP19"
 			(at 83.82 163.8299 90)
 			(effects
 				(font
@@ -5893,7 +5893,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP18")
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -5909,7 +5909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fe274cf-7a09-4ca5-9baa-683ffd004f7e")
-		(property "Reference" "TP19"
+		(property "Reference" "TP6"
 			(at 250.19 65.2779 0)
 			(effects
 				(font
@@ -5960,7 +5960,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP19")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -5976,7 +5976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "912151d1-9f60-4dab-8bc8-3dbd208c4be8")
-		(property "Reference" "TP10"
+		(property "Reference" "TP2"
 			(at 233.68 45.7199 90)
 			(effects
 				(font
@@ -6027,7 +6027,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP10")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -6043,7 +6043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9da14058-1bf2-4c6d-9c83-e185fca230de")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR04"
 			(at 62.23 119.38 0)
 			(effects
 				(font
@@ -6093,7 +6093,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR01")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6109,7 +6109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4e7b94a-dd1c-427e-a7d0-73c6b60e7404")
-		(property "Reference" "TP9"
+		(property "Reference" "TP1"
 			(at 233.68 40.6399 90)
 			(effects
 				(font
@@ -6160,7 +6160,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP9")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -6176,7 +6176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a95a42a9-c120-4d25-9c49-a1ed2e6c7766")
-		(property "Reference" "TP20"
+		(property "Reference" "TP10"
 			(at 250.19 79.2479 0)
 			(effects
 				(font
@@ -6227,7 +6227,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP20")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -6243,7 +6243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aef22f76-23ac-4bc1-a269-c1b90d3053aa")
-		(property "Reference" "TP8"
+		(property "Reference" "TP14"
 			(at 233.68 101.5999 90)
 			(effects
 				(font
@@ -6294,7 +6294,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP8")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -6465,7 +6465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c89fbbc8-22c8-4077-a30b-9f7de845ccdf")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR09"
 			(at 59.69 172.72 0)
 			(effects
 				(font
@@ -6515,7 +6515,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR04")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6595,7 +6595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0867c6e-4459-48ce-b248-2a6d32c3ea83")
-		(property "Reference" "TP15"
+		(property "Reference" "TP16"
 			(at 25.4 160.0201 90)
 			(effects
 				(font
@@ -6646,7 +6646,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP15")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -6662,7 +6662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dacb1e94-bc0e-42fe-8d86-f8a44abedbc9")
-		(property "Reference" "TP11"
+		(property "Reference" "TP3"
 			(at 233.68 50.7999 90)
 			(effects
 				(font
@@ -6713,7 +6713,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP11")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -6729,7 +6729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc085548-1001-4f0e-8cae-1e5d0e41e76e")
-		(property "Reference" "TP12"
+		(property "Reference" "TP4"
 			(at 233.68 55.8799 90)
 			(effects
 				(font
@@ -6780,7 +6780,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP12")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -6796,7 +6796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd03ac41-b37b-4ecb-8479-51aab6f504f2")
-		(property "Reference" "TP2"
+		(property "Reference" "TP7"
 			(at 233.68 71.1199 90)
 			(effects
 				(font
@@ -6847,7 +6847,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP2")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -6863,7 +6863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de0940d9-a687-4acc-81a3-29df058de236")
-		(property "Reference" "TP14"
+		(property "Reference" "TP18"
 			(at 25.4 165.1001 90)
 			(effects
 				(font
@@ -6914,7 +6914,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP14")
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -7125,7 +7125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e19eb339-f673-4c35-9153-e5e1b99bb04a")
-		(property "Reference" "TP4"
+		(property "Reference" "TP9"
 			(at 233.68 81.2799 90)
 			(effects
 				(font
@@ -7176,7 +7176,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP4")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -7192,7 +7192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9a3f742-86f7-4b0b-aa50-74571d5448b2")
-		(property "Reference" "TP3"
+		(property "Reference" "TP8"
 			(at 233.68 76.1999 90)
 			(effects
 				(font
@@ -7243,7 +7243,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP3")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -7259,7 +7259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec7f5f4a-3102-4413-b69f-808bd965939c")
-		(property "Reference" "TP7"
+		(property "Reference" "TP13"
 			(at 233.68 96.5199 90)
 			(effects
 				(font
@@ -7310,7 +7310,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP7")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -7326,7 +7326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f19b89c1-3037-44ce-8fe7-e62c621c7204")
-		(property "Reference" "TP13"
+		(property "Reference" "TP20"
 			(at 25.4 170.1801 90)
 			(effects
 				(font
@@ -7377,7 +7377,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP13")
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -7393,7 +7393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3eb4915-9af3-4324-ba94-d20fc8712a8b")
-		(property "Reference" "TP1"
+		(property "Reference" "TP5"
 			(at 233.68 66.0399 90)
 			(effects
 				(font
@@ -7444,7 +7444,7 @@
 		(instances
 			(project "Chessboard Hardware"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP1")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -7460,7 +7460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5b8d891-1035-4544-bf74-d2d59ca0cdd6")
-		(property "Reference" "#PWR0151"
+		(property "Reference" "#PWR01"
 			(at 247.65 36.83 0)
 			(effects
 				(font
@@ -7510,7 +7510,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0151")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
