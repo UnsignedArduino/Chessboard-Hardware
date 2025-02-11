@@ -67,16 +67,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start 0 -6)
-		(end 0 -9)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "2cd53058-6ed9-46a3-9e5b-031a7189bfdd")
-	)
 	(fp_rect
 		(start -4.5 -2)
 		(end 4.5 2)
@@ -98,17 +88,6 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "fdf85f61-5bcf-46cc-b1f0-6e614527c51b")
-	)
-	(fp_rect
-		(start -2.05 -7.7)
-		(end 2.05 -6)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "8a69d3a7-c2f8-42fc-9ab2-c0ea137839d5")
 	)
 	(fp_rect
 		(start -4.7 -2.2)
