@@ -3505,7 +3505,7 @@
 		(uuid "08aec2af-8c2d-4896-9fd4-1ab7be7bb404")
 	)
 	(label "COM0"
-		(at 78.74 158.75 0)
+		(at 78.74 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3565,7 +3565,7 @@
 		(uuid "1bd20f61-6708-4456-b0a1-0868d0a709ee")
 	)
 	(label "COM7"
-		(at 78.74 176.53 0)
+		(at 78.74 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3585,7 +3585,7 @@
 		(uuid "238a2c52-4427-4cb3-bdb4-1aff706e7018")
 	)
 	(label "COM4"
-		(at 78.74 168.91 0)
+		(at 78.74 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3605,7 +3605,7 @@
 		(uuid "2ea6eeda-b513-4556-a1d3-b67f4db5082e")
 	)
 	(label "COM3"
-		(at 78.74 166.37 0)
+		(at 78.74 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3675,7 +3675,7 @@
 		(uuid "5442841d-7389-4190-980d-15b1d5987dec")
 	)
 	(label "COM6"
-		(at 78.74 173.99 0)
+		(at 78.74 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3695,7 +3695,7 @@
 		(uuid "5b40b7bf-1fd6-4c35-8b69-bf4126ebac52")
 	)
 	(label "COM5"
-		(at 78.74 171.45 0)
+		(at 78.74 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3925,7 +3925,7 @@
 		(uuid "a2468e65-dde2-471f-bfab-e57f8e0ee6ec")
 	)
 	(label "COM2"
-		(at 78.74 163.83 0)
+		(at 78.74 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4085,7 +4085,7 @@
 		(uuid "dda88708-8edc-46df-a979-830014f298e8")
 	)
 	(label "COM1"
-		(at 78.74 161.29 0)
+		(at 78.74 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
