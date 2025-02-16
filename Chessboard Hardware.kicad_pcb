@@ -218,7 +218,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "05507450-ebf0-4984-a0bd-856827ab47e2")
-		(at 87.5 120.1875)
+		(at 87.5 120.2)
 		(property "Reference" "U20"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -514,7 +514,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "0f03f1b4-0ff9-4d59-9fda-7f13201c497e")
-		(at 237.5 120.1875)
+		(at 237.5 120.2)
 		(property "Reference" "U27"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -878,7 +878,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "168f03d9-a2a5-4b59-908b-e70327228aa5")
-		(at 137.5 70.1875)
+		(at 137.5 70.2)
 		(property "Reference" "U4"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -1060,7 +1060,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "17070711-8072-4e82-907f-6a6dfb651527")
-		(at 187.5 95.1875)
+		(at 187.5 95.2)
 		(property "Reference" "U15"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -1424,7 +1424,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "1d9ca9b2-4cc4-4267-a495-66e2a928bf1a")
-		(at 532 406)
+		(at 137.5 245.2)
 		(property "Reference" "U67"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -1606,7 +1606,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "26280a91-abab-4cb1-b4e1-4e489a4f8b3d")
-		(at 162.5 95.1875)
+		(at 162.5 95.2)
 		(property "Reference" "U17"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -1788,7 +1788,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "289f8546-f50c-4c86-814a-01d14541d87a")
-		(at 112.5 120.1875)
+		(at 112.5 120.2)
 		(property "Reference" "U19"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -1970,7 +1970,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "2acc8c5f-d430-47cb-8271-d7002041278a")
-		(at 599 405)
+		(at 187.5 245.2)
 		(property "Reference" "U69"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -2152,7 +2152,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "2aec7b6c-aafb-4c27-9b86-d97c51943b6d")
-		(at 162.5 120.1875)
+		(at 162.5 120.2)
 		(property "Reference" "U26"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -2334,7 +2334,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "2bc181e6-d3cf-47c3-a3b5-28496f243187")
-		(at 112.5 70.1875)
+		(at 112.5 70.2)
 		(property "Reference" "U1"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -2698,7 +2698,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "398364b2-04fc-4c6f-9f93-c4420d242792")
-		(at 137.5 120.1875)
+		(at 137.5 120.2)
 		(property "Reference" "U22"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -2866,7 +2866,7 @@
 			(uuid "48229e11-9f3a-45a4-8321-7591edfa2fee")
 		)
 		(pad "3" thru_hole oval
-			(at 2.5 0 90)
+			(at 2.5 0.0125 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -2880,7 +2880,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "3d280232-2434-42cc-bae0-19a934dc2ce0")
-		(at 162.5 70.1875)
+		(at 162.5 70.2)
 		(property "Reference" "U8"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -3062,7 +3062,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "3e2da27d-06ea-44b7-acbc-c1aa481ac58b")
-		(at 611 405)
+		(at 212.5 245.2)
 		(property "Reference" "U70"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -3244,7 +3244,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "3eed1c21-1c30-4ab4-adac-769a3f156bdb")
-		(at 494 403)
+		(at 62.5 245.2)
 		(property "Reference" "U66"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -3608,7 +3608,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "42a60fc2-fc49-4c26-b161-1693a76055e2")
-		(at 617 339)
+		(at 212.5 220.2)
 		(property "Reference" "U61"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -3790,7 +3790,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "4757c7b7-8d05-4f7c-9769-00e913bc2b30")
-		(at 62.5 120.1875)
+		(at 62.5 120.2)
 		(property "Reference" "U21"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -3972,7 +3972,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "47775892-c44b-40ec-9f21-28e42f433c0c")
-		(at 87.5 70.1875)
+		(at 87.5 70.2)
 		(property "Reference" "U2"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -4154,7 +4154,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "48f60ae0-ed3b-486d-a659-14f5ff38dc3e")
-		(at 237.5 95.1875)
+		(at 237.5 95.2)
 		(property "Reference" "U18"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -4336,7 +4336,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "4a648513-d8bd-481e-9cfa-7169bbbfb234")
-		(at 507 227.6875)
+		(at 62.5 170.2)
 		(property "Reference" "U39"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -4518,7 +4518,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "5112720a-707a-4a67-8c66-030a24ebf162")
-		(at 494.5 338)
+		(at 62.5 220.2)
 		(property "Reference" "U57"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -4700,7 +4700,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "55ca2379-1dcc-4a05-8fdd-f44bdfb512b5")
-		(at 137.5 95.1875)
+		(at 137.5 95.2)
 		(property "Reference" "U13"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -4882,7 +4882,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "5906f0bb-58f1-48f3-9db2-d444286e399f")
-		(at 237.5 70.1875)
+		(at 237.5 70.2)
 		(property "Reference" "U9"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -5064,7 +5064,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "59c64fb3-19d5-4ec7-aead-341644fe69d3")
-		(at 540 227.6875)
+		(at 137.5 170.2)
 		(property "Reference" "U40"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -5246,7 +5246,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "5e281876-38b5-41a5-b6e6-acdc047dab3a")
-		(at 112.5 95.1875)
+		(at 112.5 95.2)
 		(property "Reference" "U10"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -5428,7 +5428,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "630e9e20-1987-400a-babf-2705bc9693c0")
-		(at 506 339)
+		(at 87.5 220.2)
 		(property "Reference" "U56"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -5906,7 +5906,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "7072959b-7690-4b0f-8ce5-e6f6492a72c8")
-		(at 87.5 95.1875)
+		(at 87.5 95.2)
 		(property "Reference" "U11"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -6088,7 +6088,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "70e262e0-573d-4732-9c19-173467a084b9")
-		(at 212.5 120.1875)
+		(at 212.5 120.2)
 		(property "Reference" "U25"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -6270,7 +6270,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "71708ae5-461e-4e38-a19b-e2698fc1eabc")
-		(at 212.5 70.1875)
+		(at 212.5 70.2)
 		(property "Reference" "U7"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -6452,7 +6452,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "7350e8d1-46c8-434e-a377-782c9d9f00d2")
-		(at 601 231.6875)
+		(at 212.5 170.2)
 		(property "Reference" "U43"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -6816,7 +6816,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "7dc032bf-323d-460d-900a-745b7174afcf")
-		(at 187.5 120.1875)
+		(at 187.5 120.2)
 		(property "Reference" "U24"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -7859,7 +7859,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "8909fcb9-605c-4bf0-b771-31c84f35759c")
-		(at 571 279.6875)
+		(at 162.5 195.2)
 		(property "Reference" "U53"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -8223,7 +8223,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "91be7e3f-6371-406a-9186-1a4625658ca4")
-		(at 588.5 405)
+		(at 162.5 245.2)
 		(property "Reference" "U71"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -8405,7 +8405,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "920be86c-1228-49e4-82a1-5721886f4338")
-		(at 501 280.6875)
+		(at 62.5 195.2)
 		(property "Reference" "U48"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -8587,7 +8587,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "a4024e6d-ebe4-487a-98d3-c8b8126ecf47")
-		(at 535 280.6875)
+		(at 137.5 195.2)
 		(property "Reference" "U49"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -8769,7 +8769,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "a4ded399-3fcd-4c26-83f2-45f49631fee6")
-		(at 605 339.6875)
+		(at 187.5 220.2)
 		(property "Reference" "U60"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -8951,7 +8951,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "a640431c-8885-494d-b2ab-a78737b08550")
-		(at 524 280.6875)
+		(at 112.5 195.2)
 		(property "Reference" "U46"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -9133,7 +9133,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "a911b618-33ae-4fc0-99f0-528f0f534280")
-		(at 589 232.6875)
+		(at 187.5 170.2)
 		(property "Reference" "U42"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -9315,7 +9315,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "ab4f865d-6efc-4c67-a0d7-5998985c1550")
-		(at 519 407)
+		(at 112.5 245.2)
 		(property "Reference" "U64"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -9497,7 +9497,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "b0887e6a-4989-477c-b919-9e5b0a2bc0c9")
-		(at 62.5 70.1875)
+		(at 62.5 70.2)
 		(property "Reference" "U3"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -9679,7 +9679,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "b7f03eca-59e8-4c5a-8ad4-853704e221d1")
-		(at 522.5 339)
+		(at 112.5 220.2)
 		(property "Reference" "U55"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -9861,7 +9861,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "b990af9b-9678-4864-9565-ae1a85b76d61")
-		(at 611 231.6875)
+		(at 237.5 170.2)
 		(property "Reference" "U45"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -10043,7 +10043,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "bdec9afc-542e-4b66-a08a-37121f5465d5")
-		(at 622 405)
+		(at 237.5 245.2)
 		(property "Reference" "U72"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -10225,7 +10225,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "c145c03e-9856-48e8-9a4e-c221256e494a")
-		(at 537.5 340)
+		(at 137.5 220.2)
 		(property "Reference" "U58"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -10589,7 +10589,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "c9f67a56-b73e-4b80-9a0b-2de475df73aa")
-		(at 583 279.6875)
+		(at 187.5 195.2)
 		(property "Reference" "U51"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -10771,7 +10771,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "cae35e09-add1-47c9-823c-1d090513b18f")
-		(at 577 231.6875)
+		(at 162.5 170.2)
 		(property "Reference" "U44"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -11135,7 +11135,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "e964e0de-4476-4582-8011-0420c0cb9f18")
-		(at 62.5 95.1875)
+		(at 62.5 95.2)
 		(property "Reference" "U12"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -11317,7 +11317,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "e98d5e9c-054c-4e6d-adac-6028ff6d002b")
-		(at 512 280.6875)
+		(at 87.5 195.2)
 		(property "Reference" "U47"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -11499,7 +11499,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "ecddb069-a529-4b4c-b413-9627f6190495")
-		(at 604 278.6875)
+		(at 237.5 195.2)
 		(property "Reference" "U54"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -11681,7 +11681,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "f24b57e9-163d-483c-80ab-91c06f29a835")
-		(at 517 227.6875)
+		(at 87.5 170.2)
 		(property "Reference" "U38"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -11863,7 +11863,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "f632ba4c-d028-464b-bd8b-423585ee7454")
-		(at 508 405)
+		(at 87.5 245.2)
 		(property "Reference" "U65"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -12448,7 +12448,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "fc19a698-4d35-4c6b-8438-7e0b65d0a599")
-		(at 212.5 95.1875)
+		(at 212.5 95.2)
 		(property "Reference" "U16"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -12630,7 +12630,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "fd174d34-9bd3-41ee-801a-494943c0bf43")
-		(at 593 278.6875)
+		(at 212.5 195.2)
 		(property "Reference" "U52"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -12812,7 +12812,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "fd653a28-4849-4c85-8cea-2ce5e19a918c")
-		(at 630.5 340)
+		(at 237.5 220.2)
 		(property "Reference" "U63"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -12994,7 +12994,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "fe24454a-9003-413b-b3da-5f5ee96cb167")
-		(at 593.5 341)
+		(at 162.5 220.2)
 		(property "Reference" "U62"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -13176,7 +13176,7 @@
 	(footprint "Project Library:SS49E"
 		(layer "F.Cu")
 		(uuid "fe6a27a6-449d-4c4e-a1a6-25598e3e4b3f")
-		(at 528 226.6875)
+		(at 112.5 170.2)
 		(property "Reference" "U37"
 			(at 0 -3.1 0)
 			(unlocked yes)
@@ -13358,7 +13358,7 @@
 	(footprint "Package_DIP:DIP-16_W7.62mm"
 		(layer "B.Cu")
 		(uuid "04d8e7a9-950a-4f0d-8785-fdada3c7769a")
-		(at 559.62 261.3 180)
+		(at 231.6 9.8 180)
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U50"
@@ -13785,7 +13785,7 @@
 	(footprint "Package_DIP:DIP-16_W7.62mm"
 		(layer "B.Cu")
 		(uuid "1064dbb9-c239-4e48-9547-c9f5bfb86bd0")
-		(at 565.8 320.125 180)
+		(at 248.4 14.32 180)
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U59"
@@ -14639,7 +14639,7 @@
 	(footprint "Package_DIP:DIP-16_W7.62mm"
 		(layer "B.Cu")
 		(uuid "262b1e6c-0031-4c41-ba67-2ea139f73ed6")
-		(at 561 207.76 180)
+		(at 212.68 7.04 180)
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U41"
@@ -15066,7 +15066,7 @@
 	(footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 		(layer "B.Cu")
 		(uuid "3641a639-52d9-4514-9e28-8fdc4f43c292")
-		(at 550.5 195 180)
+		(at 207.68 -0.22 180)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "C5"
@@ -15307,7 +15307,7 @@
 	(footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 		(layer "B.Cu")
 		(uuid "391a97d4-4c4b-45b0-9aa4-abd93eb20d37")
-		(at 556.5 311 180)
+		(at 243.48 9.1 180)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "C7"
@@ -15548,7 +15548,7 @@
 	(footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 		(layer "B.Cu")
 		(uuid "6725c4ae-8b94-4581-b79a-071dc2bd31fd")
-		(at 550.5 376 180)
+		(at 262.7 14.8 180)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "C8"
@@ -16030,7 +16030,7 @@
 	(footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 		(layer "B.Cu")
 		(uuid "b1323890-a7f5-4c51-a0ca-8dc2d07fad01")
-		(at 551 251 180)
+		(at 224.38 1.52 180)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "C6"
@@ -18275,7 +18275,7 @@
 	(footprint "Package_DIP:DIP-16_W7.62mm"
 		(layer "B.Cu")
 		(uuid "f9d49910-ef70-407f-9d34-ec9acd799043")
-		(at 563.62 384.76 180)
+		(at 267.82 20.56 180)
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U68"
