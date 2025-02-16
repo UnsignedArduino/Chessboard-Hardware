@@ -146,7 +146,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 0 0)
+				(at -9.652 14.224 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -202,7 +202,7 @@
 					)
 				)
 				(text "SN74HC4851N"
-					(at -0.254 -3.302 0)
+					(at 0 0 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -504,7 +504,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 0 0)
+				(at -5.842 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -548,8 +548,8 @@
 			)
 			(symbol "SS49E_0_1"
 				(rectangle
-					(start -6.35 8.89)
-					(end 6.35 -8.89)
+					(start -7.62 8.89)
+					(end 7.62 -8.89)
 					(stroke
 						(width 0)
 						(type default)
@@ -561,7 +561,7 @@
 			)
 			(symbol "SS49E_1_1"
 				(text "SS49E"
-					(at 0 -2.032 0)
+					(at 0 0 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -605,7 +605,7 @@
 					)
 				)
 				(pin output line
-					(at 8.89 0 180)
+					(at 10.16 0 180)
 					(length 2.54)
 					(name "SIG"
 						(effects
@@ -849,7 +849,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 73.66) (xy 104.14 73.66)
+			(xy 78.74 73.66) (xy 105.41 73.66)
 		)
 		(stroke
 			(width 0)
@@ -859,33 +859,23 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 63.5) (xy 168.91 63.5)
+			(xy 105.41 93.98) (xy 105.41 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "13b81ce6-791e-43ac-b004-c0d320f4dd29")
+		(uuid "0bbc88cf-b866-4b65-94ed-c4a65e83d809")
 	)
 	(wire
 		(pts
-			(xy 168.91 35.56) (xy 168.91 63.5)
+			(xy 129.54 71.12) (xy 129.54 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "183aca8e-88ed-4ee7-bd7f-8446974ccff6")
-	)
-	(wire
-		(pts
-			(xy 78.74 68.58) (xy 147.32 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18593b1f-acb0-42a8-bc77-fbd817c81637")
+		(uuid "2add10c8-34b6-408b-80ce-765c60bf6bcf")
 	)
 	(wire
 		(pts
@@ -899,7 +889,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 55.88) (xy 104.14 55.88)
+			(xy 78.74 55.88) (xy 105.41 55.88)
 		)
 		(stroke
 			(width 0)
@@ -909,47 +899,37 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 73.66) (xy 104.14 93.98)
+			(xy 153.67 35.56) (xy 153.67 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5900765f-04ad-4822-b52d-0b3d009b024a")
+		(uuid "39a276c4-a8b0-4bbf-ba23-9f369079dba0")
 	)
 	(wire
 		(pts
-			(xy 147.32 35.56) (xy 147.32 60.96)
+			(xy 78.74 68.58) (xy 153.67 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c63d252-1f4f-48da-87f7-75865debccb9")
+		(uuid "3f05fe78-f784-4abc-83a2-4dc0fc6830d0")
 	)
 	(wire
 		(pts
-			(xy 78.74 66.04) (xy 168.91 66.04)
+			(xy 78.74 63.5) (xy 177.8 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "718ddcfa-bc75-424d-a7ba-a1cb2ff67aa1")
+		(uuid "72f0f046-0241-4a3e-8878-26d2770202b7")
 	)
 	(wire
 		(pts
-			(xy 78.74 60.96) (xy 147.32 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72e9bd0f-2f7d-4cf8-b7ee-e1c975da67c3")
-	)
-	(wire
-		(pts
-			(xy 78.74 58.42) (xy 125.73 58.42)
+			(xy 78.74 58.42) (xy 129.54 58.42)
 		)
 		(stroke
 			(width 0)
@@ -959,43 +939,53 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 71.12) (xy 125.73 93.98)
+			(xy 177.8 63.5) (xy 177.8 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7580f624-3efe-4de0-83ab-92f46d77806c")
+		(uuid "8169f59d-9230-4c5b-9a26-9b48f866e04c")
 	)
 	(wire
 		(pts
-			(xy 104.14 55.88) (xy 104.14 35.56)
+			(xy 78.74 66.04) (xy 177.8 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7faa7205-670f-492c-97da-a36ae581f785")
+		(uuid "8998f8bc-8e0c-4fb7-8850-c564a776c329")
 	)
 	(wire
 		(pts
-			(xy 147.32 68.58) (xy 147.32 93.98)
+			(xy 177.8 93.98) (xy 177.8 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac80832f-364a-478d-ba5d-53f8c1dd88a5")
+		(uuid "ba2e2f8c-321d-416e-b8b1-fb562f885a3f")
 	)
 	(wire
 		(pts
-			(xy 78.74 71.12) (xy 125.73 71.12)
+			(xy 78.74 71.12) (xy 129.54 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bd3b96a5-3b74-4377-94f4-92e435402717")
+	)
+	(wire
+		(pts
+			(xy 129.54 35.56) (xy 129.54 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be0a26e3-f7bd-4e11-8b9e-2b35314b4c13")
 	)
 	(wire
 		(pts
@@ -1009,23 +999,33 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 35.56) (xy 125.73 58.42)
+			(xy 78.74 60.96) (xy 153.67 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2b5bcd7-8e2c-489a-a0fa-f74061b7beb3")
+		(uuid "c2e9c65c-cc12-43a2-9e92-4df1a3c5ca90")
 	)
 	(wire
 		(pts
-			(xy 168.91 66.04) (xy 168.91 93.98)
+			(xy 153.67 93.98) (xy 153.67 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa25bf22-d674-494c-98e7-846cd51843eb")
+		(uuid "cb95ec27-5c5a-4a50-a63a-54c3a2efaa91")
+	)
+	(wire
+		(pts
+			(xy 105.41 55.88) (xy 105.41 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d96d1f38-5dbe-4e7d-a6c1-9893af3f7beb")
 	)
 	(hierarchical_label "A"
 		(shape input)
@@ -1084,7 +1084,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 105.41 0)
+		(at 167.64 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1093,7 +1093,7 @@
 		(fields_autoplaced yes)
 		(uuid "271b9c02-7e6e-4f89-b2a2-75fd0ede13c2")
 		(property "Reference" "#PWR061"
-			(at 160.02 111.76 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1102,7 +1102,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 110.49 0)
+			(at 167.64 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1110,7 +1110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 105.41 0)
+			(at 167.64 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1119,7 +1119,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 105.41 0)
+			(at 167.64 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1128,7 +1128,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 105.41 0)
+			(at 167.64 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1178,7 +1178,7 @@
 	)
 	(symbol
 		(lib_id "Project Library:SS49E")
-		(at 160.02 35.56 0)
+		(at 167.64 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1187,7 +1187,7 @@
 		(fields_autoplaced yes)
 		(uuid "3067862c-1279-4b94-a2c6-99bffb49e47e")
 		(property "Reference" "U22"
-			(at 152.4 34.9249 0)
+			(at 160.02 34.9249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1196,7 +1196,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 152.4 36.83 0)
+			(at 160.02 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1205,7 +1205,7 @@
 			)
 		)
 		(property "Footprint" "Project Library:SS49E"
-			(at 160.02 10.16 0)
+			(at 167.64 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1214,7 +1214,7 @@
 			)
 		)
 		(property "Datasheet" "https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/en-us/products/sensors/magnetic-sensors/linear-and-angle-sensor-ics/common/documents/sps-siot-ss39et-ss49e-ss59et-product-sheet-005850-3-en-ciid-50359.pdf"
-			(at 159.766 15.24 0)
+			(at 167.386 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1223,7 +1223,7 @@
 			)
 		)
 		(property "Description" "SENSOR HALL ANALOG RADIAL LEAD"
-			(at 160.02 12.954 0)
+			(at 167.64 12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1279,7 +1279,7 @@
 	)
 	(symbol
 		(lib_id "Project Library:SS49E")
-		(at 160.02 93.98 0)
+		(at 167.64 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1288,7 +1288,7 @@
 		(fields_autoplaced yes)
 		(uuid "31cdda72-2d3e-4383-bbb1-07548860395d")
 		(property "Reference" "U27"
-			(at 152.4 93.3449 0)
+			(at 160.02 93.3449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1297,7 +1297,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 152.4 95.25 0)
+			(at 160.02 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1306,7 +1306,7 @@
 			)
 		)
 		(property "Footprint" "Project Library:SS49E"
-			(at 160.02 68.58 0)
+			(at 167.64 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1315,7 +1315,7 @@
 			)
 		)
 		(property "Datasheet" "https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/en-us/products/sensors/magnetic-sensors/linear-and-angle-sensor-ics/common/documents/sps-siot-ss39et-ss49e-ss59et-product-sheet-005850-3-en-ciid-50359.pdf"
-			(at 159.766 73.66 0)
+			(at 167.386 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1324,7 +1324,7 @@
 			)
 		)
 		(property "Description" "SENSOR HALL ANALOG RADIAL LEAD"
-			(at 160.02 71.374 0)
+			(at 167.64 71.374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1380,7 +1380,7 @@
 	)
 	(symbol
 		(lib_id "Project Library:SS49E")
-		(at 116.84 35.56 0)
+		(at 119.38 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1389,7 +1389,7 @@
 		(fields_autoplaced yes)
 		(uuid "32a57bc8-c4fb-4ea1-92a0-69ce68e108a4")
 		(property "Reference" "U20"
-			(at 109.22 34.9249 0)
+			(at 111.76 34.9249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1398,7 +1398,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 109.22 36.83 0)
+			(at 111.76 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1407,7 +1407,7 @@
 			)
 		)
 		(property "Footprint" "Project Library:SS49E"
-			(at 116.84 10.16 0)
+			(at 119.38 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1416,7 +1416,7 @@
 			)
 		)
 		(property "Datasheet" "https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/en-us/products/sensors/magnetic-sensors/linear-and-angle-sensor-ics/common/documents/sps-siot-ss39et-ss49e-ss59et-product-sheet-005850-3-en-ciid-50359.pdf"
-			(at 116.586 15.24 0)
+			(at 119.126 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1425,7 +1425,7 @@
 			)
 		)
 		(property "Description" "SENSOR HALL ANALOG RADIAL LEAD"
-			(at 116.84 12.954 0)
+			(at 119.38 12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1481,7 +1481,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 46.99 0)
+		(at 143.51 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1490,7 +1490,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b76ee32-7ec8-4c5d-99f5-dd3ee229f4a8")
 		(property "Reference" "#PWR050"
-			(at 138.43 53.34 0)
+			(at 143.51 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1499,7 +1499,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 52.07 0)
+			(at 143.51 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1507,7 +1507,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 46.99 0)
+			(at 143.51 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1516,7 +1516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 46.99 0)
+			(at 143.51 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1525,7 +1525,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 46.99 0)
+			(at 143.51 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1910,7 +1910,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 138.43 24.13 0)
+		(at 143.51 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1919,7 +1919,7 @@
 		(fields_autoplaced yes)
 		(uuid "691e58d5-6545-44b1-aaac-4ec6c97c632f")
 		(property "Reference" "#PWR046"
-			(at 138.43 27.94 0)
+			(at 143.51 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1928,7 +1928,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 138.43 19.05 0)
+			(at 143.51 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1936,7 +1936,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 24.13 0)
+			(at 143.51 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1945,7 +1945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 24.13 0)
+			(at 143.51 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1954,7 +1954,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 138.43 24.13 0)
+			(at 143.51 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2004,7 +2004,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 105.41 0)
+		(at 143.51 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2013,7 +2013,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e9f3f92-052a-4d5a-86ba-7a0326931be9")
 		(property "Reference" "#PWR060"
-			(at 138.43 111.76 0)
+			(at 143.51 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2022,7 +2022,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 110.49 0)
+			(at 143.51 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2030,7 +2030,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 105.41 0)
+			(at 143.51 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2039,7 +2039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 105.41 0)
+			(at 143.51 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2048,7 +2048,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 105.41 0)
+			(at 143.51 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2098,7 +2098,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 116.84 24.13 0)
+		(at 119.38 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2107,7 +2107,7 @@
 		(fields_autoplaced yes)
 		(uuid "818e87ff-3fee-4e5a-a5ac-eaf6607dfcd2")
 		(property "Reference" "#PWR045"
-			(at 116.84 27.94 0)
+			(at 119.38 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2116,7 +2116,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 116.84 19.05 0)
+			(at 119.38 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2124,7 +2124,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 24.13 0)
+			(at 119.38 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,7 +2133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 24.13 0)
+			(at 119.38 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2142,7 +2142,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 116.84 24.13 0)
+			(at 119.38 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2288,7 +2288,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 160.02 82.55 0)
+		(at 167.64 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2297,7 +2297,7 @@
 		(fields_autoplaced yes)
 		(uuid "87457564-4851-4236-bd65-4222597c1110")
 		(property "Reference" "#PWR057"
-			(at 160.02 86.36 0)
+			(at 167.64 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2306,7 +2306,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 160.02 77.47 0)
+			(at 167.64 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2314,7 +2314,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 82.55 0)
+			(at 167.64 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2323,7 +2323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 82.55 0)
+			(at 167.64 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2332,7 +2332,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 160.02 82.55 0)
+			(at 167.64 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2382,7 +2382,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 138.43 82.55 0)
+		(at 143.51 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2391,7 +2391,7 @@
 		(fields_autoplaced yes)
 		(uuid "897e284b-e329-4bee-ac1a-0cdb36c5f602")
 		(property "Reference" "#PWR056"
-			(at 138.43 86.36 0)
+			(at 143.51 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2400,7 +2400,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 138.43 77.47 0)
+			(at 143.51 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2408,7 +2408,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 82.55 0)
+			(at 143.51 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2417,7 +2417,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 82.55 0)
+			(at 143.51 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2426,7 +2426,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 138.43 82.55 0)
+			(at 143.51 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2476,7 +2476,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 116.84 82.55 0)
+		(at 119.38 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2485,7 +2485,7 @@
 		(fields_autoplaced yes)
 		(uuid "95eb3023-7f13-4461-b070-ac7c4286af45")
 		(property "Reference" "#PWR055"
-			(at 116.84 86.36 0)
+			(at 119.38 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2494,7 +2494,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 116.84 77.47 0)
+			(at 119.38 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2502,7 +2502,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 82.55 0)
+			(at 119.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,7 +2511,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 82.55 0)
+			(at 119.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2520,7 +2520,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 116.84 82.55 0)
+			(at 119.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2758,7 +2758,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 160.02 24.13 0)
+		(at 167.64 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2767,7 +2767,7 @@
 		(fields_autoplaced yes)
 		(uuid "b14b37fe-1f18-482c-b376-8b0d7bbfd4eb")
 		(property "Reference" "#PWR047"
-			(at 160.02 27.94 0)
+			(at 167.64 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,7 +2776,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 160.02 19.05 0)
+			(at 167.64 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2784,7 +2784,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 24.13 0)
+			(at 167.64 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2793,7 +2793,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 24.13 0)
+			(at 167.64 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2802,7 +2802,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 160.02 24.13 0)
+			(at 167.64 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2852,7 +2852,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 105.41 0)
+		(at 119.38 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2861,7 +2861,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3244706-9bc4-48a5-adab-af89b2e92f27")
 		(property "Reference" "#PWR059"
-			(at 116.84 111.76 0)
+			(at 119.38 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2870,7 +2870,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 110.49 0)
+			(at 119.38 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2878,7 +2878,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 105.41 0)
+			(at 119.38 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2887,7 +2887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 105.41 0)
+			(at 119.38 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2896,7 +2896,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 105.41 0)
+			(at 119.38 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2946,7 +2946,7 @@
 	)
 	(symbol
 		(lib_id "Project Library:SS49E")
-		(at 138.43 35.56 0)
+		(at 143.51 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2955,7 +2955,7 @@
 		(fields_autoplaced yes)
 		(uuid "b57450de-0a85-45ba-806f-0b71bf2382b0")
 		(property "Reference" "U21"
-			(at 130.81 34.9249 0)
+			(at 135.89 34.9249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2964,7 +2964,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 130.81 36.83 0)
+			(at 135.89 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2973,7 +2973,7 @@
 			)
 		)
 		(property "Footprint" "Project Library:SS49E"
-			(at 138.43 10.16 0)
+			(at 143.51 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2982,7 +2982,7 @@
 			)
 		)
 		(property "Datasheet" "https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/en-us/products/sensors/magnetic-sensors/linear-and-angle-sensor-ics/common/documents/sps-siot-ss39et-ss49e-ss59et-product-sheet-005850-3-en-ciid-50359.pdf"
-			(at 138.176 15.24 0)
+			(at 143.256 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2991,7 +2991,7 @@
 			)
 		)
 		(property "Description" "SENSOR HALL ANALOG RADIAL LEAD"
-			(at 138.43 12.954 0)
+			(at 143.51 12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3235,7 +3235,7 @@
 	)
 	(symbol
 		(lib_id "Project Library:SS49E")
-		(at 138.43 93.98 0)
+		(at 143.51 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3244,7 +3244,7 @@
 		(fields_autoplaced yes)
 		(uuid "b94f3ffa-1c18-4e1a-937f-3591faf57a07")
 		(property "Reference" "U26"
-			(at 130.81 93.3449 0)
+			(at 135.89 93.3449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3253,7 +3253,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 130.81 95.25 0)
+			(at 135.89 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3262,7 +3262,7 @@
 			)
 		)
 		(property "Footprint" "Project Library:SS49E"
-			(at 138.43 68.58 0)
+			(at 143.51 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3271,7 +3271,7 @@
 			)
 		)
 		(property "Datasheet" "https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/en-us/products/sensors/magnetic-sensors/linear-and-angle-sensor-ics/common/documents/sps-siot-ss39et-ss49e-ss59et-product-sheet-005850-3-en-ciid-50359.pdf"
-			(at 138.176 73.66 0)
+			(at 143.256 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3280,7 +3280,7 @@
 			)
 		)
 		(property "Description" "SENSOR HALL ANALOG RADIAL LEAD"
-			(at 138.43 71.374 0)
+			(at 143.51 71.374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3336,7 +3336,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 46.99 0)
+		(at 167.64 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3345,7 +3345,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf337636-7b40-460a-ac7e-73350311c4d6")
 		(property "Reference" "#PWR051"
-			(at 160.02 53.34 0)
+			(at 167.64 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3354,7 +3354,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 52.07 0)
+			(at 167.64 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3362,7 +3362,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 46.99 0)
+			(at 167.64 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3371,7 +3371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 46.99 0)
+			(at 167.64 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3380,7 +3380,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 46.99 0)
+			(at 167.64 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3524,7 +3524,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 46.99 0)
+		(at 119.38 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3533,7 +3533,7 @@
 		(fields_autoplaced yes)
 		(uuid "e963f2e5-d8f5-4626-8fec-3d3b5262bb03")
 		(property "Reference" "#PWR049"
-			(at 116.84 53.34 0)
+			(at 119.38 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3542,7 +3542,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 52.07 0)
+			(at 119.38 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3550,7 +3550,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 46.99 0)
+			(at 119.38 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3559,7 +3559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 46.99 0)
+			(at 119.38 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3568,7 +3568,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 46.99 0)
+			(at 119.38 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3618,7 +3618,7 @@
 	)
 	(symbol
 		(lib_id "Project Library:SS49E")
-		(at 116.84 93.98 0)
+		(at 119.38 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3627,7 +3627,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed85f17f-80b3-4da9-b73e-bf109b6389b1")
 		(property "Reference" "U25"
-			(at 109.22 93.3449 0)
+			(at 111.76 93.3449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3636,7 +3636,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 109.22 95.25 0)
+			(at 111.76 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3645,7 +3645,7 @@
 			)
 		)
 		(property "Footprint" "Project Library:SS49E"
-			(at 116.84 68.58 0)
+			(at 119.38 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3654,7 +3654,7 @@
 			)
 		)
 		(property "Datasheet" "https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/en-us/products/sensors/magnetic-sensors/linear-and-angle-sensor-ics/common/documents/sps-siot-ss39et-ss49e-ss59et-product-sheet-005850-3-en-ciid-50359.pdf"
-			(at 116.586 73.66 0)
+			(at 119.126 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3663,7 +3663,7 @@
 			)
 		)
 		(property "Description" "SENSOR HALL ANALOG RADIAL LEAD"
-			(at 116.84 71.374 0)
+			(at 119.38 71.374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
