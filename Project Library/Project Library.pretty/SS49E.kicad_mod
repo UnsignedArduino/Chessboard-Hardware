@@ -147,4 +147,15 @@
 		(remove_unused_layers no)
 		(uuid "a7ad4cb2-6060-4625-8141-aa747becad37")
 	)
+	(model "${KIPRJMOD}/Project Library/Project Library.3dshapes/SS49E lay flat v10.step"
+		(offset
+			(xyz 0 4.3 0.81)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
