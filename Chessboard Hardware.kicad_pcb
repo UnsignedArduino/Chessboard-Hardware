@@ -14113,7 +14113,7 @@
 	(footprint "Project Library:Arduino_Nano"
 		(layer "B.Cu")
 		(uuid "87cb1634-e1ed-4b82-b95d-def6617b9067")
-		(at 199.54 51.69 -90)
+		(at 198.68 51.69 -90)
 		(descr "Arduino Nano, http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf")
 		(tags "Arduino Nano")
 		(property "Reference" "A1"
