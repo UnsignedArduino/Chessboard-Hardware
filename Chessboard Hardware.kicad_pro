@@ -566,9 +566,9 @@
       "plot": "C:/Users/ckyiu/Downloads/Chessboard Hardware Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "C:/Users/ckyiu/Downloads/Chessboard Hardware.step",
+      "step": "C:/Users/ckyiu/Downloads/Chessboard Hardware with tracks pads vias.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "C:/Users/ckyiu/Downloads/Chessboard Hardware.wrl"
     },
     "page_layout_descr_file": "default.kicad_wks"
   },
