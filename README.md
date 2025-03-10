@@ -1,5 +1,5 @@
 [Chessboard-Hardware](https://github.com/UnsignedArduino/Chessboard-Hardware) |
-Chessboard-Design |
+[Chessboard-Design](https://github.com/UnsignedArduino/Chessboard-Design) |
 [Chessboard-Nano](https://github.com/UnsignedArduino/Chessboard-Nano) |
 Chessboard-Pi
 
@@ -8,7 +8,7 @@ Chessboard-Pi
 Hardware for a magnetic-piece-tracking digital chessboard! WIP
 
 This repository contains the KiCad PCB project for the majority of the Chessboard's wiring. 
-For the CAD files, see Chessboard-Design.
+For the CAD files, see [Chessboard-Design](https://github.com/UnsignedArduino/Chessboard-Design).
 For the Arduino Nano firmware, see [Chessboard-Nano](https://github.com/UnsignedArduino/Chessboard-Nano).
 For the Raspberry Pi firmware, see Chessboard-Pi.
 
