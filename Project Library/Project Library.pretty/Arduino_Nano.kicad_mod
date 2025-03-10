@@ -640,7 +640,7 @@
 		(remove_unused_layers no)
 		(uuid "59a4cc04-701b-4376-9005-58bf36a059d4")
 	)
-	(model "${KIPRJMOD}/Project Library/Project Library.3dshapes/Arduino Nano v9.step"
+	(model "${KIPRJMOD}/Project Library/Project Library.3dshapes/Arduino Nano v10.step"
 		(offset
 			(xyz 0 0 2.5)
 		)
