@@ -16,6 +16,6 @@ This repository contains the KiCad PCB project for the majority of the Chessboar
 
 All models were modified in Fusion 360. 
 
-* Arduino Nano was modified from [Joel Skerman's model](https://www.thingiverse.com/thing:3863918) and colors are inspired by [
-Raafat Mohamed's model](https://grabcad.com/library/arduino-nano-26).
+* Arduino Nano was modified from [Joel Skerman's model](https://www.thingiverse.com/thing:3863918) and colors are inspired by
+  [Raafat Mohamed's model](https://grabcad.com/library/arduino-nano-26).
 * SS49E was modified from the [SnapMagic library](https://www.snapeda.com/parts/SS49E/Honeywell/view-part/?ref=digikey).
